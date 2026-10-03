@@ -1,0 +1,59 @@
+{
+  "parameters": {
+    "prod_variable": {
+      "defaultValue": {
+        "value": "{\"databaseUrl\":\"https://fifcloud-production.europe-west1.firebasedatabase.app\",\"stripeBackendUrl\":\"https://europe-west1-fifcloud.cloudfunctions.net/api\",\"stripePublishableKey\":\"pk_live_51SQwfQB9IngLGsue96qhsoPmtmg1N8rH4TCP8L1iYDIckXLmjRBPybZZ8u757kwTfBS1MVJhNcJ7BijzfUpUv0rV00uwHBioga\",\"debug\":false,\"privacyPolicyUrl\":\"https://fixitfelixsoftwaresolutions.com/privacy\",\"termsAndConditionsUrl\":\"https://fixitfelixsoftwaresolutions.com/terms\",\"helpCenterUrl\":\"https://fixitfelixsoftwaresolutions.com/help\",\"supportEmail\":\"info@fixitfelixsoftwaresolutions.com\",\"supportPhone\":\"0141 737 6868\",\"supportWhatsApp\":\"\",\"supportHours\":\"\",\"chatAgentBaseUrl\":\"\",\"youtubeChannelUrl\":\"https://www.youtube.com/@fixitfelixapp\",\"facebookGroupUrl\":\"https://www.facebook.com/groups/4486563368245907/\"}"
+      },
+      "valueType": "JSON"
+    },
+    "dev_variable": {
+      "defaultValue": {
+        "value": "{\"databaseUrl\":\"https://fifcloud-default-rtdb.europe-west1.firebasedatabase.app\",\"stripeBackendUrl\":\"https://europe-west1-fifcloud.cloudfunctions.net/api\",\"stripePublishableKey\":\"pk_test_51SQwfXB46ng1aWFPGhydrBCj9ZrPFqnvgMTN2jo5kt0BqIIW9i6B2ViwqwtZc9Uorm2B8mnBJ04CY8SNRWp4pCA000jd0Xci5G\",\"debug\":true,\"privacyPolicyUrl\":\"https://fixitfelixsoftwaresolutions.com/privacy\",\"termsAndConditionsUrl\":\"https://fixitfelixsoftwaresolutions.com/terms\",\"helpCenterUrl\":\"https://fixitfelixsoftwaresolutions.com/help\",\"supportEmail\":\"info@fixitfelixsoftwaresolutions.com\",\"supportPhone\":\"0141 737 6868\",\"supportWhatsApp\":\"\",\"supportHours\":\"\",\"chatAgentBaseUrl\":\"\",\"youtubeChannelUrl\":\"https://www.youtube.com/@fixitfelixapp\",\"facebookGroupUrl\":\"https://www.facebook.com/groups/4486563368245907/\"}"
+      },
+      "valueType": "JSON"
+    },
+    "appstore_link": {
+      "defaultValue": { "value": "" },
+      "valueType": "STRING"
+    },
+    "playstore_link": {
+      "defaultValue": { "value": "" },
+      "valueType": "STRING"
+    },
+    "android_app_version": {
+      "defaultValue": { "value": "1.0.0" },
+      "valueType": "STRING"
+    },
+    "ios_app_version": {
+      "defaultValue": { "value": "1.0.0" },
+      "valueType": "STRING"
+    },
+    "force_app_update": {
+      "defaultValue": { "value": "false" },
+      "valueType": "BOOLEAN"
+    },
+    "dev_force_app_update": {
+      "defaultValue": { "value": "false" },
+      "valueType": "BOOLEAN"
+    },
+    "prod_maintenance": {
+      "defaultValue": {
+        "value": "{\"isEnabled\": false, \"title\": \"Under Maintenance\", \"message\": \"We are currently performing maintenance.\", \"estimatedEndTime\": null, \"allowBypass\": false}"
+      },
+      "valueType": "JSON"
+    },
+    "dev_maintenance": {
+      "defaultValue": {
+        "value": "{\"isEnabled\": false, \"title\": \"Under Maintenance\", \"message\": \"We are currently performing maintenance.\", \"estimatedEndTime\": null, \"allowBypass\": false}"
+      },
+      "valueType": "JSON"
+    }
+  },
+  "version": {
+    "versionNumber": "13",
+    "updateTime": "2026-05-14T13:41:51.417961Z",
+    "updateUser": { "email": "info@fixitfelixsoftwaresolutions.com" },
+    "updateOrigin": "CONSOLE",
+    "updateType": "INCREMENTAL_UPDATE"
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "service": "window_cleaner",
+  "title": "What window cleaning do you need?",
+  "subtitle": "Select the type of window cleaning service",
+  "categories": [
+    {
+      "id": "residential",
+      "name": "Residential Windows",
+      "icon": "home",
+      "description": "Home window cleaning",
+      "options": [
+        {
+          "id": "full_house",
+          "name": "Full house clean",
+          "description": "All windows inside and out",
+          "options": [
+            {"id": "terraced", "name": "Terraced house"},
+            {"id": "semi_detached", "name": "Semi-detached"},
+            {"id": "detached", "name": "Detached house"},
+            {"id": "bungalow", "name": "Bungalow"},
+            {"id": "flat", "name": "Flat/Apartment"}
+          ]
+        },
+        {
+          "id": "outside_only",
+          "name": "Outside only",
+          "description": "External window cleaning only",
+          "options": [
+            {"id": "ground_floor", "name": "Ground floor only"},
+            {"id": "all_floors", "name": "All floors"},
+            {"id": "upper_floors", "name": "Upper floors only"}
+          ]
+        },
+        {
+          "id": "inside_only",
+          "name": "Inside only",
+          "description": "Internal window cleaning only"
+        },
+        {
+          "id": "inside_outside",
+          "name": "Inside and outside",
+          "description": "Both sides of all windows"
+        }
+      ]
+    },
+    {
+      "id": "commercial",
+      "name": "Commercial Windows",
+      "icon": "building",
+      "description": "Business and commercial window cleaning",
+      "options": [
+        {
+          "id": "shop_front",
+          "name": "Shop front",
+          "description": "Retail shop window cleaning",
+          "options": [
+            {"id": "single_unit", "name": "Single shop unit"},
+            {"id": "multiple_units", "name": "Multiple units"}
+          ]
+        },
+        {
+          "id": "office_building",
+          "name": "Office building",
+          "description": "Office window cleaning",
+          "options": [
+            {"id": "low_rise", "name": "Low rise (1-3 floors)"},
+            {"id": "mid_rise", "name": "Mid rise (4-6 floors)"}
+          ]
+        },
+        {
+          "id": "restaurant_pub",
+          "name": "Restaurant/Pub",
+          "description": "Hospitality window cleaning"
+        },
+        {
+          "id": "communal_areas",
+          "name": "Communal areas",
+          "description": "Shared building windows"
+        }
+      ]
+    },
+    {
+      "id": "conservatory",
+      "name": "Conservatory Cleaning",
+      "icon": "sun",
+      "description": "Conservatory glass cleaning",
+      "options": [
+        {
+          "id": "roof_only",
+          "name": "Roof only",
+          "description": "Clean conservatory roof glass"
+        },
+        {
+          "id": "sides_only",
+          "name": "Sides only",
+          "description": "Clean conservatory side panels"
+        },
+        {
+          "id": "full_conservatory",
+          "name": "Full conservatory",
+          "description": "Roof and all sides",
+          "options": [
+            {"id": "outside_only", "name": "Outside only"},
+            {"id": "inside_outside", "name": "Inside and outside"}
+          ]
+        },
+        {
+          "id": "polycarbonate",
+          "name": "Polycarbonate roof",
+          "description": "Clean polycarbonate conservatory roof"
+        }
+      ]
+    },
+    {
+      "id": "specialist",
+      "name": "Specialist Cleaning",
+      "icon": "sparkles",
+      "description": "Specialist window and glass cleaning",
+      "options": [
+        {
+          "id": "skylight",
+          "name": "Skylight / Velux",
+          "description": "Clean roof windows and skylights",
+          "options": [
+            {"id": "single_skylight", "name": "Single skylight"},
+            {"id": "multiple_skylights", "name": "Multiple skylights"}
+          ]
+        },
+        {
+          "id": "high_level",
+          "name": "High-level windows",
+          "description": "Hard-to-reach or high windows"
+        },
+        {
+          "id": "stained_glass",
+          "name": "Stained/Leaded glass",
+          "description": "Delicate glass cleaning"
+        },
+        {
+          "id": "solar_panels",
+          "name": "Solar panel cleaning",
+          "description": "Clean solar panels on roof",
+          "options": [
+            {"id": "few_panels", "name": "Few panels (1-10)"},
+            {"id": "full_array", "name": "Full array (10+)"}
+          ]
+        },
+        {
+          "id": "glass_balustrade",
+          "name": "Glass balustrade/Balcony",
+          "description": "Clean glass balustrades or balcony panels"
+        }
+      ]
+    },
+    {
+      "id": "extras",
+      "name": "Additional Services",
+      "icon": "plus",
+      "description": "Extra cleaning alongside windows",
+      "options": [
+        {
+          "id": "frames_sills",
+          "name": "Frames & sills",
+          "description": "Clean window frames and sills"
+        },
+        {
+          "id": "fascia_soffit",
+          "name": "Fascia & soffit",
+          "description": "Clean uPVC fascias and soffits"
+        },
+        {
+          "id": "gutters",
+          "name": "Gutter cleaning",
+          "description": "Clear and clean gutters",
+          "options": [
+            {"id": "clear_only", "name": "Clear debris only"},
+            {"id": "clear_and_wash", "name": "Clear and wash outside"}
+          ]
+        },
+        {
+          "id": "cladding",
+          "name": "Cladding cleaning",
+          "description": "Clean exterior cladding"
+        }
+      ]
+    },
+    {
+      "id": "regular",
+      "name": "Regular Schedule",
+      "icon": "calendar",
+      "description": "Set up a regular window cleaning schedule",
+      "options": [
+        {
+          "id": "monthly",
+          "name": "Monthly",
+          "description": "Every 4 weeks"
+        },
+        {
+          "id": "six_weekly",
+          "name": "Every 6 weeks",
+          "description": "Every 6 weeks"
+        },
+        {
+          "id": "bi_monthly",
+          "name": "Every 2 months",
+          "description": "Every 8 weeks"
+        },
+        {
+          "id": "quarterly",
+          "name": "Quarterly",
+          "description": "Every 3 months"
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "name": "Other / I'm not sure",
+      "icon": "messageSquare",
+      "description": "Something else or need advice",
+      "requiresDescription": true,
+      "options": [
+        {"id": "quote", "name": "I'd like a quote first"},
+        {"id": "one_off", "name": "One-off clean"},
+        {"id": "not_listed", "name": "My requirement isn't listed"}
+      ]
+    }
+  ]
+}

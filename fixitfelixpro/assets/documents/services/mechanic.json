@@ -1,0 +1,435 @@
+{
+  "service": "mechanic",
+  "title": "What vehicle help do you need?",
+  "subtitle": "Select the type of vehicle service you need",
+  "categories": [
+    {
+      "id": "service",
+      "name": "Vehicle Service",
+      "icon": "car",
+      "description": "Routine vehicle servicing",
+      "options": [
+        {
+          "id": "full_service",
+          "name": "Full service",
+          "description": "Comprehensive vehicle service",
+          "options": [
+            {"id": "car", "name": "Car"},
+            {"id": "van", "name": "Van"},
+            {"id": "motorcycle", "name": "Motorcycle"}
+          ]
+        },
+        {
+          "id": "interim",
+          "name": "Interim service",
+          "description": "Basic 6-month service"
+        },
+        {
+          "id": "major",
+          "name": "Major service",
+          "description": "Extended service with extras"
+        },
+        {
+          "id": "oil_change",
+          "name": "Oil change only",
+          "description": "Oil and filter change"
+        },
+        {
+          "id": "manufacturer",
+          "name": "Manufacturer service",
+          "description": "To manufacturer schedule"
+        }
+      ]
+    },
+    {
+      "id": "mot",
+      "name": "MOT",
+      "icon": "clipboardCheck",
+      "description": "MOT testing and repairs",
+      "options": [
+        {
+          "id": "mot_test",
+          "name": "MOT test",
+          "description": "Annual MOT test",
+          "options": [
+            {"id": "class4", "name": "Class 4 (Car/Van up to 3000kg)"},
+            {"id": "class7", "name": "Class 7 (Van 3000-3500kg)"},
+            {"id": "motorcycle_mot", "name": "Motorcycle"}
+          ]
+        },
+        {
+          "id": "mot_repairs",
+          "name": "MOT repairs",
+          "description": "Fix MOT failures"
+        },
+        {
+          "id": "pre_mot",
+          "name": "Pre-MOT check",
+          "description": "Check before MOT test"
+        },
+        {
+          "id": "mot_retest",
+          "name": "MOT retest",
+          "description": "Retest after repairs"
+        }
+      ]
+    },
+    {
+      "id": "brakes",
+      "name": "Brakes",
+      "icon": "circleSlash",
+      "description": "Brake system repairs",
+      "options": [
+        {
+          "id": "pads",
+          "name": "Brake pads",
+          "description": "Replace brake pads",
+          "options": [
+            {"id": "front_pads", "name": "Front pads"},
+            {"id": "rear_pads", "name": "Rear pads"},
+            {"id": "all_pads", "name": "All pads"}
+          ]
+        },
+        {
+          "id": "discs",
+          "name": "Brake discs",
+          "description": "Replace brake discs",
+          "options": [
+            {"id": "front_discs", "name": "Front discs"},
+            {"id": "rear_discs", "name": "Rear discs"},
+            {"id": "discs_and_pads", "name": "Discs and pads"}
+          ]
+        },
+        {
+          "id": "inspection",
+          "name": "Brake inspection",
+          "description": "Check brake condition"
+        },
+        {
+          "id": "fluid",
+          "name": "Brake fluid change",
+          "description": "Replace brake fluid"
+        },
+        {
+          "id": "handbrake",
+          "name": "Handbrake repair",
+          "description": "Fix handbrake issues"
+        },
+        {
+          "id": "calipers",
+          "name": "Brake calipers",
+          "description": "Repair or replace calipers"
+        }
+      ]
+    },
+    {
+      "id": "tyres",
+      "name": "Tyres & Wheels",
+      "icon": "circle",
+      "description": "Tyre and wheel services",
+      "options": [
+        {
+          "id": "new_tyres",
+          "name": "New tyres",
+          "description": "Fit new tyres",
+          "options": [
+            {"id": "single_tyre", "name": "Single tyre"},
+            {"id": "pair_tyres", "name": "Pair of tyres"},
+            {"id": "full_set", "name": "Full set (4 tyres)"}
+          ]
+        },
+        {
+          "id": "puncture",
+          "name": "Puncture repair",
+          "description": "Fix punctured tyre"
+        },
+        {
+          "id": "balance",
+          "name": "Wheel balancing",
+          "description": "Balance wheels"
+        },
+        {
+          "id": "alignment",
+          "name": "Wheel alignment",
+          "description": "Four wheel alignment"
+        },
+        {
+          "id": "spare",
+          "name": "Spare wheel",
+          "description": "Fit spare or space saver"
+        },
+        {
+          "id": "tyre_pressure",
+          "name": "TPMS",
+          "description": "Tyre pressure sensor"
+        }
+      ]
+    },
+    {
+      "id": "engine",
+      "name": "Engine",
+      "icon": "settings",
+      "description": "Engine diagnostics and repairs",
+      "options": [
+        {
+          "id": "diagnostic",
+          "name": "Diagnostic check",
+          "description": "Computer diagnostic scan"
+        },
+        {
+          "id": "warning_light",
+          "name": "Warning light on",
+          "description": "Dashboard warning light",
+          "options": [
+            {"id": "engine_light", "name": "Engine/Check engine"},
+            {"id": "oil_light", "name": "Oil warning"},
+            {"id": "battery_light", "name": "Battery warning"},
+            {"id": "abs_light", "name": "ABS warning"},
+            {"id": "other_warning", "name": "Other warning light"}
+          ]
+        },
+        {
+          "id": "timing_belt",
+          "name": "Timing belt",
+          "description": "Replace timing belt/chain"
+        },
+        {
+          "id": "clutch",
+          "name": "Clutch repair",
+          "description": "Clutch replacement",
+          "options": [
+            {"id": "clutch_slip", "name": "Clutch slipping"},
+            {"id": "clutch_judder", "name": "Clutch juddering"},
+            {"id": "hard_pedal", "name": "Hard/Soft pedal"}
+          ]
+        },
+        {
+          "id": "gearbox",
+          "name": "Gearbox issue",
+          "description": "Gearbox problems",
+          "options": [
+            {"id": "manual", "name": "Manual gearbox"},
+            {"id": "automatic", "name": "Automatic gearbox"}
+          ]
+        },
+        {
+          "id": "head_gasket",
+          "name": "Head gasket",
+          "description": "Head gasket replacement"
+        }
+      ]
+    },
+    {
+      "id": "electrical",
+      "name": "Electrical",
+      "icon": "zap",
+      "description": "Vehicle electrical systems",
+      "options": [
+        {
+          "id": "battery",
+          "name": "Battery replacement",
+          "description": "New vehicle battery",
+          "options": [
+            {"id": "standard", "name": "Standard battery"},
+            {"id": "start_stop", "name": "Start-stop battery"},
+            {"id": "hybrid", "name": "Hybrid battery"}
+          ]
+        },
+        {
+          "id": "starter",
+          "name": "Starter motor",
+          "description": "Repair or replace starter"
+        },
+        {
+          "id": "alternator",
+          "name": "Alternator",
+          "description": "Repair or replace alternator"
+        },
+        {
+          "id": "lights",
+          "name": "Lights",
+          "description": "Light bulb replacement",
+          "options": [
+            {"id": "headlights", "name": "Headlights"},
+            {"id": "brake_lights", "name": "Brake lights"},
+            {"id": "indicators", "name": "Indicators"},
+            {"id": "fog_lights", "name": "Fog lights"}
+          ]
+        },
+        {
+          "id": "fuses",
+          "name": "Fuses",
+          "description": "Check and replace fuses"
+        },
+        {
+          "id": "wiring",
+          "name": "Wiring issue",
+          "description": "Electrical wiring fault"
+        }
+      ]
+    },
+    {
+      "id": "exhaust",
+      "name": "Exhaust & Emissions",
+      "icon": "wind",
+      "description": "Exhaust system work",
+      "options": [
+        {
+          "id": "exhaust_repair",
+          "name": "Exhaust repair",
+          "description": "Repair exhaust system",
+          "options": [
+            {"id": "patch_repair", "name": "Patch repair"},
+            {"id": "weld_repair", "name": "Weld repair"}
+          ]
+        },
+        {
+          "id": "exhaust_replace",
+          "name": "Exhaust replacement",
+          "description": "New exhaust system",
+          "options": [
+            {"id": "section", "name": "Section replacement"},
+            {"id": "full_system", "name": "Full exhaust system"}
+          ]
+        },
+        {
+          "id": "catalytic",
+          "name": "Catalytic converter",
+          "description": "Replace catalytic converter"
+        },
+        {
+          "id": "dpf",
+          "name": "DPF",
+          "description": "Diesel particulate filter",
+          "options": [
+            {"id": "dpf_clean", "name": "DPF cleaning"},
+            {"id": "dpf_replace", "name": "DPF replacement"},
+            {"id": "dpf_regeneration", "name": "Forced regeneration"}
+          ]
+        },
+        {
+          "id": "lambda",
+          "name": "Lambda sensor",
+          "description": "Oxygen sensor replacement"
+        }
+      ]
+    },
+    {
+      "id": "suspension",
+      "name": "Suspension & Steering",
+      "icon": "arrowUpDown",
+      "description": "Suspension and steering work",
+      "options": [
+        {
+          "id": "shock_absorbers",
+          "name": "Shock absorbers",
+          "description": "Replace shock absorbers",
+          "options": [
+            {"id": "front_shocks", "name": "Front shocks"},
+            {"id": "rear_shocks", "name": "Rear shocks"},
+            {"id": "all_shocks", "name": "All shocks"}
+          ]
+        },
+        {
+          "id": "springs",
+          "name": "Springs",
+          "description": "Replace suspension springs"
+        },
+        {
+          "id": "ball_joints",
+          "name": "Ball joints",
+          "description": "Replace ball joints"
+        },
+        {
+          "id": "track_rod",
+          "name": "Track rod ends",
+          "description": "Replace track rod ends"
+        },
+        {
+          "id": "power_steering",
+          "name": "Power steering",
+          "description": "Power steering repair"
+        },
+        {
+          "id": "bushes",
+          "name": "Bushes",
+          "description": "Replace suspension bushes"
+        }
+      ]
+    },
+    {
+      "id": "cooling",
+      "name": "Cooling System",
+      "icon": "thermometer",
+      "description": "Engine cooling repairs",
+      "options": [
+        {
+          "id": "radiator",
+          "name": "Radiator",
+          "description": "Repair or replace radiator"
+        },
+        {
+          "id": "water_pump",
+          "name": "Water pump",
+          "description": "Replace water pump"
+        },
+        {
+          "id": "thermostat",
+          "name": "Thermostat",
+          "description": "Replace thermostat"
+        },
+        {
+          "id": "coolant",
+          "name": "Coolant flush",
+          "description": "Drain and refill coolant"
+        },
+        {
+          "id": "hoses",
+          "name": "Hoses",
+          "description": "Replace coolant hoses"
+        }
+      ]
+    },
+    {
+      "id": "emergency",
+      "name": "Emergency",
+      "icon": "siren",
+      "urgent": true,
+      "description": "Urgent vehicle issues",
+      "options": [
+        {
+          "id": "breakdown",
+          "name": "Vehicle breakdown",
+          "description": "Vehicle has broken down"
+        },
+        {
+          "id": "wont_start",
+          "name": "Won't start",
+          "description": "Engine won't start"
+        },
+        {
+          "id": "overheating",
+          "name": "Overheating",
+          "description": "Engine overheating"
+        },
+        {
+          "id": "smoke",
+          "name": "Smoke from engine",
+          "description": "Smoke coming from vehicle"
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "name": "Other / I'm not sure",
+      "icon": "messageSquare",
+      "description": "Something else or need advice",
+      "requiresDescription": true,
+      "options": [
+        {"id": "quote", "name": "I'd like a quote"},
+        {"id": "inspection", "name": "I need a vehicle inspection"},
+        {"id": "not_listed", "name": "My problem isn't listed"}
+      ]
+    }
+  ]
+}

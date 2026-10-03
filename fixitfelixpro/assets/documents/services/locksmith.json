@@ -1,0 +1,361 @@
+{
+  "service": "locksmith",
+  "title": "What locksmith help do you need?",
+  "subtitle": "Select the type of lock service you need",
+  "categories": [
+    {
+      "id": "locked_out",
+      "name": "Locked Out",
+      "icon": "lockKeyhole",
+      "urgent": true,
+      "description": "Emergency access when locked out",
+      "options": [
+        {
+          "id": "home",
+          "name": "Locked out of home",
+          "description": "Can't get into your house",
+          "options": [
+            {"id": "front_door", "name": "Front door"},
+            {"id": "back_door", "name": "Back door"},
+            {"id": "internal_room", "name": "Internal room"},
+            {"id": "shed_outbuilding", "name": "Shed/Outbuilding"}
+          ]
+        },
+        {
+          "id": "car",
+          "name": "Locked out of car",
+          "description": "Keys locked inside vehicle",
+          "options": [
+            {"id": "keys_inside", "name": "Keys locked inside"},
+            {"id": "lost_keys", "name": "Lost car keys"},
+            {"id": "broken_key", "name": "Broken key in lock"}
+          ]
+        },
+        {
+          "id": "office",
+          "name": "Locked out of office",
+          "description": "Business premises access"
+        },
+        {
+          "id": "safe",
+          "name": "Locked out of safe",
+          "description": "Safe or lockbox access",
+          "options": [
+            {"id": "home_safe", "name": "Home safe"},
+            {"id": "office_safe", "name": "Office safe"},
+            {"id": "gun_cabinet", "name": "Gun cabinet"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "change",
+      "name": "Lock Changes",
+      "icon": "keyRound",
+      "description": "Replace existing locks",
+      "options": [
+        {
+          "id": "front_door",
+          "name": "Change front door lock",
+          "description": "New lock for main entrance",
+          "options": [
+            {"id": "same_type", "name": "Same type lock"},
+            {"id": "upgrade_type", "name": "Upgrade lock type"},
+            {"id": "smart_lock", "name": "Change to smart lock"}
+          ]
+        },
+        {
+          "id": "back_door",
+          "name": "Change back door lock",
+          "description": "New lock for rear entrance"
+        },
+        {
+          "id": "internal",
+          "name": "Change internal lock",
+          "description": "Bedroom, bathroom or other rooms",
+          "options": [
+            {"id": "bedroom_lock", "name": "Bedroom lock"},
+            {"id": "bathroom_lock", "name": "Bathroom lock"},
+            {"id": "office_lock", "name": "Office/Study lock"}
+          ]
+        },
+        {
+          "id": "upvc_door",
+          "name": "uPVC door lock",
+          "description": "Change uPVC multipoint lock"
+        },
+        {
+          "id": "all_locks",
+          "name": "Change all locks",
+          "description": "New tenant or security upgrade"
+        }
+      ]
+    },
+    {
+      "id": "repair",
+      "name": "Lock Repairs",
+      "icon": "wrench",
+      "description": "Fix faulty or damaged locks",
+      "options": [
+        {
+          "id": "stuck",
+          "name": "Stuck/Jammed lock",
+          "description": "Lock won't turn or is stiff",
+          "options": [
+            {"id": "key_stuck", "name": "Key stuck in lock"},
+            {"id": "wont_turn", "name": "Lock won't turn"},
+            {"id": "stiff_lock", "name": "Lock is stiff"}
+          ]
+        },
+        {
+          "id": "broken_key",
+          "name": "Broken key in lock",
+          "description": "Extract broken key and repair"
+        },
+        {
+          "id": "faulty",
+          "name": "Faulty lock mechanism",
+          "description": "Lock not working properly",
+          "options": [
+            {"id": "not_catching", "name": "Not catching properly"},
+            {"id": "loose_lock", "name": "Lock is loose"},
+            {"id": "barrel_broken", "name": "Barrel/Cylinder broken"}
+          ]
+        },
+        {
+          "id": "multipoint",
+          "name": "Multipoint lock repair",
+          "description": "uPVC or composite door locks"
+        },
+        {
+          "id": "handle_repair",
+          "name": "Door handle repair",
+          "description": "Fix or replace door handles"
+        }
+      ]
+    },
+    {
+      "id": "new",
+      "name": "New Lock Installation",
+      "icon": "lock",
+      "description": "Fit additional locks",
+      "options": [
+        {
+          "id": "deadlock",
+          "name": "Deadlock",
+          "description": "British Standard 5-lever mortice deadlock",
+          "options": [
+            {"id": "bs_5lever", "name": "BS 5-lever deadlock"},
+            {"id": "euro_deadlock", "name": "Euro cylinder deadlock"}
+          ]
+        },
+        {
+          "id": "mortice",
+          "name": "Mortice lock",
+          "description": "Traditional mortice sashlock",
+          "options": [
+            {"id": "3lever", "name": "3-lever lock"},
+            {"id": "5lever", "name": "5-lever lock"}
+          ]
+        },
+        {
+          "id": "cylinder",
+          "name": "Cylinder lock",
+          "description": "Euro or oval cylinder locks",
+          "options": [
+            {"id": "euro_cylinder", "name": "Euro cylinder"},
+            {"id": "oval_cylinder", "name": "Oval cylinder"},
+            {"id": "thumbturn", "name": "Thumbturn cylinder"}
+          ]
+        },
+        {
+          "id": "multipoint",
+          "name": "Multipoint lock",
+          "description": "Full length door locking system"
+        },
+        {
+          "id": "night_latch",
+          "name": "Night latch",
+          "description": "Yale-type rim lock"
+        },
+        {
+          "id": "rim_lock",
+          "name": "Rim lock",
+          "description": "Surface-mounted lock"
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "name": "Security Upgrades",
+      "icon": "shield",
+      "description": "Improve home security",
+      "options": [
+        {
+          "id": "high_security",
+          "name": "High security locks",
+          "description": "Premium security rated locks",
+          "options": [
+            {"id": "ts007_3star", "name": "TS007 3-star rated"},
+            {"id": "ss312", "name": "SS312 diamond rated"},
+            {"id": "sold_secure", "name": "Sold Secure approved"}
+          ]
+        },
+        {
+          "id": "anti_snap",
+          "name": "Anti-snap locks",
+          "description": "Protection against lock snapping",
+          "options": [
+            {"id": "single_door", "name": "Single door"},
+            {"id": "multiple_doors", "name": "Multiple doors"}
+          ]
+        },
+        {
+          "id": "chain_viewer",
+          "name": "Door chain/Viewer",
+          "description": "Additional door security",
+          "options": [
+            {"id": "door_chain", "name": "Door chain"},
+            {"id": "spy_hole", "name": "Spy hole/Peephole"},
+            {"id": "door_viewer", "name": "Wide angle viewer"}
+          ]
+        },
+        {
+          "id": "window",
+          "name": "Window locks",
+          "description": "Secure windows throughout home",
+          "options": [
+            {"id": "casement_locks", "name": "Casement window locks"},
+            {"id": "sash_locks", "name": "Sash window locks"},
+            {"id": "all_windows", "name": "All windows"}
+          ]
+        },
+        {
+          "id": "patio",
+          "name": "Patio door locks",
+          "description": "Sliding and French door security"
+        },
+        {
+          "id": "letterbox",
+          "name": "Letterbox security",
+          "description": "Anti-fishing letterbox guard"
+        }
+      ]
+    },
+    {
+      "id": "smart",
+      "name": "Smart Locks",
+      "icon": "smartphone",
+      "description": "Keyless and app-controlled locks",
+      "options": [
+        {
+          "id": "install",
+          "name": "Install smart lock",
+          "description": "Fit new smart lock system",
+          "options": [
+            {"id": "bluetooth", "name": "Bluetooth smart lock"},
+            {"id": "wifi", "name": "WiFi smart lock"},
+            {"id": "retrofit", "name": "Retrofit existing lock"}
+          ]
+        },
+        {
+          "id": "repair",
+          "name": "Repair smart lock",
+          "description": "Fix faulty smart lock"
+        },
+        {
+          "id": "keypad",
+          "name": "Keypad lock",
+          "description": "PIN code entry system",
+          "options": [
+            {"id": "standalone", "name": "Standalone keypad"},
+            {"id": "connected", "name": "Connected/Smart keypad"}
+          ]
+        },
+        {
+          "id": "biometric",
+          "name": "Biometric lock",
+          "description": "Fingerprint access"
+        },
+        {
+          "id": "video",
+          "name": "Video doorbell integration",
+          "description": "Smart lock with camera"
+        }
+      ]
+    },
+    {
+      "id": "commercial",
+      "name": "Commercial Locks",
+      "icon": "building",
+      "description": "Business and commercial locksmith",
+      "options": [
+        {
+          "id": "access_control",
+          "name": "Access control",
+          "description": "Electronic access systems",
+          "options": [
+            {"id": "fob_system", "name": "Key fob system"},
+            {"id": "card_system", "name": "Card access system"},
+            {"id": "intercom", "name": "Intercom system"}
+          ]
+        },
+        {
+          "id": "master_key",
+          "name": "Master key system",
+          "description": "Keyed alike or master suite"
+        },
+        {
+          "id": "panic_bar",
+          "name": "Panic bar/Exit device",
+          "description": "Emergency exit hardware"
+        },
+        {
+          "id": "cabinet_locks",
+          "name": "Cabinet & furniture locks",
+          "description": "Office furniture security"
+        }
+      ]
+    },
+    {
+      "id": "emergency",
+      "name": "Emergency",
+      "icon": "siren",
+      "urgent": true,
+      "description": "Urgent locksmith needed now",
+      "options": [
+        {
+          "id": "burglary",
+          "name": "After burglary",
+          "description": "Secure property after break-in",
+          "options": [
+            {"id": "immediate", "name": "Need immediate help"},
+            {"id": "today", "name": "Need help today"}
+          ]
+        },
+        {
+          "id": "urgent_access",
+          "name": "Emergency access needed",
+          "description": "Urgent need to enter property"
+        },
+        {
+          "id": "domestic_issue",
+          "name": "Domestic emergency",
+          "description": "Lock change after relationship breakdown"
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "name": "Other / I'm not sure",
+      "icon": "messageSquare",
+      "description": "Something else or need advice",
+      "requiresDescription": true,
+      "options": [
+        {"id": "key_cutting", "name": "I need keys cut"},
+        {"id": "security_survey", "name": "I want a security survey"},
+        {"id": "not_listed", "name": "My job isn't listed"}
+      ]
+    }
+  ]
+}

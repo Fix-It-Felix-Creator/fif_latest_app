@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tint colour FCM applies to the monochrome notification icon. -->
+    <color name="notification_color">#F97316</color>
+    <!-- Background colour for the adaptive launcher icon (mipmap-anydpi-v26). -->
+    <color name="ic_launcher_background">#FF6600</color>
+</resources>

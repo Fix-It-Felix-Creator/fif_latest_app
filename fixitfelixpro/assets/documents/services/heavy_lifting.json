@@ -1,0 +1,148 @@
+{
+  "service": "heavy_lifting",
+  "title": "What heavy lifting help do you need?",
+  "subtitle": "Tell us what needs lifting",
+  "categories": [
+    {
+      "id": "furniture_lifting",
+      "name": "Furniture",
+      "icon": "armchair",
+      "description": "Move or reposition heavy furniture",
+      "options": [
+        {
+          "id": "sofa_couch",
+          "name": "Sofa / Couch",
+          "description": "Move a heavy sofa or couch"
+        },
+        {
+          "id": "wardrobe",
+          "name": "Wardrobe / Cabinet",
+          "description": "Move a heavy wardrobe or cabinet"
+        },
+        {
+          "id": "bed_frame",
+          "name": "Bed / Bed frame",
+          "description": "Move a heavy bed or frame"
+        },
+        {
+          "id": "dining_table",
+          "name": "Dining table / Desk",
+          "description": "Move a heavy table or desk"
+        },
+        {
+          "id": "multiple_furniture",
+          "name": "Multiple furniture pieces",
+          "description": "Move several heavy items"
+        }
+      ]
+    },
+    {
+      "id": "appliance_lifting",
+      "name": "Appliances",
+      "icon": "refrigerator",
+      "description": "Move or reposition heavy appliances",
+      "options": [
+        {
+          "id": "fridge_freezer",
+          "name": "Fridge / Freezer",
+          "description": "Move a fridge or freezer"
+        },
+        {
+          "id": "washing_machine",
+          "name": "Washing machine / Dryer",
+          "description": "Move a washing machine or dryer"
+        },
+        {
+          "id": "oven_cooker",
+          "name": "Oven / Cooker",
+          "description": "Move an oven or cooker"
+        },
+        {
+          "id": "dishwasher",
+          "name": "Dishwasher",
+          "description": "Move a dishwasher"
+        }
+      ]
+    },
+    {
+      "id": "outdoor_lifting",
+      "name": "Garden / Outdoor Items",
+      "icon": "flower2",
+      "description": "Move heavy outdoor or garden items",
+      "options": [
+        {
+          "id": "hot_tub",
+          "name": "Hot tub / Spa",
+          "description": "Move a hot tub or spa"
+        },
+        {
+          "id": "garden_furniture",
+          "name": "Garden furniture",
+          "description": "Move heavy garden furniture"
+        },
+        {
+          "id": "paving_slabs",
+          "name": "Paving slabs / Stones",
+          "description": "Move heavy paving or stones"
+        },
+        {
+          "id": "planters",
+          "name": "Large planters / Pots",
+          "description": "Move heavy planters or pots"
+        }
+      ]
+    },
+    {
+      "id": "building_materials",
+      "name": "Building Materials",
+      "icon": "blocks",
+      "description": "Move heavy building supplies",
+      "options": [
+        {
+          "id": "bags_materials",
+          "name": "Bags of cement / Sand / Gravel",
+          "description": "Move heavy bags of materials"
+        },
+        {
+          "id": "timber",
+          "name": "Timber / Wood",
+          "description": "Move heavy timber or wood"
+        },
+        {
+          "id": "tiles_bricks",
+          "name": "Tiles / Bricks",
+          "description": "Move heavy tiles or bricks"
+        }
+      ]
+    },
+    {
+      "id": "rearrange_rooms",
+      "name": "Room Rearrangement",
+      "icon": "move",
+      "description": "Rearrange heavy items within a room",
+      "options": [
+        {
+          "id": "single_room_rearrange",
+          "name": "Single room",
+          "description": "Rearrange furniture in one room"
+        },
+        {
+          "id": "multiple_rooms_rearrange",
+          "name": "Multiple rooms",
+          "description": "Rearrange furniture in several rooms"
+        }
+      ]
+    },
+    {
+      "id": "other_lifting",
+      "name": "Other / I'm not sure",
+      "icon": "messageSquare",
+      "description": "Something else or need advice",
+      "requiresDescription": true,
+      "options": [
+        {"id": "need_advice", "name": "I need advice"},
+        {"id": "not_listed", "name": "My item isn't listed"}
+      ]
+    }
+  ]
+}

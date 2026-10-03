@@ -1,0 +1,204 @@
+{
+  "service": "hvac_technician",
+  "title": "What HVAC help do you need?",
+  "subtitle": "Select the area that best describes your issue",
+  "categories": [
+    {
+      "id": "ac_installation",
+      "name": "Air Conditioning Installation",
+      "icon": "airVent",
+      "description": "Install new air conditioning systems",
+      "options": [
+        {
+          "id": "split_system",
+          "name": "Split system AC",
+          "description": "Wall-mounted split air conditioning",
+          "options": [
+            {"id": "single_room", "name": "Single room"},
+            {"id": "multi_room", "name": "Multi-room (multi-split)"},
+            {"id": "bedroom", "name": "Bedroom"},
+            {"id": "office", "name": "Home office"}
+          ]
+        },
+        {
+          "id": "portable_ac",
+          "name": "Portable AC installation",
+          "description": "Set up portable unit with venting"
+        },
+        {
+          "id": "ducted_ac",
+          "name": "Ducted air conditioning",
+          "description": "Concealed ducted system"
+        },
+        {
+          "id": "ceiling_cassette",
+          "name": "Ceiling cassette AC",
+          "description": "Ceiling-mounted unit"
+        },
+        {
+          "id": "commercial_ac",
+          "name": "Commercial AC",
+          "description": "AC for business premises"
+        }
+      ]
+    },
+    {
+      "id": "heat_pump",
+      "name": "Heat Pump Installation",
+      "icon": "thermometer",
+      "description": "Install or upgrade heat pumps",
+      "options": [
+        {
+          "id": "air_source",
+          "name": "Air source heat pump",
+          "description": "ASHP installation"
+        },
+        {
+          "id": "ground_source",
+          "name": "Ground source heat pump",
+          "description": "GSHP installation"
+        },
+        {
+          "id": "hybrid_system",
+          "name": "Hybrid heat pump system",
+          "description": "Heat pump with gas boiler backup"
+        },
+        {
+          "id": "hot_water_hp",
+          "name": "Hot water heat pump",
+          "description": "Dedicated hot water heat pump"
+        }
+      ]
+    },
+    {
+      "id": "ac_servicing",
+      "name": "AC Servicing & Repair",
+      "icon": "wrench",
+      "description": "Service, maintain or repair AC units",
+      "options": [
+        {
+          "id": "annual_service",
+          "name": "Annual AC service",
+          "description": "Routine maintenance service"
+        },
+        {
+          "id": "ac_not_cooling",
+          "name": "AC not cooling properly",
+          "description": "Unit not reaching temperature",
+          "options": [
+            {"id": "blowing_warm", "name": "Blowing warm air"},
+            {"id": "weak_airflow", "name": "Weak airflow"},
+            {"id": "not_cold_enough", "name": "Not cold enough"},
+            {"id": "ice_on_unit", "name": "Ice forming on unit"}
+          ]
+        },
+        {
+          "id": "ac_noisy",
+          "name": "Noisy AC unit",
+          "description": "Unusual sounds from AC"
+        },
+        {
+          "id": "ac_leaking",
+          "name": "AC unit leaking water",
+          "description": "Water dripping from unit"
+        },
+        {
+          "id": "ac_smell",
+          "name": "Bad smell from AC",
+          "description": "Musty or unpleasant odour"
+        }
+      ]
+    },
+    {
+      "id": "refrigeration",
+      "name": "Refrigeration",
+      "icon": "snowflake",
+      "description": "Commercial and domestic refrigeration",
+      "options": [
+        {
+          "id": "walk_in_fridge",
+          "name": "Walk-in fridge/freezer",
+          "description": "Install or repair walk-in cold room"
+        },
+        {
+          "id": "commercial_fridge",
+          "name": "Commercial refrigeration",
+          "description": "Display fridges and freezers"
+        },
+        {
+          "id": "cold_room_repair",
+          "name": "Cold room repair",
+          "description": "Fix failing cold room"
+        },
+        {
+          "id": "refrigerant_recharge",
+          "name": "Refrigerant recharge",
+          "description": "Top up or replace refrigerant"
+        }
+      ]
+    },
+    {
+      "id": "ventilation",
+      "name": "Ventilation Systems",
+      "icon": "wind",
+      "description": "Mechanical ventilation and extraction",
+      "options": [
+        {
+          "id": "mvhr",
+          "name": "MVHR system",
+          "description": "Mechanical ventilation with heat recovery"
+        },
+        {
+          "id": "extract_fan",
+          "name": "Extract fan installation",
+          "description": "Fit or replace extraction fan"
+        },
+        {
+          "id": "ducting",
+          "name": "Ducting installation",
+          "description": "Install or modify ductwork"
+        },
+        {
+          "id": "ventilation_survey",
+          "name": "Ventilation survey",
+          "description": "Assess ventilation needs"
+        }
+      ]
+    },
+    {
+      "id": "fgas_leak_check",
+      "name": "F-Gas Leak Check",
+      "icon": "search",
+      "description": "Mandatory refrigerant leak testing",
+      "options": [
+        {
+          "id": "annual_leak_check",
+          "name": "Annual F-Gas leak check",
+          "description": "Mandatory annual inspection"
+        },
+        {
+          "id": "suspected_leak",
+          "name": "Suspected refrigerant leak",
+          "description": "System losing performance"
+        },
+        {
+          "id": "leak_repair",
+          "name": "Leak repair and recharge",
+          "description": "Fix leak and top up gas"
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "name": "Other / I'm not sure",
+      "icon": "messageSquare",
+      "description": "Something else or need advice",
+      "requiresDescription": true,
+      "options": [
+        {"id": "general_advice", "name": "I need advice first"},
+        {"id": "multiple_jobs", "name": "I have multiple jobs"},
+        {"id": "not_listed", "name": "My issue isn't listed"}
+      ]
+    }
+  ]
+}

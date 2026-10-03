@@ -1,0 +1,13 @@
+# Belt and braces. Vercel already skips .gitignore'd files, but .env.local
+# holds the service-role key and a single mistake here uploads it into a build
+# — the env vars set on the project are the only place it should live.
+.env
+.env.*
+!.env.example
+
+# The bootstrap script talks to Supabase from a laptop with the CLI logged in.
+# It has no business in a serverless bundle.
+scripts/
+
+node_modules
+.next

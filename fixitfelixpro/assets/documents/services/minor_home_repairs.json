@@ -1,0 +1,191 @@
+{
+  "service": "minor_home_repairs",
+  "title": "What minor home repairs do you need?",
+  "subtitle": "Select the type of repair you need",
+  "categories": [
+    {
+      "id": "door_repairs",
+      "name": "Door Repairs",
+      "icon": "doorOpen",
+      "description": "Fix door problems",
+      "options": [
+        {
+          "id": "door_sticking",
+          "name": "Sticking door",
+          "description": "Door sticks or drags"
+        },
+        {
+          "id": "door_not_closing",
+          "name": "Won't close properly",
+          "description": "Door doesn't shut or latch"
+        },
+        {
+          "id": "door_hinge",
+          "name": "Hinge problems",
+          "description": "Loose, squeaky, or broken hinge"
+        },
+        {
+          "id": "door_handle",
+          "name": "Handle / Lock problems",
+          "description": "Fix or replace handle or lock"
+        }
+      ]
+    },
+    {
+      "id": "window_repairs",
+      "name": "Window Repairs",
+      "icon": "squareEqual",
+      "description": "Fix window issues",
+      "options": [
+        {
+          "id": "window_stuck",
+          "name": "Window stuck",
+          "description": "Window won't open or close"
+        },
+        {
+          "id": "window_handle",
+          "name": "Handle problems",
+          "description": "Broken or loose window handle"
+        },
+        {
+          "id": "window_seal",
+          "name": "Seal replacement",
+          "description": "Replace worn window seals"
+        },
+        {
+          "id": "window_draughty",
+          "name": "Draughty window",
+          "description": "Cold air coming through"
+        }
+      ]
+    },
+    {
+      "id": "wall_repairs",
+      "name": "Wall & Ceiling Repairs",
+      "icon": "home",
+      "description": "Fix walls and ceilings",
+      "options": [
+        {
+          "id": "fill_holes",
+          "name": "Fill holes & cracks",
+          "description": "Patch holes and fill cracks"
+        },
+        {
+          "id": "plaster_repair",
+          "name": "Plaster repair",
+          "description": "Fix damaged plaster areas"
+        },
+        {
+          "id": "damp_patch",
+          "name": "Damp patch treatment",
+          "description": "Treat and cover damp patches"
+        },
+        {
+          "id": "paint_touchups",
+          "name": "Paint touch-ups",
+          "description": "Small areas of painting"
+        }
+      ]
+    },
+    {
+      "id": "drawer_cupboard",
+      "name": "Drawer & Cupboard Repairs",
+      "icon": "archive",
+      "description": "Fix drawers and cupboards",
+      "options": [
+        {
+          "id": "drawer_stuck",
+          "name": "Drawer stuck",
+          "description": "Drawer won't open or close"
+        },
+        {
+          "id": "drawer_off_track",
+          "name": "Off track / Runners",
+          "description": "Drawer off its runners"
+        },
+        {
+          "id": "cupboard_door",
+          "name": "Cupboard door won't close",
+          "description": "Door doesn't shut properly"
+        },
+        {
+          "id": "hinge_broken",
+          "name": "Broken hinge",
+          "description": "Replace or fix a hinge"
+        },
+        {
+          "id": "shelf_broken",
+          "name": "Shelf broken",
+          "description": "Fix or replace a shelf"
+        }
+      ]
+    },
+    {
+      "id": "sealing_caulking",
+      "name": "Sealing & Caulking",
+      "icon": "droplets",
+      "description": "Replace old sealant",
+      "options": [
+        {
+          "id": "seal_bath",
+          "name": "Around bath",
+          "description": "Re-seal around the bath"
+        },
+        {
+          "id": "seal_shower",
+          "name": "Around shower",
+          "description": "Re-seal around the shower"
+        },
+        {
+          "id": "seal_sink",
+          "name": "Around sink",
+          "description": "Re-seal around the sink"
+        },
+        {
+          "id": "seal_window",
+          "name": "Around windows",
+          "description": "Re-seal around windows"
+        }
+      ]
+    },
+    {
+      "id": "odd_jobs",
+      "name": "Odd Jobs",
+      "icon": "list",
+      "description": "Various small repairs",
+      "options": [
+        {
+          "id": "grouting",
+          "name": "Grouting",
+          "description": "Re-grout tiles"
+        },
+        {
+          "id": "draught_proofing",
+          "name": "Draught proofing",
+          "description": "Seal gaps and draughts"
+        },
+        {
+          "id": "childproofing",
+          "name": "Childproofing",
+          "description": "Baby gates, socket covers, etc."
+        },
+        {
+          "id": "squeaky_floor",
+          "name": "Squeaky floorboard",
+          "description": "Fix squeaky or loose boards"
+        }
+      ]
+    },
+    {
+      "id": "other_repairs",
+      "name": "Other / I'm not sure",
+      "icon": "messageSquare",
+      "description": "Something else or need advice",
+      "requiresDescription": true,
+      "options": [
+        {"id": "multiple_jobs", "name": "I have multiple small repairs"},
+        {"id": "not_listed", "name": "My repair isn't listed"}
+      ]
+    }
+  ]
+}

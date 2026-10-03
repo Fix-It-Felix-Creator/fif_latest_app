@@ -1,0 +1,203 @@
+{
+  "service": "welder",
+  "title": "What welding or metalwork do you need?",
+  "subtitle": "Select the area that best describes your requirement",
+  "categories": [
+    {
+      "id": "gate_fabrication",
+      "name": "Gate Fabrication",
+      "icon": "doorOpen",
+      "description": "Custom gates and gate repairs",
+      "options": [
+        {
+          "id": "single_gate",
+          "name": "Single pedestrian gate",
+          "description": "Make or replace a side/garden gate"
+        },
+        {
+          "id": "double_gate",
+          "name": "Double driveway gates",
+          "description": "Pair of driveway gates"
+        },
+        {
+          "id": "sliding_gate",
+          "name": "Sliding gate",
+          "description": "Track-mounted sliding gate"
+        },
+        {
+          "id": "gate_repair",
+          "name": "Gate repair",
+          "description": "Fix broken or sagging gate",
+          "options": [
+            {"id": "hinge_repair", "name": "Hinge repair"},
+            {"id": "latch_repair", "name": "Latch/lock repair"},
+            {"id": "post_repair", "name": "Post repair"},
+            {"id": "welding_repair", "name": "Re-weld broken joint"}
+          ]
+        },
+        {
+          "id": "gate_automation",
+          "name": "Electric gate automation",
+          "description": "Add motor/automation to existing gate"
+        }
+      ]
+    },
+    {
+      "id": "railing_balustrade",
+      "name": "Railings & Balustrades",
+      "icon": "fence",
+      "description": "Metal railings, handrails and balustrades",
+      "options": [
+        {
+          "id": "staircase_railing",
+          "name": "Staircase handrail",
+          "description": "Internal or external stair rail"
+        },
+        {
+          "id": "balcony_balustrade",
+          "name": "Balcony balustrade",
+          "description": "Safety railing for balcony"
+        },
+        {
+          "id": "garden_railing",
+          "name": "Garden/boundary railing",
+          "description": "Perimeter metal railing"
+        },
+        {
+          "id": "juliet_balcony",
+          "name": "Juliet balcony",
+          "description": "Decorative window balcony"
+        },
+        {
+          "id": "railing_repair",
+          "name": "Railing repair",
+          "description": "Fix loose or broken railing"
+        }
+      ]
+    },
+    {
+      "id": "security_grilles",
+      "name": "Security Grilles",
+      "icon": "shield",
+      "description": "Security bars, grilles and shutters",
+      "options": [
+        {
+          "id": "window_grilles",
+          "name": "Window security grilles",
+          "description": "Fixed or removable window bars"
+        },
+        {
+          "id": "door_grille",
+          "name": "Door security grille",
+          "description": "Collapsible or fixed door grille"
+        },
+        {
+          "id": "roller_shutter",
+          "name": "Roller shutter",
+          "description": "Security roller shutter"
+        },
+        {
+          "id": "cage_enclosure",
+          "name": "Cage / enclosure",
+          "description": "Security cage for equipment"
+        }
+      ]
+    },
+    {
+      "id": "structural_steelwork",
+      "name": "Structural Steelwork",
+      "icon": "building2",
+      "description": "Steel beams, columns and structural support",
+      "options": [
+        {
+          "id": "rsj_install",
+          "name": "RSJ / steel beam installation",
+          "description": "Structural beam for opening"
+        },
+        {
+          "id": "steel_column",
+          "name": "Steel column",
+          "description": "Support column fabrication"
+        },
+        {
+          "id": "steel_frame",
+          "name": "Steel frame",
+          "description": "Structural frame for extension"
+        },
+        {
+          "id": "mezzanine",
+          "name": "Mezzanine floor",
+          "description": "Steel mezzanine structure"
+        }
+      ]
+    },
+    {
+      "id": "repairs",
+      "name": "Repairs & Modifications",
+      "icon": "wrench",
+      "description": "Repair or modify existing metalwork",
+      "options": [
+        {
+          "id": "weld_repair",
+          "name": "Weld repair",
+          "description": "Re-weld broken metal joint"
+        },
+        {
+          "id": "rust_repair",
+          "name": "Rust repair/treatment",
+          "description": "Cut out and replace rusted sections"
+        },
+        {
+          "id": "modification",
+          "name": "Metalwork modification",
+          "description": "Alter or extend existing metalwork"
+        },
+        {
+          "id": "on_site_welding",
+          "name": "On-site welding",
+          "description": "Mobile welding service"
+        }
+      ]
+    },
+    {
+      "id": "decorative",
+      "name": "Decorative Metalwork",
+      "icon": "sparkles",
+      "description": "Ornamental and bespoke metal items",
+      "options": [
+        {
+          "id": "garden_art",
+          "name": "Garden art / sculpture",
+          "description": "Custom metal garden features"
+        },
+        {
+          "id": "fire_pit",
+          "name": "Fire pit / chiminea",
+          "description": "Custom metal fire feature"
+        },
+        {
+          "id": "furniture",
+          "name": "Metal furniture",
+          "description": "Bespoke tables, chairs, shelving"
+        },
+        {
+          "id": "house_numbers",
+          "name": "House numbers / signs",
+          "description": "Custom metal signage"
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "name": "Other / I'm not sure",
+      "icon": "messageSquare",
+      "description": "Something else or need advice",
+      "requiresDescription": true,
+      "options": [
+        {"id": "general_advice", "name": "I need advice first"},
+        {"id": "multiple_jobs", "name": "I have multiple jobs"},
+        {"id": "not_listed", "name": "My requirement isn't listed"}
+      ]
+    }
+  ]
+}

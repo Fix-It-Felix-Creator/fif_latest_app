@@ -1,0 +1,345 @@
+{
+  "service": "hairdresser",
+  "title": "What hairdressing service do you need?",
+  "subtitle": "Select the type of hair service you're looking for",
+  "categories": [
+    {
+      "id": "cutting",
+      "name": "Cutting & Styling",
+      "icon": "scissors",
+      "description": "Haircuts, restyling and blow-dries",
+      "options": [
+        {
+          "id": "ladies_cut",
+          "name": "Ladies' haircut",
+          "description": "Women's cut and styling",
+          "options": [
+            {"id": "trim", "name": "Trim (up to 1 inch)"},
+            {"id": "restyle", "name": "Restyle / new look"},
+            {"id": "layers", "name": "Layers"},
+            {"id": "fringe_cut", "name": "Fringe trim / cut in"},
+            {"id": "dry_cut", "name": "Dry cut"}
+          ]
+        },
+        {
+          "id": "mens_cut",
+          "name": "Men's haircut",
+          "description": "Men's cut and styling",
+          "options": [
+            {"id": "scissor_cut", "name": "Scissor cut"},
+            {"id": "clipper_cut", "name": "Clipper cut"},
+            {"id": "skin_fade", "name": "Skin fade"},
+            {"id": "beard_trim", "name": "Beard trim"},
+            {"id": "cut_and_beard", "name": "Cut and beard trim"}
+          ]
+        },
+        {
+          "id": "childrens_cut",
+          "name": "Children's haircut",
+          "description": "Cuts for children",
+          "options": [
+            {"id": "under_5", "name": "Under 5 years"},
+            {"id": "5_to_12", "name": "5–12 years"},
+            {"id": "teen", "name": "Teenager (13–16)"}
+          ]
+        },
+        {
+          "id": "blowdry",
+          "name": "Blow-dry / styling",
+          "description": "Professional blow-dry and finish",
+          "options": [
+            {"id": "standard_blowdry", "name": "Standard blow-dry"},
+            {"id": "bouncy_blowdry", "name": "Bouncy blow-dry"},
+            {"id": "updo", "name": "Up-do / special occasion"},
+            {"id": "curls_waves", "name": "Curls / waves"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "colouring",
+      "name": "Colouring",
+      "icon": "palette",
+      "description": "Hair colouring, highlights and tinting",
+      "options": [
+        {
+          "id": "full_colour",
+          "name": "Full head colour",
+          "description": "All-over permanent colour",
+          "options": [
+            {"id": "same_shade", "name": "Same shade / refresh"},
+            {"id": "new_colour", "name": "New colour"},
+            {"id": "grey_coverage", "name": "Grey coverage"},
+            {"id": "fashion_colour", "name": "Fashion / vivid colour"}
+          ]
+        },
+        {
+          "id": "root_touchup",
+          "name": "Root touch-up",
+          "description": "Colour regrowth only"
+        },
+        {
+          "id": "highlights",
+          "name": "Highlights / lowlights",
+          "description": "Foil or cap highlights",
+          "options": [
+            {"id": "half_head", "name": "Half head highlights"},
+            {"id": "full_head", "name": "Full head highlights"},
+            {"id": "t_section", "name": "T-section highlights"},
+            {"id": "lowlights", "name": "Lowlights"},
+            {"id": "hi_low_lights", "name": "Highlights and lowlights"}
+          ]
+        },
+        {
+          "id": "balayage",
+          "name": "Balayage / ombré",
+          "description": "Freehand colouring techniques",
+          "options": [
+            {"id": "balayage", "name": "Balayage"},
+            {"id": "ombre", "name": "Ombré"},
+            {"id": "sombre", "name": "Sombré (subtle ombré)"},
+            {"id": "babylights", "name": "Babylights"},
+            {"id": "colour_melt", "name": "Colour melt"}
+          ]
+        },
+        {
+          "id": "toner",
+          "name": "Toner / gloss",
+          "description": "Tone, refresh or add shine",
+          "options": [
+            {"id": "toner", "name": "Toner"},
+            {"id": "gloss", "name": "Gloss treatment"},
+            {"id": "colour_refresh", "name": "Semi-permanent refresh"}
+          ]
+        },
+        {
+          "id": "colour_correction",
+          "name": "Colour correction",
+          "description": "Fix previous colour work",
+          "options": [
+            {"id": "remove_colour", "name": "Remove / strip colour"},
+            {"id": "fix_banding", "name": "Fix banding / unevenness"},
+            {"id": "fix_tone", "name": "Fix unwanted tones (brassy, green)"},
+            {"id": "go_lighter", "name": "Go lighter from dark"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "treatments",
+      "name": "Treatments",
+      "icon": "sparkles",
+      "description": "Hair conditioning, repair and specialist treatments",
+      "options": [
+        {
+          "id": "conditioning",
+          "name": "Deep conditioning",
+          "description": "Intensive moisture treatment",
+          "options": [
+            {"id": "moisture", "name": "Moisture treatment"},
+            {"id": "protein", "name": "Protein treatment"},
+            {"id": "olaplex", "name": "Olaplex / bond repair"},
+            {"id": "hot_oil", "name": "Hot oil treatment"}
+          ]
+        },
+        {
+          "id": "keratin",
+          "name": "Keratin / smoothing",
+          "description": "Anti-frizz and smoothing",
+          "options": [
+            {"id": "keratin_treatment", "name": "Keratin treatment"},
+            {"id": "brazilian_blowout", "name": "Brazilian blow-out"},
+            {"id": "nanoplastia", "name": "Nanoplastia"}
+          ]
+        },
+        {
+          "id": "scalp",
+          "name": "Scalp treatment",
+          "description": "Scalp health and care",
+          "options": [
+            {"id": "dry_scalp", "name": "Dry / flaky scalp"},
+            {"id": "oily_scalp", "name": "Oily scalp"},
+            {"id": "scalp_massage", "name": "Scalp massage / detox"}
+          ]
+        },
+        {
+          "id": "hair_loss",
+          "name": "Hair loss consultation",
+          "description": "Thinning hair advice and options"
+        }
+      ]
+    },
+    {
+      "id": "extensions",
+      "name": "Hair Extensions",
+      "icon": "sparkles",
+      "description": "Hair extensions fitting, maintenance and removal",
+      "options": [
+        {
+          "id": "fitting",
+          "name": "New extension fitting",
+          "description": "Install new extensions",
+          "options": [
+            {"id": "tape_in", "name": "Tape-in extensions"},
+            {"id": "micro_ring", "name": "Micro-ring / nano-ring"},
+            {"id": "weave", "name": "Weave / sew-in"},
+            {"id": "fusion", "name": "Fusion / bonded"},
+            {"id": "clip_in", "name": "Clip-in (custom cut/blend)"}
+          ]
+        },
+        {
+          "id": "maintenance",
+          "name": "Extension maintenance",
+          "description": "Move up, tighten or replace",
+          "options": [
+            {"id": "move_up", "name": "Move up / retighten"},
+            {"id": "replace_tapes", "name": "Replace tape-ins"},
+            {"id": "bond_replacement", "name": "Bond replacement"}
+          ]
+        },
+        {
+          "id": "removal",
+          "name": "Extension removal",
+          "description": "Safe removal of extensions"
+        }
+      ]
+    },
+    {
+      "id": "perming",
+      "name": "Perming & Texture",
+      "icon": "waves",
+      "description": "Permanent waves, relaxing and texture services",
+      "options": [
+        {
+          "id": "perm",
+          "name": "Perm",
+          "description": "Permanent wave / curl",
+          "options": [
+            {"id": "full_perm", "name": "Full head perm"},
+            {"id": "partial_perm", "name": "Partial / root perm"},
+            {"id": "beach_wave_perm", "name": "Beach wave perm"},
+            {"id": "spiral_perm", "name": "Spiral perm"}
+          ]
+        },
+        {
+          "id": "relaxer",
+          "name": "Relaxer",
+          "description": "Chemical straightening",
+          "options": [
+            {"id": "full_relaxer", "name": "Full head relaxer"},
+            {"id": "touch_up_relaxer", "name": "Root touch-up relaxer"}
+          ]
+        },
+        {
+          "id": "japanese_straightening",
+          "name": "Japanese straightening",
+          "description": "Permanent thermal reconditioning"
+        }
+      ]
+    },
+    {
+      "id": "bridal",
+      "name": "Bridal & Occasions",
+      "icon": "heart",
+      "description": "Wedding, prom and special event styling",
+      "options": [
+        {
+          "id": "bridal_hair",
+          "name": "Bridal hair",
+          "description": "Wedding day styling",
+          "options": [
+            {"id": "bridal_trial", "name": "Bridal trial"},
+            {"id": "wedding_day", "name": "Wedding day styling"},
+            {"id": "bridal_package", "name": "Bridal package (trial + day)"}
+          ]
+        },
+        {
+          "id": "bridesmaids",
+          "name": "Bridesmaids / bridal party",
+          "description": "Styling for bridal party"
+        },
+        {
+          "id": "prom",
+          "name": "Prom / school event",
+          "description": "Prom or formal event styling"
+        },
+        {
+          "id": "special_occasion",
+          "name": "Special occasion style",
+          "description": "Event, party or photoshoot",
+          "options": [
+            {"id": "updo_event", "name": "Up-do"},
+            {"id": "Hollywood_waves", "name": "Hollywood waves"},
+            {"id": "braids_event", "name": "Braids / plaits"},
+            {"id": "blow_dry_event", "name": "Blow-dry and finish"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "afro_textured",
+      "name": "Afro & Textured Hair",
+      "icon": "sparkles",
+      "description": "Specialist services for afro, curly and textured hair",
+      "options": [
+        {
+          "id": "braiding",
+          "name": "Braiding",
+          "description": "Braids, twists and locs",
+          "options": [
+            {"id": "box_braids", "name": "Box braids"},
+            {"id": "cornrows", "name": "Cornrows"},
+            {"id": "twists", "name": "Twists (Senegalese / Marley)"},
+            {"id": "faux_locs", "name": "Faux locs"},
+            {"id": "crochet", "name": "Crochet braids"}
+          ]
+        },
+        {
+          "id": "natural_hair",
+          "name": "Natural hair care",
+          "description": "Curly and coily hair services",
+          "options": [
+            {"id": "wash_and_go", "name": "Wash and go"},
+            {"id": "twist_out", "name": "Twist out / braid out"},
+            {"id": "silk_press", "name": "Silk press"},
+            {"id": "trim_shape", "name": "Trim and shape"}
+          ]
+        },
+        {
+          "id": "loc_maintenance",
+          "name": "Loc maintenance",
+          "description": "Dreadlock care",
+          "options": [
+            {"id": "retwist", "name": "Retwist"},
+            {"id": "interlock", "name": "Interlock"},
+            {"id": "loc_repair", "name": "Loc repair"},
+            {"id": "starter_locs", "name": "Starter locs"}
+          ]
+        },
+        {
+          "id": "weave_wig",
+          "name": "Wig / weave install",
+          "description": "Wig fitting and weave installation",
+          "options": [
+            {"id": "lace_front", "name": "Lace front wig install"},
+            {"id": "full_weave", "name": "Full weave sew-in"},
+            {"id": "closure_install", "name": "Closure / frontal install"},
+            {"id": "wig_customise", "name": "Wig customisation"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "name": "Other / I'm not sure",
+      "icon": "messageSquare",
+      "description": "Something else or need advice",
+      "requiresDescription": true,
+      "options": [
+        {"id": "consultation", "name": "I'd like a consultation first"},
+        {"id": "quote", "name": "I'd like a quote"},
+        {"id": "not_listed", "name": "My service isn't listed"}
+      ]
+    }
+  ]
+}

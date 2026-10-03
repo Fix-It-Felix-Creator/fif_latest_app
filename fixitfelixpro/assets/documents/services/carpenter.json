@@ -1,0 +1,349 @@
+{
+  "service": "carpenter",
+  "title": "What carpentry help do you need?",
+  "subtitle": "Select the type of woodwork you need",
+  "categories": [
+    {
+      "id": "doors",
+      "name": "Doors",
+      "icon": "doorOpen",
+      "description": "Door installation, repair, and replacement",
+      "options": [
+        {
+          "id": "install_internal",
+          "name": "Install internal door",
+          "description": "Fit new interior door",
+          "options": [
+            {"id": "single_internal", "name": "Single door"},
+            {"id": "multiple_internal", "name": "Multiple doors"},
+            {"id": "all_doors", "name": "All internal doors"}
+          ]
+        },
+        {
+          "id": "install_external",
+          "name": "Install external door",
+          "description": "Fit new front or back door",
+          "options": [
+            {"id": "front_door", "name": "Front door"},
+            {"id": "back_door", "name": "Back door"},
+            {"id": "side_door", "name": "Side door"}
+          ]
+        },
+        {
+          "id": "repair_door",
+          "name": "Repair door",
+          "description": "Fix damaged door",
+          "options": [
+            {"id": "door_sticking", "name": "Door sticking"},
+            {"id": "door_not_closing", "name": "Door won't close"},
+            {"id": "door_damage", "name": "Damaged door"},
+            {"id": "hinge_repair", "name": "Hinge problems"}
+          ]
+        },
+        {
+          "id": "replace_door",
+          "name": "Replace door",
+          "description": "Swap existing door"
+        },
+        {
+          "id": "door_frame",
+          "name": "Door frame work",
+          "description": "Repair or replace frame",
+          "options": [
+            {"id": "frame_repair", "name": "Repair frame"},
+            {"id": "frame_replace", "name": "Replace frame"},
+            {"id": "architrave", "name": "Fit architrave"}
+          ]
+        },
+        {
+          "id": "door_hanging",
+          "name": "Hang customer's door",
+          "description": "Fit door you've purchased"
+        }
+      ]
+    },
+    {
+      "id": "windows",
+      "name": "Wooden Windows",
+      "icon": "squareEqual",
+      "description": "Timber window work",
+      "options": [
+        {
+          "id": "install_windows",
+          "name": "Install wooden windows",
+          "description": "Fit new timber windows"
+        },
+        {
+          "id": "repair_windows",
+          "name": "Repair windows",
+          "description": "Fix damaged windows",
+          "options": [
+            {"id": "rotten_frame", "name": "Rotten frame"},
+            {"id": "stuck_window", "name": "Window won't open"},
+            {"id": "broken_glass", "name": "Replace glass"},
+            {"id": "draughty", "name": "Draughty window"}
+          ]
+        },
+        {
+          "id": "window_sill",
+          "name": "Window sill work",
+          "description": "Repair or replace sills",
+          "options": [
+            {"id": "repair_sill", "name": "Repair sill"},
+            {"id": "replace_sill", "name": "Replace sill"}
+          ]
+        },
+        {
+          "id": "shutters",
+          "name": "Shutters",
+          "description": "Fit window shutters",
+          "options": [
+            {"id": "plantation_shutters", "name": "Plantation shutters"},
+            {"id": "solid_shutters", "name": "Solid shutters"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "flooring",
+      "name": "Wooden Flooring",
+      "icon": "layers",
+      "description": "Floor installation and repairs",
+      "options": [
+        {
+          "id": "install_hardwood",
+          "name": "Install hardwood",
+          "description": "Lay solid wood flooring",
+          "options": [
+            {"id": "single_room_floor", "name": "Single room"},
+            {"id": "multiple_rooms_floor", "name": "Multiple rooms"},
+            {"id": "whole_floor", "name": "Whole floor"}
+          ]
+        },
+        {
+          "id": "install_engineered",
+          "name": "Install engineered wood",
+          "description": "Lay engineered flooring"
+        },
+        {
+          "id": "install_laminate",
+          "name": "Install laminate",
+          "description": "Lay laminate flooring"
+        },
+        {
+          "id": "repair_flooring",
+          "name": "Repair flooring",
+          "description": "Fix damaged boards",
+          "options": [
+            {"id": "replace_boards", "name": "Replace damaged boards"},
+            {"id": "fix_squeaky", "name": "Fix squeaky floor"},
+            {"id": "fix_gaps", "name": "Fill gaps"}
+          ]
+        },
+        {
+          "id": "sand_refinish",
+          "name": "Sand and refinish",
+          "description": "Restore wooden floors"
+        },
+        {
+          "id": "skirting",
+          "name": "Skirting boards",
+          "description": "Fit or replace skirting",
+          "options": [
+            {"id": "install_skirting", "name": "Install new skirting"},
+            {"id": "replace_skirting", "name": "Replace skirting"},
+            {"id": "repair_skirting", "name": "Repair skirting"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "staircases",
+      "name": "Staircases",
+      "icon": "arrowUpRight",
+      "description": "Stairs, handrails, and spindles",
+      "options": [
+        {
+          "id": "build_staircase",
+          "name": "Build new staircase",
+          "description": "Construct new stairs"
+        },
+        {
+          "id": "repair_stairs",
+          "name": "Repair stairs",
+          "description": "Fix damaged staircase",
+          "options": [
+            {"id": "squeaky_stairs", "name": "Squeaky stairs"},
+            {"id": "loose_tread", "name": "Loose tread"},
+            {"id": "damaged_step", "name": "Damaged step"}
+          ]
+        },
+        {
+          "id": "refurbish_staircase",
+          "name": "Refurbish staircase",
+          "description": "Complete stair makeover",
+          "options": [
+            {"id": "new_spindles", "name": "New spindles/Balusters"},
+            {"id": "new_handrail", "name": "New handrail"},
+            {"id": "new_newel", "name": "New newel posts"},
+            {"id": "clad_stairs", "name": "Clad existing stairs"}
+          ]
+        },
+        {
+          "id": "loft_ladder",
+          "name": "Loft ladder",
+          "description": "Fit loft access ladder"
+        },
+        {
+          "id": "handrail",
+          "name": "Handrail only",
+          "description": "Fit or replace handrail"
+        }
+      ]
+    },
+    {
+      "id": "storage",
+      "name": "Storage & Shelving",
+      "icon": "archive",
+      "description": "Built-in storage solutions",
+      "options": [
+        {
+          "id": "shelving",
+          "name": "Shelving",
+          "description": "Fit shelves",
+          "options": [
+            {"id": "floating_shelves", "name": "Floating shelves"},
+            {"id": "alcove_shelves", "name": "Alcove shelving"},
+            {"id": "bracket_shelves", "name": "Bracket shelves"}
+          ]
+        },
+        {
+          "id": "wardrobe",
+          "name": "Built-in wardrobe",
+          "description": "Fitted wardrobe",
+          "options": [
+            {"id": "single_wardrobe", "name": "Single wardrobe"},
+            {"id": "double_wardrobe", "name": "Double wardrobe"},
+            {"id": "walk_in", "name": "Walk-in wardrobe"}
+          ]
+        },
+        {
+          "id": "cupboards",
+          "name": "Cupboards / Cabinets",
+          "description": "Built-in cupboards"
+        },
+        {
+          "id": "under_stairs",
+          "name": "Under-stairs storage",
+          "description": "Maximise under-stair space"
+        },
+        {
+          "id": "home_office",
+          "name": "Home office desk",
+          "description": "Built-in desk and storage"
+        }
+      ]
+    },
+    {
+      "id": "decking",
+      "name": "Decking",
+      "icon": "layoutGrid",
+      "description": "Build or repair decking",
+      "options": [
+        {
+          "id": "build_decking",
+          "name": "Build new decking",
+          "description": "Construct new deck",
+          "options": [
+            {"id": "small_deck", "name": "Small deck"},
+            {"id": "large_deck", "name": "Large deck"},
+            {"id": "raised_deck", "name": "Raised deck"}
+          ]
+        },
+        {
+          "id": "repair_decking",
+          "name": "Repair decking",
+          "description": "Fix damaged deck"
+        },
+        {
+          "id": "replace_decking",
+          "name": "Replace decking",
+          "description": "Complete deck replacement"
+        }
+      ]
+    },
+    {
+      "id": "fencing",
+      "name": "Fencing & Gates",
+      "icon": "fence",
+      "description": "Garden fencing and gates",
+      "options": [
+        {
+          "id": "install_fence",
+          "name": "Install new fence",
+          "description": "Build new fencing",
+          "options": [
+            {"id": "panel_fence", "name": "Panel fencing"},
+            {"id": "closeboard", "name": "Closeboard fencing"},
+            {"id": "picket", "name": "Picket fencing"}
+          ]
+        },
+        {
+          "id": "repair_fence",
+          "name": "Repair fence",
+          "description": "Fix damaged fencing"
+        },
+        {
+          "id": "garden_gate",
+          "name": "Garden gate",
+          "description": "Install or repair gate",
+          "options": [
+            {"id": "install_gate", "name": "Install new gate"},
+            {"id": "repair_gate", "name": "Repair gate"},
+            {"id": "replace_gate", "name": "Replace gate"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bespoke",
+      "name": "Bespoke / Custom",
+      "icon": "pencil",
+      "description": "Custom woodwork projects",
+      "options": [
+        {
+          "id": "custom_furniture",
+          "name": "Custom furniture",
+          "description": "Made-to-measure furniture"
+        },
+        {
+          "id": "fitted_units",
+          "name": "Fitted units",
+          "description": "Built-in furniture"
+        },
+        {
+          "id": "restoration",
+          "name": "Furniture restoration",
+          "description": "Restore antique furniture"
+        },
+        {
+          "id": "media_unit",
+          "name": "Media unit",
+          "description": "TV and entertainment unit"
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "name": "Other / I'm not sure",
+      "icon": "messageSquare",
+      "description": "Something else or need advice",
+      "requiresDescription": true,
+      "options": [
+        {"id": "general_advice", "name": "I need advice first"},
+        {"id": "multiple_jobs", "name": "I have multiple jobs"},
+        {"id": "not_listed", "name": "My job isn't listed"}
+      ]
+    }
+  ]
+}

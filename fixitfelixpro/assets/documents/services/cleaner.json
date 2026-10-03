@@ -1,0 +1,365 @@
+{
+  "service": "cleaner",
+  "title": "What cleaning help do you need?",
+  "subtitle": "Select the type of cleaning service you need",
+  "categories": [
+    {
+      "id": "domestic",
+      "name": "Domestic Cleaning",
+      "icon": "home",
+      "description": "Regular home cleaning services",
+      "options": [
+        {
+          "id": "regular",
+          "name": "Regular cleaning",
+          "description": "Ongoing scheduled cleaning",
+          "options": [
+            {"id": "weekly", "name": "Weekly clean"},
+            {"id": "fortnightly", "name": "Fortnightly clean"},
+            {"id": "monthly", "name": "Monthly clean"}
+          ]
+        },
+        {
+          "id": "deep_clean",
+          "name": "Deep clean",
+          "description": "Thorough top-to-bottom clean",
+          "options": [
+            {"id": "whole_house", "name": "Whole house"},
+            {"id": "specific_rooms", "name": "Specific rooms only"}
+          ]
+        },
+        {
+          "id": "spring_clean",
+          "name": "Spring clean",
+          "description": "Comprehensive seasonal clean"
+        },
+        {
+          "id": "one_off",
+          "name": "One-off clean",
+          "description": "Single cleaning session",
+          "options": [
+            {"id": "standard", "name": "Standard clean"},
+            {"id": "deep", "name": "Deep clean"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tenancy",
+      "name": "End of Tenancy",
+      "icon": "key",
+      "description": "Move in/out cleaning",
+      "options": [
+        {
+          "id": "full_property",
+          "name": "Full property clean",
+          "description": "Complete end of tenancy clean",
+          "options": [
+            {"id": "studio", "name": "Studio/1 bed"},
+            {"id": "two_bed", "name": "2 bedroom"},
+            {"id": "three_bed", "name": "3 bedroom"},
+            {"id": "four_plus", "name": "4+ bedroom"}
+          ]
+        },
+        {
+          "id": "inventory",
+          "name": "Inventory standard clean",
+          "description": "Meet inventory check standards"
+        },
+        {
+          "id": "move_in",
+          "name": "Move-in clean",
+          "description": "Clean before moving in"
+        },
+        {
+          "id": "move_out",
+          "name": "Move-out clean",
+          "description": "Clean when moving out"
+        },
+        {
+          "id": "deposit_guarantee",
+          "name": "Deposit guarantee clean",
+          "description": "Guaranteed to pass inspection"
+        }
+      ]
+    },
+    {
+      "id": "specialist",
+      "name": "Specialist Cleaning",
+      "icon": "sparkles",
+      "description": "Specific item cleaning",
+      "options": [
+        {
+          "id": "carpet",
+          "name": "Carpet cleaning",
+          "description": "Deep carpet cleaning",
+          "options": [
+            {"id": "single_room", "name": "Single room"},
+            {"id": "multiple_rooms", "name": "Multiple rooms"},
+            {"id": "stairs", "name": "Stairs"},
+            {"id": "whole_house_carpet", "name": "Whole house"}
+          ]
+        },
+        {
+          "id": "upholstery",
+          "name": "Upholstery cleaning",
+          "description": "Clean sofas and furniture",
+          "options": [
+            {"id": "sofa", "name": "Sofa"},
+            {"id": "armchair", "name": "Armchair"},
+            {"id": "dining_chairs", "name": "Dining chairs"},
+            {"id": "curtains", "name": "Curtains"}
+          ]
+        },
+        {
+          "id": "oven",
+          "name": "Oven cleaning",
+          "description": "Professional oven clean",
+          "options": [
+            {"id": "single_oven", "name": "Single oven"},
+            {"id": "double_oven", "name": "Double oven"},
+            {"id": "range", "name": "Range cooker"},
+            {"id": "oven_and_hob", "name": "Oven and hob"}
+          ]
+        },
+        {
+          "id": "window",
+          "name": "Window cleaning",
+          "description": "Interior and exterior windows",
+          "options": [
+            {"id": "inside_only", "name": "Inside only"},
+            {"id": "outside_only", "name": "Outside only"},
+            {"id": "inside_outside", "name": "Inside and outside"}
+          ]
+        },
+        {
+          "id": "mattress",
+          "name": "Mattress cleaning",
+          "description": "Deep clean mattresses",
+          "options": [
+            {"id": "single_mattress", "name": "Single mattress"},
+            {"id": "double_mattress", "name": "Double mattress"},
+            {"id": "king_mattress", "name": "King/Super king"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kitchen",
+      "name": "Kitchen Deep Clean",
+      "icon": "chefHat",
+      "description": "Thorough kitchen cleaning",
+      "options": [
+        {
+          "id": "full",
+          "name": "Full kitchen deep clean",
+          "description": "Complete kitchen cleaning"
+        },
+        {
+          "id": "oven_hob",
+          "name": "Oven and hob",
+          "description": "Cooker cleaning only"
+        },
+        {
+          "id": "fridge",
+          "name": "Fridge/Freezer",
+          "description": "Clean fridge and freezer",
+          "options": [
+            {"id": "fridge_only", "name": "Fridge only"},
+            {"id": "freezer_only", "name": "Freezer only"},
+            {"id": "fridge_freezer", "name": "Fridge freezer"},
+            {"id": "american_fridge", "name": "American fridge freezer"}
+          ]
+        },
+        {
+          "id": "extractor",
+          "name": "Extractor hood",
+          "description": "Clean extractor fan"
+        },
+        {
+          "id": "cupboards",
+          "name": "Inside cupboards",
+          "description": "Clean inside all cupboards"
+        },
+        {
+          "id": "appliances",
+          "name": "Appliances",
+          "description": "Clean kitchen appliances",
+          "options": [
+            {"id": "microwave", "name": "Microwave"},
+            {"id": "dishwasher", "name": "Dishwasher"},
+            {"id": "washing_machine", "name": "Washing machine"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bathroom",
+      "name": "Bathroom Deep Clean",
+      "icon": "bath",
+      "description": "Thorough bathroom cleaning",
+      "options": [
+        {
+          "id": "full",
+          "name": "Full bathroom clean",
+          "description": "Complete bathroom cleaning"
+        },
+        {
+          "id": "limescale",
+          "name": "Limescale removal",
+          "description": "Remove limescale buildup"
+        },
+        {
+          "id": "mould",
+          "name": "Mould removal",
+          "description": "Treat and remove mould"
+        },
+        {
+          "id": "grout",
+          "name": "Grout cleaning",
+          "description": "Deep clean tile grout"
+        },
+        {
+          "id": "shower",
+          "name": "Shower deep clean",
+          "description": "Shower enclosure cleaning"
+        }
+      ]
+    },
+    {
+      "id": "outdoor",
+      "name": "Outdoor Cleaning",
+      "icon": "sun",
+      "description": "External cleaning services",
+      "options": [
+        {
+          "id": "pressure_wash",
+          "name": "Pressure washing",
+          "description": "High pressure cleaning",
+          "options": [
+            {"id": "driveway", "name": "Driveway"},
+            {"id": "patio", "name": "Patio"},
+            {"id": "decking", "name": "Decking"},
+            {"id": "paths", "name": "Paths"},
+            {"id": "walls", "name": "Walls"}
+          ]
+        },
+        {
+          "id": "gutter",
+          "name": "Gutter cleaning",
+          "description": "Clear and clean gutters",
+          "options": [
+            {"id": "clear_debris", "name": "Clear debris only"},
+            {"id": "flush_clean", "name": "Clear and flush"}
+          ]
+        },
+        {
+          "id": "conservatory",
+          "name": "Conservatory cleaning",
+          "description": "Clean conservatory inside/out",
+          "options": [
+            {"id": "roof", "name": "Roof only"},
+            {"id": "frames", "name": "Frames and glass"},
+            {"id": "full_conservatory", "name": "Complete clean"}
+          ]
+        },
+        {
+          "id": "fascia",
+          "name": "Fascia and soffit",
+          "description": "Clean uPVC fascias"
+        },
+        {
+          "id": "external_windows",
+          "name": "External windows",
+          "description": "Outside window cleaning"
+        }
+      ]
+    },
+    {
+      "id": "after_event",
+      "name": "After Event/Building",
+      "icon": "paintbrush",
+      "description": "Post-event and construction cleaning",
+      "options": [
+        {
+          "id": "party",
+          "name": "Post party clean",
+          "description": "Clean up after a party"
+        },
+        {
+          "id": "building",
+          "name": "Post building/renovation",
+          "description": "Clean after building work",
+          "options": [
+            {"id": "light_clean", "name": "Light clean"},
+            {"id": "heavy_clean", "name": "Heavy construction clean"}
+          ]
+        },
+        {
+          "id": "decoration",
+          "name": "After decoration",
+          "description": "Clean after painting/decorating"
+        },
+        {
+          "id": "sparkle_clean",
+          "name": "New build sparkle clean",
+          "description": "Final clean for new builds"
+        }
+      ]
+    },
+    {
+      "id": "commercial",
+      "name": "Commercial",
+      "icon": "building",
+      "description": "Business and commercial cleaning",
+      "options": [
+        {
+          "id": "office",
+          "name": "Office cleaning",
+          "description": "Regular office cleaning",
+          "options": [
+            {"id": "small_office", "name": "Small office"},
+            {"id": "medium_office", "name": "Medium office"},
+            {"id": "large_office", "name": "Large office"}
+          ]
+        },
+        {
+          "id": "retail",
+          "name": "Retail/Shop",
+          "description": "Shop and retail cleaning"
+        },
+        {
+          "id": "communal",
+          "name": "Communal areas",
+          "description": "Shared building spaces"
+        },
+        {
+          "id": "airbnb",
+          "name": "Airbnb/Holiday let",
+          "description": "Short-term rental cleaning",
+          "options": [
+            {"id": "changeover", "name": "Changeover clean"},
+            {"id": "deep_clean_rental", "name": "Deep clean"}
+          ]
+        },
+        {
+          "id": "restaurant",
+          "name": "Restaurant/Cafe",
+          "description": "Food service cleaning"
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "name": "Other / I'm not sure",
+      "icon": "messageSquare",
+      "description": "Something else or need advice",
+      "requiresDescription": true,
+      "options": [
+        {"id": "quote", "name": "I'd like a quote"},
+        {"id": "regular_schedule", "name": "I want a regular cleaner"},
+        {"id": "not_listed", "name": "My cleaning need isn't listed"}
+      ]
+    }
+  ]
+}

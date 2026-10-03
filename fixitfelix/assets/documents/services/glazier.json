@@ -1,0 +1,242 @@
+{
+  "service": "glazier",
+  "title": "What glazing help do you need?",
+  "subtitle": "Select the area that best describes your issue",
+  "categories": [
+    {
+      "id": "window_replacement",
+      "name": "Window Replacement",
+      "icon": "squareStack",
+      "description": "Replace old or damaged windows",
+      "options": [
+        {
+          "id": "single_window",
+          "name": "Single window replacement",
+          "description": "Replace one window"
+        },
+        {
+          "id": "multiple_windows",
+          "name": "Multiple window replacement",
+          "description": "Replace several windows",
+          "options": [
+            {"id": "2_to_5", "name": "2–5 windows"},
+            {"id": "6_to_10", "name": "6–10 windows"},
+            {"id": "more_than_10", "name": "More than 10 windows"}
+          ]
+        },
+        {
+          "id": "upgrade_glazing",
+          "name": "Upgrade to double/triple glazing",
+          "description": "Improve energy efficiency"
+        },
+        {
+          "id": "sash_window",
+          "name": "Sash window replacement",
+          "description": "Replace or restore sash windows"
+        },
+        {
+          "id": "bay_window",
+          "name": "Bay/bow window replacement",
+          "description": "Replace bay or bow windows"
+        }
+      ]
+    },
+    {
+      "id": "door_installation",
+      "name": "Door Installation",
+      "icon": "doorOpen",
+      "description": "New doors and door glazing",
+      "options": [
+        {
+          "id": "front_door",
+          "name": "Front door",
+          "description": "Install or replace front door",
+          "options": [
+            {"id": "composite_door", "name": "Composite door"},
+            {"id": "upvc_door", "name": "uPVC door"},
+            {"id": "timber_door", "name": "Timber door"},
+            {"id": "aluminium_door", "name": "Aluminium door"}
+          ]
+        },
+        {
+          "id": "back_door",
+          "name": "Back door",
+          "description": "Install or replace back door"
+        },
+        {
+          "id": "patio_door",
+          "name": "Patio / sliding door",
+          "description": "Install sliding or patio doors"
+        },
+        {
+          "id": "french_doors",
+          "name": "French doors",
+          "description": "Install or replace French doors"
+        },
+        {
+          "id": "bifold_doors",
+          "name": "Bi-fold doors",
+          "description": "Install bi-fold doors"
+        }
+      ]
+    },
+    {
+      "id": "double_triple_glazing",
+      "name": "Double / Triple Glazing",
+      "icon": "layers",
+      "description": "Upgrade or install insulated glazing",
+      "options": [
+        {
+          "id": "double_glazing_new",
+          "name": "New double glazing throughout",
+          "description": "Full house double glazing"
+        },
+        {
+          "id": "triple_glazing",
+          "name": "Triple glazing installation",
+          "description": "Maximum insulation glazing"
+        },
+        {
+          "id": "secondary_glazing",
+          "name": "Secondary glazing",
+          "description": "Add a second layer to existing windows"
+        },
+        {
+          "id": "misted_unit",
+          "name": "Misted/blown double glazing unit",
+          "description": "Replace failed sealed unit"
+        }
+      ]
+    },
+    {
+      "id": "glass_repairs",
+      "name": "Glass Repairs",
+      "icon": "wrench",
+      "description": "Fix broken or damaged glass",
+      "options": [
+        {
+          "id": "cracked_glass",
+          "name": "Cracked glass",
+          "description": "Repair or replace cracked pane"
+        },
+        {
+          "id": "broken_glass",
+          "name": "Broken glass",
+          "description": "Replace shattered pane"
+        },
+        {
+          "id": "foggy_glass",
+          "name": "Foggy/condensation between panes",
+          "description": "Seal failure in double glazing"
+        },
+        {
+          "id": "window_lock",
+          "name": "Window lock/handle repair",
+          "description": "Fix faulty window hardware"
+        },
+        {
+          "id": "window_hinge",
+          "name": "Window hinge repair",
+          "description": "Fix stiff or broken hinges"
+        }
+      ]
+    },
+    {
+      "id": "conservatories",
+      "name": "Conservatories",
+      "icon": "house",
+      "description": "Conservatory glazing and repairs",
+      "options": [
+        {
+          "id": "new_conservatory",
+          "name": "New conservatory",
+          "description": "Full conservatory installation"
+        },
+        {
+          "id": "conservatory_roof",
+          "name": "Conservatory roof replacement",
+          "description": "Replace glass or polycarbonate roof"
+        },
+        {
+          "id": "conservatory_repair",
+          "name": "Conservatory repair",
+          "description": "Fix leaks, panels, or seals"
+        },
+        {
+          "id": "orangery",
+          "name": "Orangery glazing",
+          "description": "Orangery installation or repairs"
+        }
+      ]
+    },
+    {
+      "id": "roof_windows",
+      "name": "Roof Windows / Skylights",
+      "icon": "sun",
+      "description": "Overhead glazing installation and repairs",
+      "options": [
+        {
+          "id": "install_skylight",
+          "name": "Install skylight",
+          "description": "Fit a new roof window",
+          "options": [
+            {"id": "velux", "name": "VELUX window"},
+            {"id": "flat_roof_light", "name": "Flat roof light"},
+            {"id": "sun_tunnel", "name": "Sun tunnel"}
+          ]
+        },
+        {
+          "id": "replace_skylight",
+          "name": "Replace skylight",
+          "description": "Swap old roof window"
+        },
+        {
+          "id": "skylight_leak",
+          "name": "Leaking skylight",
+          "description": "Fix a leaking roof window"
+        }
+      ]
+    },
+    {
+      "id": "emergency",
+      "name": "Emergency Boarding Up",
+      "icon": "siren",
+      "urgent": true,
+      "description": "Urgent glazing repairs and boarding",
+      "options": [
+        {
+          "id": "board_up_window",
+          "name": "Board up broken window",
+          "description": "Emergency window boarding"
+        },
+        {
+          "id": "board_up_door",
+          "name": "Board up broken door",
+          "description": "Emergency door boarding"
+        },
+        {
+          "id": "emergency_glass",
+          "name": "Emergency glass replacement",
+          "description": "Same-day glass fitting"
+        },
+        {
+          "id": "break_in_damage",
+          "name": "Break-in damage repair",
+          "description": "Repair glazing after burglary"
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "name": "Other / I'm not sure",
+      "icon": "messageSquare",
+      "description": "Something else or need advice",
+      "requiresDescription": true,
+      "options": [
+        {"id": "general_advice", "name": "I need advice first"},
+        {"id": "multiple_jobs", "name": "I have multiple jobs"},
+        {"id": "not_listed", "name": "My issue isn't listed"}
+      ]
+    }
+  ]
+}

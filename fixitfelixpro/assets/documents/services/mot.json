@@ -1,0 +1,115 @@
+{
+  "service": "mot",
+  "title": "What MOT help do you need?",
+  "subtitle": "Select the type of MOT service you need",
+  "categories": [
+    {
+      "id": "mot_test",
+      "name": "MOT Test",
+      "icon": "clipboardCheck",
+      "description": "Annual MOT test",
+      "options": [
+        {
+          "id": "class4",
+          "name": "Class 4 (Car / Van up to 3000kg)",
+          "description": "Standard car or small van MOT"
+        },
+        {
+          "id": "class7",
+          "name": "Class 7 (Van 3000-3500kg)",
+          "description": "Large van MOT"
+        },
+        {
+          "id": "motorcycle_mot",
+          "name": "Motorcycle",
+          "description": "Motorcycle MOT test"
+        }
+      ]
+    },
+    {
+      "id": "mot_repairs",
+      "name": "MOT Failure Repairs",
+      "icon": "wrench",
+      "description": "Fix issues that caused MOT failure",
+      "options": [
+        {
+          "id": "lights_fail",
+          "name": "Lights / Bulbs",
+          "description": "Failed on lighting issues"
+        },
+        {
+          "id": "brakes_fail",
+          "name": "Brakes",
+          "description": "Failed on brake issues"
+        },
+        {
+          "id": "tyres_fail",
+          "name": "Tyres",
+          "description": "Failed on tyre issues"
+        },
+        {
+          "id": "exhaust_fail",
+          "name": "Exhaust / Emissions",
+          "description": "Failed on exhaust or emissions"
+        },
+        {
+          "id": "suspension_fail",
+          "name": "Suspension",
+          "description": "Failed on suspension issues"
+        },
+        {
+          "id": "multiple_fail",
+          "name": "Multiple failures",
+          "description": "Failed on several items"
+        }
+      ]
+    },
+    {
+      "id": "pre_mot",
+      "name": "Pre-MOT Check",
+      "icon": "search",
+      "description": "Inspection before MOT test",
+      "options": [
+        {
+          "id": "pre_mot_check",
+          "name": "Pre-MOT inspection",
+          "description": "Full check before booking MOT"
+        },
+        {
+          "id": "pre_mot_fix",
+          "name": "Pre-MOT check and fix",
+          "description": "Check and fix any issues found"
+        }
+      ]
+    },
+    {
+      "id": "mot_retest",
+      "name": "MOT Retest",
+      "icon": "refreshCcw",
+      "description": "Retest after repairs",
+      "options": [
+        {
+          "id": "free_retest",
+          "name": "Free retest (same garage)",
+          "description": "Retest at garage that did repairs"
+        },
+        {
+          "id": "paid_retest",
+          "name": "Paid retest",
+          "description": "Retest at different garage"
+        }
+      ]
+    },
+    {
+      "id": "other_mot",
+      "name": "Other / I'm not sure",
+      "icon": "messageSquare",
+      "description": "Something else or need advice",
+      "requiresDescription": true,
+      "options": [
+        {"id": "need_advice", "name": "I need advice"},
+        {"id": "not_listed", "name": "My MOT issue isn't listed"}
+      ]
+    }
+  ]
+}

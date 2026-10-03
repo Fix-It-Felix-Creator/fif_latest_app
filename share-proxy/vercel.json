@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/q/:token/respond", "destination": "/api/share?kind=q&token=:token&respond=1" },
+    { "source": "/q/:token", "destination": "/api/share?kind=q&token=:token" },
+    { "source": "/i/:token", "destination": "/api/share?kind=i&token=:token" }
+  ]
+}

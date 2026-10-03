@@ -1,0 +1,194 @@
+{
+  "service": "gas_engineer",
+  "title": "What gas work do you need?",
+  "subtitle": "Select the area that best describes your issue",
+  "categories": [
+    {
+      "id": "gas_cooker",
+      "name": "Gas Cooker Installation",
+      "icon": "flame",
+      "description": "Install or connect gas cookers and hobs",
+      "options": [
+        {
+          "id": "install_cooker",
+          "name": "Install new gas cooker",
+          "description": "Connect a new gas cooker"
+        },
+        {
+          "id": "install_hob",
+          "name": "Install gas hob",
+          "description": "Connect a new gas hob"
+        },
+        {
+          "id": "disconnect_cooker",
+          "name": "Disconnect gas cooker",
+          "description": "Safely disconnect gas appliance"
+        },
+        {
+          "id": "cooker_bayonet",
+          "name": "Install cooker bayonet",
+          "description": "Fit a gas bayonet connection point"
+        },
+        {
+          "id": "cooker_not_working",
+          "name": "Gas cooker not working",
+          "description": "Diagnose and repair faulty cooker"
+        }
+      ]
+    },
+    {
+      "id": "gas_fire",
+      "name": "Gas Fire Servicing",
+      "icon": "thermometer",
+      "description": "Service, install or repair gas fires",
+      "options": [
+        {
+          "id": "service_gas_fire",
+          "name": "Annual gas fire service",
+          "description": "Routine safety service"
+        },
+        {
+          "id": "install_gas_fire",
+          "name": "Install gas fire",
+          "description": "Fit a new gas fire"
+        },
+        {
+          "id": "repair_gas_fire",
+          "name": "Repair gas fire",
+          "description": "Fix a faulty gas fire",
+          "options": [
+            {"id": "wont_light", "name": "Won't light"},
+            {"id": "pilot_goes_out", "name": "Pilot keeps going out"},
+            {"id": "yellow_flame", "name": "Yellow/orange flame"},
+            {"id": "smell_gas", "name": "Smell of gas when lit"}
+          ]
+        },
+        {
+          "id": "remove_gas_fire",
+          "name": "Remove gas fire",
+          "description": "Safely remove and cap off"
+        }
+      ]
+    },
+    {
+      "id": "gas_leak",
+      "name": "Gas Leak Repair",
+      "icon": "siren",
+      "urgent": true,
+      "description": "Emergency gas leak detection and repair",
+      "options": [
+        {
+          "id": "smell_gas",
+          "name": "I can smell gas",
+          "description": "Possible gas leak in property"
+        },
+        {
+          "id": "gas_alarm",
+          "name": "Gas alarm sounding",
+          "description": "Carbon monoxide or gas detector alert"
+        },
+        {
+          "id": "leak_at_meter",
+          "name": "Leak at gas meter",
+          "description": "Gas escaping near meter"
+        },
+        {
+          "id": "leak_at_appliance",
+          "name": "Leak at appliance",
+          "description": "Gas escaping from appliance connection"
+        }
+      ]
+    },
+    {
+      "id": "gas_safety",
+      "name": "Gas Safety Certificates (CP12)",
+      "icon": "clipboardCheck",
+      "description": "Annual gas safety checks and certificates",
+      "options": [
+        {
+          "id": "landlord_cp12",
+          "name": "Landlord gas safety certificate",
+          "description": "Annual CP12 for rental property"
+        },
+        {
+          "id": "homeowner_check",
+          "name": "Homeowner gas safety check",
+          "description": "Voluntary safety inspection"
+        },
+        {
+          "id": "multiple_appliances",
+          "name": "Multiple appliance check",
+          "description": "Service all gas appliances",
+          "options": [
+            {"id": "2_appliances", "name": "2 appliances"},
+            {"id": "3_appliances", "name": "3 appliances"},
+            {"id": "4_plus", "name": "4 or more appliances"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gas_meter",
+      "name": "Gas Meter Relocation",
+      "icon": "arrowRightLeft",
+      "description": "Move or upgrade gas meter",
+      "options": [
+        {
+          "id": "move_meter_internal",
+          "name": "Move meter inside property",
+          "description": "Relocate gas meter internally"
+        },
+        {
+          "id": "move_meter_external",
+          "name": "Move meter outside",
+          "description": "Relocate meter to external box"
+        },
+        {
+          "id": "meter_box",
+          "name": "Install meter box",
+          "description": "Fit new gas meter housing"
+        }
+      ]
+    },
+    {
+      "id": "new_gas_supply",
+      "name": "New Gas Supply",
+      "icon": "pipette",
+      "description": "New gas connections and pipework",
+      "options": [
+        {
+          "id": "new_gas_run",
+          "name": "Run new gas pipe",
+          "description": "Install gas supply to new location"
+        },
+        {
+          "id": "gas_to_extension",
+          "name": "Gas supply to extension",
+          "description": "Extend gas to new build area"
+        },
+        {
+          "id": "gas_to_outbuilding",
+          "name": "Gas to outbuilding",
+          "description": "Run gas to garage or shed"
+        },
+        {
+          "id": "gas_pipe_repair",
+          "name": "Gas pipe repair",
+          "description": "Fix damaged gas pipework"
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "name": "Other / I'm not sure",
+      "icon": "messageSquare",
+      "description": "Something else or need advice",
+      "requiresDescription": true,
+      "options": [
+        {"id": "general_advice", "name": "I need advice first"},
+        {"id": "multiple_jobs", "name": "I have multiple jobs"},
+        {"id": "not_listed", "name": "My issue isn't listed"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,349 @@
+{
+  "service": "tiler",
+  "title": "What tiling help do you need?",
+  "subtitle": "Select the type of tiling work you need",
+  "categories": [
+    {
+      "id": "bathroom",
+      "name": "Bathroom Tiling",
+      "icon": "bath",
+      "description": "Tiles for bathroom spaces",
+      "options": [
+        {
+          "id": "full",
+          "name": "Full bathroom tiling",
+          "description": "Walls and floor",
+          "options": [
+            {"id": "small_bathroom", "name": "Small bathroom"},
+            {"id": "medium_bathroom", "name": "Medium bathroom"},
+            {"id": "large_bathroom", "name": "Large bathroom"}
+          ]
+        },
+        {
+          "id": "shower",
+          "name": "Shower area",
+          "description": "Shower enclosure or wet room",
+          "options": [
+            {"id": "enclosure_only", "name": "Shower enclosure only"},
+            {"id": "walk_in", "name": "Walk-in shower area"},
+            {"id": "wetroom", "name": "Full wet room"}
+          ]
+        },
+        {
+          "id": "floor",
+          "name": "Bathroom floor",
+          "description": "Floor tiles only",
+          "options": [
+            {"id": "ceramic", "name": "Ceramic tiles"},
+            {"id": "porcelain", "name": "Porcelain tiles"},
+            {"id": "natural_stone", "name": "Natural stone"},
+            {"id": "vinyl_tile", "name": "Vinyl/LVT tiles"}
+          ]
+        },
+        {
+          "id": "walls",
+          "name": "Bathroom walls",
+          "description": "Wall tiles only",
+          "options": [
+            {"id": "full_height", "name": "Full height walls"},
+            {"id": "half_height", "name": "Half height/dado"},
+            {"id": "feature_wall", "name": "Feature wall only"}
+          ]
+        },
+        {
+          "id": "splashback",
+          "name": "Splashback",
+          "description": "Around basin or bath"
+        }
+      ]
+    },
+    {
+      "id": "kitchen",
+      "name": "Kitchen Tiling",
+      "icon": "chefHat",
+      "description": "Tiles for kitchen spaces",
+      "options": [
+        {
+          "id": "floor",
+          "name": "Kitchen floor",
+          "description": "Kitchen floor tiles",
+          "options": [
+            {"id": "ceramic", "name": "Ceramic tiles"},
+            {"id": "porcelain", "name": "Porcelain tiles"},
+            {"id": "natural_stone", "name": "Natural stone"},
+            {"id": "slate", "name": "Slate tiles"}
+          ]
+        },
+        {
+          "id": "splashback",
+          "name": "Splashback",
+          "description": "Behind worktops and hob",
+          "options": [
+            {"id": "metro", "name": "Metro/Subway tiles"},
+            {"id": "mosaic", "name": "Mosaic tiles"},
+            {"id": "large_format", "name": "Large format tiles"},
+            {"id": "patterned", "name": "Patterned tiles"}
+          ]
+        },
+        {
+          "id": "walls",
+          "name": "Kitchen walls",
+          "description": "Full wall tiling"
+        },
+        {
+          "id": "full",
+          "name": "Full kitchen tiling",
+          "description": "Floor and walls/splashback"
+        }
+      ]
+    },
+    {
+      "id": "floor",
+      "name": "Floor Tiling",
+      "icon": "layers",
+      "description": "Floor tiles in other areas",
+      "options": [
+        {
+          "id": "hallway",
+          "name": "Hallway",
+          "description": "Entrance and hallway floors",
+          "options": [
+            {"id": "small_hall", "name": "Small hallway"},
+            {"id": "large_hall", "name": "Large hallway"},
+            {"id": "with_stairs", "name": "Including stair landing"}
+          ]
+        },
+        {
+          "id": "conservatory",
+          "name": "Conservatory",
+          "description": "Conservatory flooring",
+          "options": [
+            {"id": "small_conservatory", "name": "Small conservatory"},
+            {"id": "large_conservatory", "name": "Large conservatory"}
+          ]
+        },
+        {
+          "id": "living",
+          "name": "Living area",
+          "description": "Living room or dining room"
+        },
+        {
+          "id": "utility",
+          "name": "Utility room",
+          "description": "Utility or laundry room"
+        },
+        {
+          "id": "multiple_rooms",
+          "name": "Multiple rooms",
+          "description": "Floor tiles throughout"
+        }
+      ]
+    },
+    {
+      "id": "wall",
+      "name": "Wall Tiling",
+      "icon": "layoutGrid",
+      "description": "Decorative wall tiles",
+      "options": [
+        {
+          "id": "feature",
+          "name": "Feature wall",
+          "description": "Decorative accent wall",
+          "options": [
+            {"id": "living_room", "name": "Living room feature"},
+            {"id": "bedroom", "name": "Bedroom feature"},
+            {"id": "dining", "name": "Dining area feature"}
+          ]
+        },
+        {
+          "id": "fireplace",
+          "name": "Fireplace surround",
+          "description": "Tiles around fireplace"
+        },
+        {
+          "id": "hearth",
+          "name": "Hearth",
+          "description": "Fireplace hearth tiles"
+        },
+        {
+          "id": "bar_area",
+          "name": "Bar/Wet bar area",
+          "description": "Home bar splash or wall"
+        }
+      ]
+    },
+    {
+      "id": "outdoor",
+      "name": "Outdoor Tiling",
+      "icon": "sun",
+      "description": "External tile installation",
+      "options": [
+        {
+          "id": "patio",
+          "name": "Patio tiling",
+          "description": "Outdoor patio area",
+          "options": [
+            {"id": "small_patio", "name": "Small patio"},
+            {"id": "medium_patio", "name": "Medium patio"},
+            {"id": "large_patio", "name": "Large patio"}
+          ]
+        },
+        {
+          "id": "pool",
+          "name": "Pool area",
+          "description": "Pool surround tiles"
+        },
+        {
+          "id": "steps",
+          "name": "Steps",
+          "description": "Outdoor steps and risers"
+        },
+        {
+          "id": "porch",
+          "name": "Porch/Entrance",
+          "description": "Front porch or entrance"
+        },
+        {
+          "id": "balcony",
+          "name": "Balcony",
+          "description": "Balcony floor tiles"
+        }
+      ]
+    },
+    {
+      "id": "specialist",
+      "name": "Specialist Tiling",
+      "icon": "star",
+      "description": "Specialty tile installations",
+      "options": [
+        {
+          "id": "mosaic",
+          "name": "Mosaic tiling",
+          "description": "Small mosaic tile installation"
+        },
+        {
+          "id": "large_format",
+          "name": "Large format tiles",
+          "description": "Tiles over 60x60cm",
+          "options": [
+            {"id": "floor_large", "name": "Floor installation"},
+            {"id": "wall_large", "name": "Wall installation"}
+          ]
+        },
+        {
+          "id": "natural_stone",
+          "name": "Natural stone",
+          "description": "Marble, granite, travertine",
+          "options": [
+            {"id": "marble", "name": "Marble tiles"},
+            {"id": "granite", "name": "Granite tiles"},
+            {"id": "travertine", "name": "Travertine tiles"},
+            {"id": "slate", "name": "Slate tiles"}
+          ]
+        },
+        {
+          "id": "underfloor_heating",
+          "name": "Over underfloor heating",
+          "description": "Tiles with UFH system"
+        },
+        {
+          "id": "levelling",
+          "name": "Floor levelling",
+          "description": "Level floor before tiling"
+        }
+      ]
+    },
+    {
+      "id": "repairs",
+      "name": "Repairs & Maintenance",
+      "icon": "wrench",
+      "description": "Fix existing tile work",
+      "options": [
+        {
+          "id": "replace",
+          "name": "Replace broken tiles",
+          "description": "Swap damaged tiles",
+          "options": [
+            {"id": "single_tile", "name": "Single tile"},
+            {"id": "few_tiles", "name": "Few tiles (2-5)"},
+            {"id": "section", "name": "Section of tiles"}
+          ]
+        },
+        {
+          "id": "regrout",
+          "name": "Re-grouting",
+          "description": "Replace old grout",
+          "options": [
+            {"id": "bathroom_regrout", "name": "Bathroom"},
+            {"id": "kitchen_regrout", "name": "Kitchen"},
+            {"id": "floor_regrout", "name": "Floor tiles"}
+          ]
+        },
+        {
+          "id": "reseal",
+          "name": "Re-sealing",
+          "description": "Seal natural stone or grout"
+        },
+        {
+          "id": "repair",
+          "name": "General repair",
+          "description": "Loose or lifting tiles"
+        },
+        {
+          "id": "mould_treatment",
+          "name": "Mould treatment",
+          "description": "Clean mouldy grout"
+        }
+      ]
+    },
+    {
+      "id": "removal",
+      "name": "Tile Removal",
+      "icon": "trash2",
+      "description": "Remove existing tiles",
+      "options": [
+        {
+          "id": "floor",
+          "name": "Remove floor tiles",
+          "description": "Strip floor tiles",
+          "options": [
+            {"id": "single_room", "name": "Single room"},
+            {"id": "multiple_rooms", "name": "Multiple rooms"}
+          ]
+        },
+        {
+          "id": "wall",
+          "name": "Remove wall tiles",
+          "description": "Strip wall tiles"
+        },
+        {
+          "id": "bathroom",
+          "name": "Strip bathroom tiles",
+          "description": "Remove all bathroom tiles"
+        },
+        {
+          "id": "kitchen",
+          "name": "Strip kitchen tiles",
+          "description": "Remove kitchen tiles"
+        },
+        {
+          "id": "make_good",
+          "name": "Make good after removal",
+          "description": "Prepare surface after stripping"
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "name": "Other / I'm not sure",
+      "icon": "messageSquare",
+      "description": "Something else or need advice",
+      "requiresDescription": true,
+      "options": [
+        {"id": "advice", "name": "I need tile advice"},
+        {"id": "quote", "name": "I'd like a quote"},
+        {"id": "not_listed", "name": "My job isn't listed"}
+      ]
+    }
+  ]
+}

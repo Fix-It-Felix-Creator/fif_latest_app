@@ -1,0 +1,128 @@
+{
+  "service": "van_assisted_moving",
+  "title": "What van assisted moving do you need?",
+  "subtitle": "Tell us about your van move",
+  "categories": [
+    {
+      "id": "full_house_move",
+      "name": "Full House / Apartment Move",
+      "icon": "home",
+      "description": "Van and helpers for a full move",
+      "options": [
+        {
+          "id": "studio_1bed",
+          "name": "Studio / 1 bedroom",
+          "description": "Small property move"
+        },
+        {
+          "id": "2_3bed",
+          "name": "2-3 bedrooms",
+          "description": "Medium property move"
+        },
+        {
+          "id": "4plus_bed",
+          "name": "4+ bedrooms",
+          "description": "Large property move"
+        }
+      ]
+    },
+    {
+      "id": "few_large_items",
+      "name": "Few Large Items",
+      "icon": "package",
+      "description": "Transport a few big items by van",
+      "options": [
+        {
+          "id": "sofa",
+          "name": "Sofa / Large furniture",
+          "description": "Sofa, wardrobe, dining table, etc."
+        },
+        {
+          "id": "appliances",
+          "name": "Appliances",
+          "description": "Fridge, washing machine, oven, etc."
+        },
+        {
+          "id": "mixed_items",
+          "name": "Mix of large items",
+          "description": "Several large items to transport"
+        }
+      ]
+    },
+    {
+      "id": "single_large_item",
+      "name": "Single Large Item",
+      "icon": "truck",
+      "description": "Transport one big item",
+      "options": [
+        {
+          "id": "furniture_single",
+          "name": "Furniture piece",
+          "description": "One large furniture item"
+        },
+        {
+          "id": "appliance_single",
+          "name": "Large appliance",
+          "description": "One large appliance"
+        },
+        {
+          "id": "other_single",
+          "name": "Other large item",
+          "description": "Another type of large item"
+        }
+      ]
+    },
+    {
+      "id": "office_move",
+      "name": "Office / Commercial Move",
+      "icon": "briefcase",
+      "description": "Van move for business or office",
+      "options": [
+        {
+          "id": "small_office",
+          "name": "Small office",
+          "description": "Desks, chairs, equipment"
+        },
+        {
+          "id": "full_office",
+          "name": "Full office relocation",
+          "description": "Complete office move"
+        }
+      ]
+    },
+    {
+      "id": "collection_delivery",
+      "name": "Collection & Delivery",
+      "icon": "package",
+      "description": "Pick up and deliver items",
+      "options": [
+        {
+          "id": "shop_collection",
+          "name": "Shop / Store collection",
+          "description": "Collect from a shop and deliver"
+        },
+        {
+          "id": "marketplace_pickup",
+          "name": "Marketplace pickup",
+          "description": "Collect item bought online"
+        },
+        {
+          "id": "tip_run",
+          "name": "Tip / Dump run",
+          "description": "Dispose of large items"
+        }
+      ]
+    },
+    {
+      "id": "other_van",
+      "name": "Other / I'm not sure",
+      "icon": "messageSquare",
+      "description": "Something else or need advice",
+      "requiresDescription": true,
+      "options": [
+        {"id": "need_advice", "name": "I need advice on my van move"},
+        {"id": "not_listed", "name": "My move type isn't listed"}
+      ]
+    }
+  ]
+}

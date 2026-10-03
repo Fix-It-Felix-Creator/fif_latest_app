@@ -1,0 +1,22 @@
+{
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "redirects": [
+      {
+        "source": "/q/:rest*",
+        "destination": "https://nhghuurzmwoirnjkpvaa.supabase.co/functions/v1/api/q/:rest*",
+        "type": 302
+      },
+      {
+        "source": "/i/:rest*",
+        "destination": "https://nhghuurzmwoirnjkpvaa.supabase.co/functions/v1/api/i/:rest*",
+        "type": 302
+      }
+    ]
+  }
+}

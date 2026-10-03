@@ -1,0 +1,266 @@
+{
+  "service": "labourer",
+  "title": "What labouring help do you need?",
+  "subtitle": "Select the type of work you need done",
+  "categories": [
+    {
+      "id": "site_clearance",
+      "name": "Site Clearance",
+      "icon": "trash2",
+      "description": "Clearing and preparing sites",
+      "options": [
+        {
+          "id": "garden_clearance",
+          "name": "Garden clearance",
+          "description": "Clear overgrown or cluttered garden",
+          "options": [
+            {"id": "small_garden", "name": "Small garden"},
+            {"id": "medium_garden", "name": "Medium garden"},
+            {"id": "large_garden", "name": "Large garden"}
+          ]
+        },
+        {
+          "id": "rubbish_removal",
+          "name": "Rubbish removal",
+          "description": "Remove waste and rubbish from site",
+          "options": [
+            {"id": "household_waste", "name": "Household waste"},
+            {"id": "building_rubble", "name": "Building rubble"},
+            {"id": "green_waste", "name": "Green waste"},
+            {"id": "mixed_waste", "name": "Mixed waste"}
+          ]
+        },
+        {
+          "id": "garage_shed_clearance",
+          "name": "Garage/Shed clearance",
+          "description": "Clear out garage, shed or outbuilding"
+        },
+        {
+          "id": "house_clearance",
+          "name": "House clearance",
+          "description": "Clear contents of a property",
+          "options": [
+            {"id": "single_room", "name": "Single room"},
+            {"id": "multiple_rooms", "name": "Multiple rooms"},
+            {"id": "full_house", "name": "Full house"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "demolition",
+      "name": "Demolition & Strip-out",
+      "icon": "hammer",
+      "description": "Breaking down and removing structures",
+      "options": [
+        {
+          "id": "wall_removal",
+          "name": "Wall removal",
+          "description": "Remove non-structural walls",
+          "options": [
+            {"id": "partition_wall", "name": "Stud/Partition wall"},
+            {"id": "half_wall", "name": "Half wall"},
+            {"id": "block_wall", "name": "Blockwork wall (non-structural)"}
+          ]
+        },
+        {
+          "id": "kitchen_strip",
+          "name": "Kitchen strip-out",
+          "description": "Remove old kitchen units and fittings"
+        },
+        {
+          "id": "bathroom_strip",
+          "name": "Bathroom strip-out",
+          "description": "Remove old bathroom suite and tiles"
+        },
+        {
+          "id": "floor_removal",
+          "name": "Floor removal",
+          "description": "Remove old flooring",
+          "options": [
+            {"id": "carpet", "name": "Carpet and underlay"},
+            {"id": "vinyl", "name": "Vinyl/Lino"},
+            {"id": "tiles", "name": "Floor tiles"},
+            {"id": "laminate", "name": "Laminate/Engineered wood"}
+          ]
+        },
+        {
+          "id": "shed_demolition",
+          "name": "Shed/Outbuilding demolition",
+          "description": "Take down and remove an outbuilding"
+        }
+      ]
+    },
+    {
+      "id": "heavy_lifting",
+      "name": "Heavy Lifting & Moving",
+      "icon": "package",
+      "description": "Moving heavy items and materials",
+      "options": [
+        {
+          "id": "furniture_moving",
+          "name": "Furniture moving",
+          "description": "Move heavy furniture within a property",
+          "options": [
+            {"id": "same_room", "name": "Within same room"},
+            {"id": "different_room", "name": "To another room"},
+            {"id": "upstairs_downstairs", "name": "Between floors"}
+          ]
+        },
+        {
+          "id": "appliance_moving",
+          "name": "Appliance moving",
+          "description": "Move heavy appliances"
+        },
+        {
+          "id": "materials_handling",
+          "name": "Materials delivery/handling",
+          "description": "Move building materials on site",
+          "options": [
+            {"id": "bags_aggregate", "name": "Bags of aggregate/cement"},
+            {"id": "timber", "name": "Timber/Boards"},
+            {"id": "bricks_blocks", "name": "Bricks/Blocks"},
+            {"id": "plasterboard", "name": "Plasterboard"}
+          ]
+        },
+        {
+          "id": "van_help",
+          "name": "Van-assisted moving",
+          "description": "Help loading/unloading a van"
+        }
+      ]
+    },
+    {
+      "id": "digging",
+      "name": "Digging & Groundwork",
+      "icon": "shovel",
+      "description": "Manual digging and ground preparation",
+      "options": [
+        {
+          "id": "trench_digging",
+          "name": "Trench digging",
+          "description": "Dig trenches for drainage, cables or foundations",
+          "options": [
+            {"id": "short_trench", "name": "Short trench (under 5m)"},
+            {"id": "medium_trench", "name": "Medium trench (5-15m)"},
+            {"id": "long_trench", "name": "Long trench (over 15m)"}
+          ]
+        },
+        {
+          "id": "post_holes",
+          "name": "Post holes",
+          "description": "Dig holes for fence posts or pillars",
+          "options": [
+            {"id": "few_holes", "name": "Few holes (1-5)"},
+            {"id": "several_holes", "name": "Several holes (6-15)"},
+            {"id": "many_holes", "name": "Many holes (15+)"}
+          ]
+        },
+        {
+          "id": "ground_levelling",
+          "name": "Ground levelling",
+          "description": "Level uneven ground manually"
+        },
+        {
+          "id": "turf_removal",
+          "name": "Turf/Topsoil removal",
+          "description": "Strip turf or remove topsoil"
+        },
+        {
+          "id": "concrete_breaking",
+          "name": "Concrete breaking",
+          "description": "Break up old concrete or paving",
+          "options": [
+            {"id": "small_area", "name": "Small area (under 5m\u00b2)"},
+            {"id": "medium_area", "name": "Medium area (5-15m\u00b2)"},
+            {"id": "large_area", "name": "Large area (over 15m\u00b2)"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "construction_support",
+      "name": "Construction Support",
+      "icon": "construction",
+      "description": "Helping on building sites",
+      "options": [
+        {
+          "id": "mixing",
+          "name": "Mixing cement/mortar",
+          "description": "Manual cement or mortar mixing"
+        },
+        {
+          "id": "fetching_carrying",
+          "name": "Fetching & carrying",
+          "description": "General site labouring support"
+        },
+        {
+          "id": "site_tidying",
+          "name": "Site tidying",
+          "description": "Keep site clean and organised"
+        },
+        {
+          "id": "skip_loading",
+          "name": "Skip loading",
+          "description": "Load waste into skips"
+        },
+        {
+          "id": "general_helper",
+          "name": "General helper",
+          "description": "Extra pair of hands on site",
+          "options": [
+            {"id": "half_day", "name": "Half day"},
+            {"id": "full_day", "name": "Full day"},
+            {"id": "multiple_days", "name": "Multiple days"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "painting_prep",
+      "name": "Painting & Prep Work",
+      "icon": "paintbrush",
+      "description": "Surface preparation and basic painting",
+      "options": [
+        {
+          "id": "sanding",
+          "name": "Sanding surfaces",
+          "description": "Sand walls, woodwork or floors"
+        },
+        {
+          "id": "stripping",
+          "name": "Wallpaper stripping",
+          "description": "Remove old wallpaper"
+        },
+        {
+          "id": "filling",
+          "name": "Filling & making good",
+          "description": "Fill cracks and holes"
+        },
+        {
+          "id": "basic_painting",
+          "name": "Basic painting",
+          "description": "Simple painting tasks (fences, sheds, etc.)",
+          "options": [
+            {"id": "fence_painting", "name": "Fence painting/staining"},
+            {"id": "shed_painting", "name": "Shed painting"},
+            {"id": "gate_painting", "name": "Gate painting"},
+            {"id": "wall_painting", "name": "Wall painting (simple)"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "name": "Other / I'm not sure",
+      "icon": "messageSquare",
+      "description": "Something else or need advice",
+      "requiresDescription": true,
+      "options": [
+        {"id": "day_rate", "name": "I need a labourer for the day"},
+        {"id": "multiple_tasks", "name": "I have multiple tasks"},
+        {"id": "not_listed", "name": "My job isn't listed"}
+      ]
+    }
+  ]
+}

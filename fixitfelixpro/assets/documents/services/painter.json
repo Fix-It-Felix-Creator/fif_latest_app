@@ -1,0 +1,298 @@
+{
+  "service": "painter",
+  "title": "What painting help do you need?",
+  "subtitle": "Select the type of painting work you need",
+  "categories": [
+    {
+      "id": "interior",
+      "name": "Interior Painting",
+      "icon": "paintbrush",
+      "description": "Walls, ceilings, and woodwork inside",
+      "options": [
+        {
+          "id": "single_room",
+          "name": "Single room",
+          "description": "Paint one room",
+          "options": [
+            {"id": "bedroom", "name": "Bedroom"},
+            {"id": "living_room", "name": "Living room"},
+            {"id": "kitchen", "name": "Kitchen"},
+            {"id": "bathroom", "name": "Bathroom"},
+            {"id": "hallway", "name": "Hallway/Landing"},
+            {"id": "other_room", "name": "Other room"}
+          ]
+        },
+        {
+          "id": "multiple_rooms",
+          "name": "Multiple rooms",
+          "description": "Paint several rooms",
+          "options": [
+            {"id": "two_three_rooms", "name": "2-3 rooms"},
+            {"id": "four_five_rooms", "name": "4-5 rooms"},
+            {"id": "whole_floor", "name": "Whole floor"}
+          ]
+        },
+        {
+          "id": "whole_house",
+          "name": "Whole house interior",
+          "description": "Complete interior repaint"
+        },
+        {
+          "id": "ceilings",
+          "name": "Ceilings only",
+          "description": "Paint ceilings throughout",
+          "options": [
+            {"id": "single_ceiling", "name": "Single ceiling"},
+            {"id": "multiple_ceilings", "name": "Multiple ceilings"},
+            {"id": "all_ceilings", "name": "All ceilings"}
+          ]
+        },
+        {
+          "id": "woodwork",
+          "name": "Woodwork",
+          "description": "Doors, skirting, and trim",
+          "options": [
+            {"id": "doors_only", "name": "Doors only"},
+            {"id": "skirting", "name": "Skirting boards"},
+            {"id": "window_frames", "name": "Window frames"},
+            {"id": "all_woodwork", "name": "All woodwork"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exterior",
+      "name": "Exterior Painting",
+      "icon": "home",
+      "description": "Outside walls, windows, and doors",
+      "options": [
+        {
+          "id": "house_exterior",
+          "name": "House exterior",
+          "description": "Paint outside walls",
+          "options": [
+            {"id": "full_house", "name": "Full house exterior"},
+            {"id": "front_only", "name": "Front of house"},
+            {"id": "back_only", "name": "Back of house"},
+            {"id": "one_wall", "name": "One wall/section"}
+          ]
+        },
+        {
+          "id": "windows_frames",
+          "name": "Windows & frames",
+          "description": "Paint window frames",
+          "options": [
+            {"id": "all_windows", "name": "All windows"},
+            {"id": "selected_windows", "name": "Selected windows"},
+            {"id": "front_windows", "name": "Front windows only"}
+          ]
+        },
+        {
+          "id": "doors",
+          "name": "Front / Back door",
+          "description": "Paint external doors",
+          "options": [
+            {"id": "front_door", "name": "Front door"},
+            {"id": "back_door", "name": "Back door"},
+            {"id": "both_doors", "name": "Both doors"},
+            {"id": "garage_door", "name": "Garage door"}
+          ]
+        },
+        {
+          "id": "fascias_soffits",
+          "name": "Fascias & soffits",
+          "description": "Paint roofline boards"
+        },
+        {
+          "id": "fence_gate",
+          "name": "Fence / Gate",
+          "description": "Paint garden fencing",
+          "options": [
+            {"id": "fence_panels", "name": "Fence panels"},
+            {"id": "gate_only", "name": "Gate only"},
+            {"id": "fence_and_gate", "name": "Fence and gate"}
+          ]
+        },
+        {
+          "id": "shed_outbuilding",
+          "name": "Shed / Outbuilding",
+          "description": "Paint outdoor structures"
+        }
+      ]
+    },
+    {
+      "id": "wallpapering",
+      "name": "Wallpapering",
+      "icon": "image",
+      "description": "Hang, strip, or repair wallpaper",
+      "options": [
+        {
+          "id": "hang_wallpaper",
+          "name": "Hang wallpaper",
+          "description": "Apply new wallpaper",
+          "options": [
+            {"id": "single_room_wp", "name": "Single room"},
+            {"id": "multiple_rooms_wp", "name": "Multiple rooms"},
+            {"id": "designer_wp", "name": "Designer/Expensive paper"}
+          ]
+        },
+        {
+          "id": "strip_wallpaper",
+          "name": "Strip wallpaper",
+          "description": "Remove old wallpaper",
+          "options": [
+            {"id": "strip_single", "name": "Single room"},
+            {"id": "strip_multiple", "name": "Multiple rooms"},
+            {"id": "strip_stubborn", "name": "Stubborn/Multiple layers"}
+          ]
+        },
+        {
+          "id": "feature_wall",
+          "name": "Feature wall",
+          "description": "Statement wallpaper wall"
+        },
+        {
+          "id": "lining_paper",
+          "name": "Lining paper",
+          "description": "Apply lining paper"
+        },
+        {
+          "id": "wallpaper_repair",
+          "name": "Wallpaper repair",
+          "description": "Fix peeling or damaged areas"
+        }
+      ]
+    },
+    {
+      "id": "preparation",
+      "name": "Preparation Work",
+      "icon": "wrench",
+      "description": "Surface prep before painting",
+      "options": [
+        {
+          "id": "filling",
+          "name": "Filling cracks & holes",
+          "description": "Fill and smooth surfaces",
+          "options": [
+            {"id": "minor_fills", "name": "Minor cracks/holes"},
+            {"id": "major_fills", "name": "Major repairs needed"},
+            {"id": "textured_ceiling", "name": "Textured ceiling removal"}
+          ]
+        },
+        {
+          "id": "sanding",
+          "name": "Sanding",
+          "description": "Sand surfaces smooth"
+        },
+        {
+          "id": "priming",
+          "name": "Priming",
+          "description": "Prime bare surfaces",
+          "options": [
+            {"id": "bare_plaster", "name": "Bare plaster"},
+            {"id": "bare_wood", "name": "Bare wood"},
+            {"id": "stain_block", "name": "Stain blocking"}
+          ]
+        },
+        {
+          "id": "mould_treatment",
+          "name": "Mould treatment",
+          "description": "Treat and paint over mould"
+        },
+        {
+          "id": "damp_repair",
+          "name": "Damp stain repair",
+          "description": "Treat and cover damp stains"
+        }
+      ]
+    },
+    {
+      "id": "specialist",
+      "name": "Specialist Finishes",
+      "icon": "sparkles",
+      "description": "Special painting techniques",
+      "options": [
+        {
+          "id": "spray_painting",
+          "name": "Spray painting",
+          "description": "Professional spray finish",
+          "options": [
+            {"id": "spray_walls", "name": "Walls and ceilings"},
+            {"id": "spray_cabinets", "name": "Cabinets/Furniture"},
+            {"id": "spray_exterior", "name": "Exterior surfaces"}
+          ]
+        },
+        {
+          "id": "kitchen_respray",
+          "name": "Kitchen cabinet respray",
+          "description": "Transform kitchen units",
+          "options": [
+            {"id": "all_cabinets", "name": "All cabinets"},
+            {"id": "doors_only", "name": "Doors and drawer fronts"},
+            {"id": "include_frames", "name": "Include cabinet frames"}
+          ]
+        },
+        {
+          "id": "furniture_painting",
+          "name": "Furniture painting",
+          "description": "Paint furniture pieces"
+        },
+        {
+          "id": "radiator_painting",
+          "name": "Radiator painting",
+          "description": "Paint radiators"
+        },
+        {
+          "id": "floor_painting",
+          "name": "Floor painting",
+          "description": "Paint concrete or wooden floors"
+        }
+      ]
+    },
+    {
+      "id": "commercial",
+      "name": "Commercial",
+      "icon": "building",
+      "description": "Business and rental properties",
+      "options": [
+        {
+          "id": "office",
+          "name": "Office painting",
+          "description": "Commercial office space"
+        },
+        {
+          "id": "shop_retail",
+          "name": "Shop / Retail",
+          "description": "Retail premises"
+        },
+        {
+          "id": "landlord",
+          "name": "Landlord / Rental property",
+          "description": "Rental property refresh",
+          "options": [
+            {"id": "between_tenants", "name": "Between tenants"},
+            {"id": "periodic_refresh", "name": "Periodic refresh"},
+            {"id": "full_refurb", "name": "Full refurbishment"}
+          ]
+        },
+        {
+          "id": "restaurant_bar",
+          "name": "Restaurant / Bar",
+          "description": "Hospitality venue"
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "name": "Other / I'm not sure",
+      "icon": "messageSquare",
+      "description": "Something else or need advice",
+      "requiresDescription": true,
+      "options": [
+        {"id": "colour_advice", "name": "I need colour advice"},
+        {"id": "multiple_jobs", "name": "I have multiple jobs"},
+        {"id": "not_listed", "name": "My job isn't listed"}
+      ]
+    }
+  ]
+}

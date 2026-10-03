@@ -1,0 +1,123 @@
+{
+  "service": "help_moving",
+  "title": "What help moving do you need?",
+  "subtitle": "Tell us about your move",
+  "categories": [
+    {
+      "id": "house_move",
+      "name": "House / Apartment Move",
+      "icon": "home",
+      "description": "Help moving between homes",
+      "options": [
+        {
+          "id": "full_move",
+          "name": "Full move (all rooms)",
+          "description": "Move everything from one place to another"
+        },
+        {
+          "id": "partial_move",
+          "name": "Partial move (few rooms)",
+          "description": "Move items from selected rooms"
+        },
+        {
+          "id": "single_room",
+          "name": "Single room move",
+          "description": "Move items from one room"
+        }
+      ]
+    },
+    {
+      "id": "single_item",
+      "name": "Single / Few Items",
+      "icon": "package",
+      "description": "Move specific items",
+      "options": [
+        {
+          "id": "furniture_item",
+          "name": "Furniture",
+          "description": "Sofa, bed, wardrobe, table, etc."
+        },
+        {
+          "id": "appliance_item",
+          "name": "Appliance",
+          "description": "Washing machine, fridge, etc."
+        },
+        {
+          "id": "multiple_items",
+          "name": "Multiple items",
+          "description": "A few large or heavy items"
+        }
+      ]
+    },
+    {
+      "id": "office_move",
+      "name": "Office / Workspace Move",
+      "icon": "briefcase",
+      "description": "Help moving office or workspace",
+      "options": [
+        {
+          "id": "small_office",
+          "name": "Small office / desk setup",
+          "description": "Desks, chairs, monitors"
+        },
+        {
+          "id": "full_office",
+          "name": "Full office move",
+          "description": "Complete office relocation"
+        }
+      ]
+    },
+    {
+      "id": "storage_move",
+      "name": "Storage Unit Move",
+      "icon": "warehouse",
+      "description": "Moving items to or from storage",
+      "options": [
+        {
+          "id": "to_storage",
+          "name": "Moving to storage",
+          "description": "Pack and move items into storage"
+        },
+        {
+          "id": "from_storage",
+          "name": "Moving from storage",
+          "description": "Collect items from storage"
+        }
+      ]
+    },
+    {
+      "id": "packing_help",
+      "name": "Packing & Unpacking",
+      "icon": "package",
+      "description": "Help with packing or unpacking",
+      "options": [
+        {
+          "id": "packing_only",
+          "name": "Packing only",
+          "description": "Help packing items into boxes"
+        },
+        {
+          "id": "unpacking_only",
+          "name": "Unpacking only",
+          "description": "Help unpacking at new location"
+        },
+        {
+          "id": "both_packing",
+          "name": "Both packing & unpacking",
+          "description": "Full packing and unpacking service"
+        }
+      ]
+    },
+    {
+      "id": "other_moving",
+      "name": "Other / I'm not sure",
+      "icon": "messageSquare",
+      "description": "Something else or need advice",
+      "requiresDescription": true,
+      "options": [
+        {"id": "need_advice", "name": "I need advice on my move"},
+        {"id": "not_listed", "name": "My move type isn't listed"}
+      ]
+    }
+  ]
+}

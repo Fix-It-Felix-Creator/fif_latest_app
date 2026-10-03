@@ -1,0 +1,148 @@
+{
+  "service": "tyres_brakes",
+  "title": "What tyres & brakes help do you need?",
+  "subtitle": "Select the type of work you need",
+  "categories": [
+    {
+      "id": "new_tyres",
+      "name": "New Tyres",
+      "icon": "circle",
+      "description": "Fit new tyres",
+      "options": [
+        {
+          "id": "single_tyre",
+          "name": "Single tyre",
+          "description": "Replace one tyre"
+        },
+        {
+          "id": "pair_tyres",
+          "name": "Pair of tyres",
+          "description": "Replace two tyres"
+        },
+        {
+          "id": "full_set",
+          "name": "Full set (4 tyres)",
+          "description": "Replace all four tyres"
+        }
+      ]
+    },
+    {
+      "id": "tyre_repair",
+      "name": "Tyre Repair",
+      "icon": "wrench",
+      "description": "Fix tyre issues",
+      "options": [
+        {
+          "id": "puncture",
+          "name": "Puncture repair",
+          "description": "Fix a punctured tyre"
+        },
+        {
+          "id": "slow_puncture",
+          "name": "Slow puncture",
+          "description": "Find and fix slow leak"
+        },
+        {
+          "id": "spare_wheel",
+          "name": "Fit spare wheel",
+          "description": "Fit spare or space saver"
+        }
+      ]
+    },
+    {
+      "id": "wheel_services",
+      "name": "Wheel Services",
+      "icon": "settings",
+      "description": "Wheel balancing and alignment",
+      "options": [
+        {
+          "id": "balance",
+          "name": "Wheel balancing",
+          "description": "Balance wheels to reduce vibration"
+        },
+        {
+          "id": "alignment",
+          "name": "Wheel alignment",
+          "description": "Four wheel alignment check"
+        },
+        {
+          "id": "tpms",
+          "name": "Tyre pressure sensor (TPMS)",
+          "description": "Fix tyre pressure monitoring"
+        }
+      ]
+    },
+    {
+      "id": "brake_pads_discs",
+      "name": "Brake Pads & Discs",
+      "icon": "circleSlash",
+      "description": "Replace brake pads and discs",
+      "options": [
+        {
+          "id": "front_pads",
+          "name": "Front brake pads",
+          "description": "Replace front pads"
+        },
+        {
+          "id": "rear_pads",
+          "name": "Rear brake pads",
+          "description": "Replace rear pads"
+        },
+        {
+          "id": "front_discs_pads",
+          "name": "Front discs & pads",
+          "description": "Replace front discs and pads"
+        },
+        {
+          "id": "rear_discs_pads",
+          "name": "Rear discs & pads",
+          "description": "Replace rear discs and pads"
+        },
+        {
+          "id": "all_brakes",
+          "name": "All brakes",
+          "description": "Full brake replacement"
+        }
+      ]
+    },
+    {
+      "id": "brake_service",
+      "name": "Brake Service & Repair",
+      "icon": "wrench",
+      "description": "Brake maintenance and repairs",
+      "options": [
+        {
+          "id": "brake_inspection",
+          "name": "Brake inspection",
+          "description": "Check brake condition"
+        },
+        {
+          "id": "brake_fluid",
+          "name": "Brake fluid change",
+          "description": "Replace brake fluid"
+        },
+        {
+          "id": "handbrake",
+          "name": "Handbrake repair",
+          "description": "Fix handbrake issues"
+        },
+        {
+          "id": "calipers",
+          "name": "Brake calipers",
+          "description": "Repair or replace calipers"
+        }
+      ]
+    },
+    {
+      "id": "other_tyres_brakes",
+      "name": "Other / I'm not sure",
+      "icon": "messageSquare",
+      "description": "Something else or need advice",
+      "requiresDescription": true,
+      "options": [
+        {"id": "need_advice", "name": "I need advice"},
+        {"id": "not_listed", "name": "My issue isn't listed"}
+      ]
+    }
+  ]
+}

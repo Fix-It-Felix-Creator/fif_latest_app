@@ -1,0 +1,118 @@
+name: fixitfelix
+description: "FixItFelix Pro Mobile Application"
+publish_to: 'none'
+
+version: 1.2.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # UI
+  shadcn_ui: ^0.40.2
+  google_fonts: ^6.3.3
+  cached_network_image: ^3.4.1
+  shimmer: ^3.0.0
+
+  # Supabase (migration target)
+  supabase_flutter: ^2.8.0
+
+  # Firebase — messaging only. Everything else moved to Supabase;
+  # firebase_core is required for firebase_messaging to initialise.
+  firebase_core: ^4.2.0
+  firebase_messaging: ^16.0.3
+
+  # Auth
+  google_sign_in: 6.2.2
+  sign_in_with_apple: ^7.0.1
+  crypto: ^3.0.5
+
+  # In-App Purchase (subscriptions) — StoreKit on iOS, Play Billing on
+  # Android. Replaced Stripe (App Store Guideline 3.1.1 requires IAP for
+  # digital subscriptions). Entitlement is validated server-side.
+  in_app_purchase: ^3.2.1
+
+  # HTTP (used by backend repositories)
+  http: ^1.5.0
+  intl: ^0.20.2
+
+  # Maps — static thumbnails via Google Maps Static API (URL → image).
+  # Heavy interactive SDK removed; the key in .env drives the preview.
+
+  # State / DI
+  flutter_bloc: ^9.1.1
+  bloc: any
+  equatable: ^2.0.7
+  provider: ^6.1.5+1
+
+  # Storage / config
+  shared_preferences: ^2.5.3
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  flutter_dotenv: ^6.0.0
+
+  # Connectivity
+  connectivity_plus: ^7.0.0
+
+  # Media / input (tradesman registration uploads)
+  image_picker: ^1.1.2
+  file_picker: ^10.3.8
+  flutter_image_compress: ^2.3.0
+  mobile_scanner: ^7.1.3
+
+  # Misc
+  url_launcher: ^6.3.2
+  webview_flutter: ^4.13.0
+  path_provider: ^2.1.5
+  device_info_plus: ^11.2.0
+  package_info_plus: ^8.1.2
+  # Used for the Google logo on the sign-in/up screens. Was previously
+  # only pulled in transitively via shadcn_ui — pin it directly so a
+  # transitive change can't break the auth screens.
+  flutter_svg: ^2.2.0
+  share_plus: ^12.0.2
+  in_app_review: ^2.0.10
+
+  # Tools — video playback for the Videos tool's full-screen viewer.
+  video_player: ^2.10.0
+
+  # Tools — first-frame thumbnail extraction for the Videos tool's
+  # list (so each row shows a poster instead of a generic play icon).
+  video_thumbnail: ^0.5.6
+
+  # Quote PDF export — locally rendered, shared via OS sheet.
+  pdf: ^3.11.3
+  printing: ^5.14.2
+
+  # Local scheduled notifications (to-do daily reminder)
+  flutter_local_notifications: ^18.0.1
+  timezone: ^0.9.4
+  flutter_contacts: ^2.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/documents/
+    - assets/documents/privacy_policies.json
+    - assets/documents/terms_condition.json
+    - config/staging/.env
+    - config/production/.env
+    - assets/fonts/
+    - assets/fonts/Roboto-Regular.ttf
+    - assets/fonts/Roboto-Bold.ttf
+    - assets/documents/services/
+    - assets/images/services/
+    - assets/images/banner/

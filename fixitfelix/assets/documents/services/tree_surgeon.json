@@ -1,0 +1,288 @@
+{
+  "service": "tree_surgeon",
+  "title": "What tree surgery help do you need?",
+  "subtitle": "Select the type of tree work you need",
+  "categories": [
+    {
+      "id": "pruning",
+      "name": "Pruning & Trimming",
+      "icon": "scissors",
+      "description": "Shape and maintain trees",
+      "options": [
+        {
+          "id": "crown_reduction",
+          "name": "Crown reduction",
+          "description": "Reduce overall tree size",
+          "options": [
+            {"id": "light_reduction", "name": "Light reduction (10-20%)"},
+            {"id": "medium_reduction", "name": "Medium reduction (20-30%)"},
+            {"id": "heavy_reduction", "name": "Heavy reduction (30%+)"}
+          ]
+        },
+        {
+          "id": "crown_thinning",
+          "name": "Crown thinning",
+          "description": "Remove internal branches for light",
+          "options": [
+            {"id": "light_thin", "name": "Light thinning"},
+            {"id": "moderate_thin", "name": "Moderate thinning"}
+          ]
+        },
+        {
+          "id": "crown_lifting",
+          "name": "Crown lifting",
+          "description": "Remove lower branches",
+          "options": [
+            {"id": "lift_path", "name": "Clear pathway"},
+            {"id": "lift_road", "name": "Clear road/driveway"},
+            {"id": "lift_garden", "name": "Improve garden light"}
+          ]
+        },
+        {
+          "id": "deadwood",
+          "name": "Deadwood removal",
+          "description": "Remove dead branches for safety"
+        },
+        {
+          "id": "shaping",
+          "name": "Tree shaping",
+          "description": "Shape for aesthetic purposes"
+        },
+        {
+          "id": "pollarding",
+          "name": "Pollarding",
+          "description": "Cut back to main branches"
+        }
+      ]
+    },
+    {
+      "id": "removal",
+      "name": "Tree Removal",
+      "icon": "axe",
+      "description": "Complete tree removal",
+      "options": [
+        {
+          "id": "fell_tree",
+          "name": "Fell tree",
+          "description": "Standard tree felling",
+          "options": [
+            {"id": "small_tree", "name": "Small tree (under 6m)"},
+            {"id": "medium_tree", "name": "Medium tree (6-12m)"},
+            {"id": "large_tree", "name": "Large tree (12m+)"}
+          ]
+        },
+        {
+          "id": "section_fell",
+          "name": "Section felling",
+          "description": "Remove in sections (tight spaces)"
+        },
+        {
+          "id": "crane_removal",
+          "name": "Crane removal",
+          "description": "Removal using crane"
+        },
+        {
+          "id": "multiple_trees",
+          "name": "Multiple trees",
+          "description": "Remove several trees",
+          "options": [
+            {"id": "two_three_trees", "name": "2-3 trees"},
+            {"id": "four_plus_trees", "name": "4+ trees"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stump",
+      "name": "Stump Work",
+      "icon": "tree",
+      "description": "Deal with tree stumps",
+      "options": [
+        {
+          "id": "stump_grinding",
+          "name": "Stump grinding",
+          "description": "Grind stump below ground level",
+          "options": [
+            {"id": "single_stump", "name": "Single stump"},
+            {"id": "multiple_stumps", "name": "Multiple stumps"}
+          ]
+        },
+        {
+          "id": "stump_removal",
+          "name": "Stump removal",
+          "description": "Dig out complete stump"
+        },
+        {
+          "id": "stump_treatment",
+          "name": "Stump treatment",
+          "description": "Chemical treatment to kill stump"
+        },
+        {
+          "id": "root_removal",
+          "name": "Root removal",
+          "description": "Remove surface roots"
+        }
+      ]
+    },
+    {
+      "id": "hedges",
+      "name": "Hedge Work",
+      "icon": "trees",
+      "description": "Hedge cutting and maintenance",
+      "options": [
+        {
+          "id": "hedge_trim",
+          "name": "Hedge trimming",
+          "description": "Regular hedge cut",
+          "options": [
+            {"id": "single_hedge", "name": "Single hedge"},
+            {"id": "multiple_hedges", "name": "Multiple hedges"},
+            {"id": "all_hedges", "name": "All garden hedges"}
+          ]
+        },
+        {
+          "id": "hedge_reduction",
+          "name": "Hedge reduction",
+          "description": "Reduce hedge height/width",
+          "options": [
+            {"id": "reduce_height", "name": "Reduce height"},
+            {"id": "reduce_width", "name": "Reduce width"},
+            {"id": "reduce_both", "name": "Reduce height and width"}
+          ]
+        },
+        {
+          "id": "hedge_removal",
+          "name": "Hedge removal",
+          "description": "Remove entire hedge"
+        },
+        {
+          "id": "hedge_reshaping",
+          "name": "Hedge reshaping",
+          "description": "Restore overgrown hedge"
+        },
+        {
+          "id": "formal_hedging",
+          "name": "Formal hedge cutting",
+          "description": "Precise formal shaping"
+        }
+      ]
+    },
+    {
+      "id": "planting",
+      "name": "Tree Planting",
+      "icon": "leaf",
+      "description": "Plant new trees",
+      "options": [
+        {
+          "id": "plant_single",
+          "name": "Plant single tree",
+          "description": "Plant one tree",
+          "options": [
+            {"id": "small_tree", "name": "Small/Young tree"},
+            {"id": "semi_mature", "name": "Semi-mature tree"},
+            {"id": "mature_tree", "name": "Mature tree"}
+          ]
+        },
+        {
+          "id": "plant_multiple",
+          "name": "Plant multiple trees",
+          "description": "Plant several trees"
+        },
+        {
+          "id": "tree_staking",
+          "name": "Tree staking",
+          "description": "Stake and support new trees"
+        },
+        {
+          "id": "tree_advice",
+          "name": "Tree selection advice",
+          "description": "Help choose right tree"
+        }
+      ]
+    },
+    {
+      "id": "health",
+      "name": "Tree Health",
+      "icon": "heartPulse",
+      "description": "Tree inspection and treatment",
+      "options": [
+        {
+          "id": "tree_inspection",
+          "name": "Tree inspection",
+          "description": "Health check for tree"
+        },
+        {
+          "id": "disease_treatment",
+          "name": "Disease treatment",
+          "description": "Treat tree diseases",
+          "options": [
+            {"id": "fungal_disease", "name": "Fungal disease"},
+            {"id": "pest_treatment", "name": "Pest treatment"},
+            {"id": "general_disease", "name": "General disease"}
+          ]
+        },
+        {
+          "id": "tree_report",
+          "name": "Tree report",
+          "description": "Written tree assessment"
+        },
+        {
+          "id": "safety_assessment",
+          "name": "Safety assessment",
+          "description": "Check tree safety"
+        },
+        {
+          "id": "bs5837_survey",
+          "name": "BS5837 survey",
+          "description": "Survey for planning applications"
+        }
+      ]
+    },
+    {
+      "id": "emergency",
+      "name": "Emergency",
+      "icon": "siren",
+      "urgent": true,
+      "description": "Urgent tree situations",
+      "options": [
+        {
+          "id": "storm_damage",
+          "name": "Storm damage",
+          "description": "Tree damaged by storm"
+        },
+        {
+          "id": "fallen_tree",
+          "name": "Fallen tree",
+          "description": "Tree has fallen",
+          "options": [
+            {"id": "blocking_access", "name": "Blocking access"},
+            {"id": "on_property", "name": "On building/vehicle"},
+            {"id": "on_fence", "name": "On fence/garden"}
+          ]
+        },
+        {
+          "id": "dangerous_tree",
+          "name": "Dangerous tree",
+          "description": "Tree at risk of falling"
+        },
+        {
+          "id": "hanging_branch",
+          "name": "Hanging branch",
+          "description": "Dangerous hanging limb"
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "name": "Other / I'm not sure",
+      "icon": "messageSquare",
+      "description": "Something else or need advice",
+      "requiresDescription": true,
+      "options": [
+        {"id": "tpo_advice", "name": "I need TPO advice"},
+        {"id": "neighbour_tree", "name": "Neighbour's tree issue"},
+        {"id": "not_listed", "name": "My job isn't listed"}
+      ]
+    }
+  ]
+}

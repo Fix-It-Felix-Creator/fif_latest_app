@@ -1,0 +1,403 @@
+{
+  "service": "plumber",
+  "title": "What plumbing help do you need?",
+  "subtitle": "Select the area that best describes your issue",
+  "categories": [
+    {
+      "id": "heating",
+      "name": "Heating & Hot Water",
+      "icon": "flame",
+      "description": "Boilers, radiators, and hot water systems",
+      "options": [
+        {
+          "id": "boiler_install",
+          "name": "Install new boiler",
+          "description": "Fit a brand new boiler system",
+          "options": [
+            {"id": "gas_boiler", "name": "Gas boiler"},
+            {"id": "electric_boiler", "name": "Electric boiler"},
+            {"id": "oil_boiler", "name": "Oil boiler"},
+            {"id": "combi_boiler", "name": "Combi boiler"},
+            {"id": "system_boiler", "name": "System boiler"},
+            {"id": "not_sure_boiler", "name": "Not sure - need advice"}
+          ]
+        },
+        {
+          "id": "boiler_repair",
+          "name": "Repair boiler",
+          "description": "Fix an existing boiler issue",
+          "options": [
+            {"id": "no_heating", "name": "No heating"},
+            {"id": "no_hot_water", "name": "No hot water"},
+            {"id": "leaking_boiler", "name": "Boiler is leaking"},
+            {"id": "strange_noise", "name": "Making strange noises"},
+            {"id": "error_code", "name": "Showing error code"},
+            {"id": "low_pressure", "name": "Low pressure"},
+            {"id": "pilot_light", "name": "Pilot light keeps going out"}
+          ]
+        },
+        {
+          "id": "boiler_service",
+          "name": "Service boiler",
+          "description": "Annual service and safety check"
+        },
+        {
+          "id": "radiator_work",
+          "name": "Radiator work",
+          "description": "Install, move, or repair radiators",
+          "options": [
+            {"id": "install_radiator", "name": "Install new radiator"},
+            {"id": "replace_radiator", "name": "Replace old radiator"},
+            {"id": "move_radiator", "name": "Move radiator location"},
+            {"id": "radiator_not_heating", "name": "Radiator not heating up"},
+            {"id": "radiator_leak", "name": "Radiator is leaking"},
+            {"id": "bleed_radiators", "name": "Bleed radiators"},
+            {"id": "thermostatic_valve", "name": "Thermostatic valve issue"}
+          ]
+        },
+        {
+          "id": "underfloor_heating",
+          "name": "Underfloor heating",
+          "description": "Install or repair underfloor heating",
+          "options": [
+            {"id": "install_ufh", "name": "Install new system"},
+            {"id": "repair_ufh", "name": "Repair existing system"},
+            {"id": "ufh_not_working", "name": "System not working"}
+          ]
+        },
+        {
+          "id": "hot_water_cylinder",
+          "name": "Hot water cylinder",
+          "description": "Install, replace, or repair cylinder",
+          "options": [
+            {"id": "install_cylinder", "name": "Install new cylinder"},
+            {"id": "replace_cylinder", "name": "Replace old cylinder"},
+            {"id": "cylinder_not_heating", "name": "Not heating properly"},
+            {"id": "cylinder_leak", "name": "Cylinder is leaking"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bathroom",
+      "name": "Bathroom",
+      "icon": "bath",
+      "description": "Toilets, sinks, baths, and showers",
+      "options": [
+        {
+          "id": "toilet",
+          "name": "Toilet",
+          "description": "Toilet installation or repairs",
+          "options": [
+            {"id": "install_toilet", "name": "Install new toilet"},
+            {"id": "replace_toilet", "name": "Replace existing toilet"},
+            {"id": "toilet_not_flushing", "name": "Not flushing properly"},
+            {"id": "toilet_running", "name": "Constantly running"},
+            {"id": "toilet_leaking", "name": "Leaking at base"},
+            {"id": "toilet_blocked", "name": "Blocked toilet"}
+          ]
+        },
+        {
+          "id": "sink_basin",
+          "name": "Sink / Basin",
+          "description": "Sink installation or repairs",
+          "options": [
+            {"id": "install_sink", "name": "Install new sink"},
+            {"id": "replace_sink", "name": "Replace existing sink"},
+            {"id": "sink_leaking", "name": "Sink is leaking"},
+            {"id": "sink_blocked", "name": "Sink is blocked"},
+            {"id": "sink_draining_slow", "name": "Draining slowly"}
+          ]
+        },
+        {
+          "id": "bath",
+          "name": "Bath",
+          "description": "Bath installation or repairs",
+          "options": [
+            {"id": "install_bath", "name": "Install new bath"},
+            {"id": "replace_bath", "name": "Replace existing bath"},
+            {"id": "bath_leaking", "name": "Bath is leaking"},
+            {"id": "bath_blocked", "name": "Bath is blocked"},
+            {"id": "reseal_bath", "name": "Re-seal around bath"}
+          ]
+        },
+        {
+          "id": "shower",
+          "name": "Shower",
+          "description": "Shower installation or repairs",
+          "options": [
+            {"id": "install_shower", "name": "Install new shower"},
+            {"id": "replace_shower", "name": "Replace existing shower"},
+            {"id": "shower_leaking", "name": "Shower is leaking"},
+            {"id": "low_water_pressure", "name": "Low water pressure"},
+            {"id": "shower_not_heating", "name": "Not heating water"},
+            {"id": "install_shower_screen", "name": "Install shower screen"}
+          ]
+        },
+        {
+          "id": "taps",
+          "name": "Taps",
+          "description": "Tap installation or repairs",
+          "options": [
+            {"id": "install_taps", "name": "Install new taps"},
+            {"id": "replace_taps", "name": "Replace existing taps"},
+            {"id": "tap_dripping", "name": "Tap is dripping"},
+            {"id": "tap_not_working", "name": "Tap not working"},
+            {"id": "mixer_tap", "name": "Install mixer tap"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kitchen",
+      "name": "Kitchen",
+      "icon": "chefHat",
+      "description": "Kitchen sinks, taps, and appliances",
+      "options": [
+        {
+          "id": "kitchen_sink",
+          "name": "Kitchen sink",
+          "description": "Sink installation or repairs",
+          "options": [
+            {"id": "install_k_sink", "name": "Install new sink"},
+            {"id": "replace_k_sink", "name": "Replace existing sink"},
+            {"id": "k_sink_leaking", "name": "Sink is leaking"},
+            {"id": "k_sink_blocked", "name": "Sink is blocked"}
+          ]
+        },
+        {
+          "id": "kitchen_tap",
+          "name": "Kitchen tap",
+          "description": "Tap installation or repairs",
+          "options": [
+            {"id": "install_k_tap", "name": "Install new tap"},
+            {"id": "replace_k_tap", "name": "Replace existing tap"},
+            {"id": "k_tap_dripping", "name": "Tap is dripping"},
+            {"id": "k_tap_not_working", "name": "Tap not working"}
+          ]
+        },
+        {
+          "id": "dishwasher",
+          "name": "Dishwasher connection",
+          "description": "Connect or disconnect dishwasher",
+          "options": [
+            {"id": "connect_dishwasher", "name": "Connect new dishwasher"},
+            {"id": "disconnect_dishwasher", "name": "Disconnect dishwasher"},
+            {"id": "dishwasher_leak", "name": "Dishwasher is leaking"}
+          ]
+        },
+        {
+          "id": "washing_machine",
+          "name": "Washing machine connection",
+          "description": "Connect or disconnect washing machine",
+          "options": [
+            {"id": "connect_washer", "name": "Connect new washing machine"},
+            {"id": "disconnect_washer", "name": "Disconnect washing machine"},
+            {"id": "washer_leak", "name": "Washing machine is leaking"}
+          ]
+        },
+        {
+          "id": "waste_disposal",
+          "name": "Waste disposal unit",
+          "description": "Install or repair waste disposal",
+          "options": [
+            {"id": "install_disposal", "name": "Install new unit"},
+            {"id": "repair_disposal", "name": "Repair existing unit"},
+            {"id": "disposal_blocked", "name": "Unit is blocked"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pipes_leaks",
+      "name": "Pipes & Leaks",
+      "icon": "pipette",
+      "description": "Pipe repairs, leaks, and water supply",
+      "options": [
+        {
+          "id": "leak_visible",
+          "name": "I can see the leak",
+          "description": "Visible leak that needs fixing",
+          "options": [
+            {"id": "leak_under_sink", "name": "Under sink"},
+            {"id": "leak_ceiling", "name": "Coming through ceiling"},
+            {"id": "leak_wall", "name": "Coming through wall"},
+            {"id": "leak_floor", "name": "Coming through floor"},
+            {"id": "leak_pipe", "name": "From a pipe"},
+            {"id": "leak_joint", "name": "From a pipe joint"}
+          ]
+        },
+        {
+          "id": "leak_hidden",
+          "name": "I suspect a hidden leak",
+          "description": "Signs of leak but can't see source",
+          "options": [
+            {"id": "damp_patch", "name": "Damp patch on wall/ceiling"},
+            {"id": "water_bill_high", "name": "Water bill unusually high"},
+            {"id": "water_meter_running", "name": "Water meter running when taps off"},
+            {"id": "mould_smell", "name": "Mould or musty smell"}
+          ]
+        },
+        {
+          "id": "new_pipework",
+          "name": "New pipework",
+          "description": "Install new pipes or reroute existing",
+          "options": [
+            {"id": "extend_pipes", "name": "Extend existing pipes"},
+            {"id": "reroute_pipes", "name": "Reroute pipes"},
+            {"id": "new_water_supply", "name": "New water supply point"}
+          ]
+        },
+        {
+          "id": "pipe_repair",
+          "name": "Pipe repair",
+          "description": "Fix damaged or frozen pipes",
+          "options": [
+            {"id": "burst_pipe", "name": "Burst pipe"},
+            {"id": "frozen_pipe", "name": "Frozen pipe"},
+            {"id": "corroded_pipe", "name": "Corroded pipe"},
+            {"id": "noisy_pipes", "name": "Noisy pipes (water hammer)"}
+          ]
+        },
+        {
+          "id": "stopcock",
+          "name": "Stopcock / Isolation valve",
+          "description": "Repair or replace water shut-off",
+          "options": [
+            {"id": "stopcock_stuck", "name": "Stopcock is stuck"},
+            {"id": "replace_stopcock", "name": "Replace stopcock"},
+            {"id": "add_isolation", "name": "Add isolation valve"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "blockages",
+      "name": "Blockages",
+      "icon": "circleSlash",
+      "description": "Blocked drains, toilets, and pipes",
+      "options": [
+        {
+          "id": "blocked_toilet",
+          "name": "Blocked toilet",
+          "description": "Toilet won't flush or drains slowly"
+        },
+        {
+          "id": "blocked_sink",
+          "name": "Blocked sink",
+          "description": "Kitchen or bathroom sink blocked"
+        },
+        {
+          "id": "blocked_bath",
+          "name": "Blocked bath or shower",
+          "description": "Water not draining properly"
+        },
+        {
+          "id": "blocked_drain",
+          "name": "Blocked external drain",
+          "description": "Outside drain blocked or overflowing"
+        },
+        {
+          "id": "blocked_sewer",
+          "name": "Blocked sewer pipe",
+          "description": "Main sewer line blockage"
+        },
+        {
+          "id": "power_flush",
+          "name": "Power flushing",
+          "description": "Clear sludge from heating system"
+        },
+        {
+          "id": "drain_survey",
+          "name": "Drain survey (CCTV)",
+          "description": "Camera inspection of drains"
+        }
+      ]
+    },
+    {
+      "id": "outdoor",
+      "name": "Outdoor Plumbing",
+      "icon": "droplet",
+      "description": "Garden taps, outside pipes, and drainage",
+      "options": [
+        {
+          "id": "outdoor_tap",
+          "name": "Outdoor tap",
+          "description": "Install or repair garden tap",
+          "options": [
+            {"id": "install_outdoor_tap", "name": "Install new outdoor tap"},
+            {"id": "repair_outdoor_tap", "name": "Repair leaking tap"},
+            {"id": "replace_outdoor_tap", "name": "Replace old tap"}
+          ]
+        },
+        {
+          "id": "garden_irrigation",
+          "name": "Garden irrigation",
+          "description": "Install watering system"
+        },
+        {
+          "id": "outside_drain",
+          "name": "Outside drainage",
+          "description": "Fix or install outside drains",
+          "options": [
+            {"id": "drain_blocked", "name": "Drain is blocked"},
+            {"id": "drain_smell", "name": "Drain smells"},
+            {"id": "install_drain", "name": "Install new drain"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "emergency",
+      "name": "Emergency",
+      "icon": "siren",
+      "urgent": true,
+      "description": "Urgent issues needing immediate attention",
+      "options": [
+        {
+          "id": "burst_pipe_emergency",
+          "name": "Burst pipe",
+          "description": "Water spraying or flooding"
+        },
+        {
+          "id": "major_leak",
+          "name": "Major leak",
+          "description": "Significant water leak causing damage"
+        },
+        {
+          "id": "no_water",
+          "name": "No water supply",
+          "description": "Complete loss of water"
+        },
+        {
+          "id": "flooding",
+          "name": "Flooding",
+          "description": "Water flooding property"
+        },
+        {
+          "id": "boiler_emergency",
+          "name": "Boiler breakdown",
+          "description": "No heating or hot water in cold weather"
+        },
+        {
+          "id": "gas_smell",
+          "name": "Gas smell",
+          "description": "Call National Gas Emergency: 0800 111 999",
+          "warning": true
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "name": "Other / I'm not sure",
+      "icon": "messageSquare",
+      "description": "Something else or need advice",
+      "requiresDescription": true,
+      "options": [
+        {"id": "general_advice", "name": "I need advice first"},
+        {"id": "multiple_jobs", "name": "I have multiple jobs"},
+        {"id": "not_listed", "name": "My issue isn't listed"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "service": "kitchen_fitter",
+  "title": "What kitchen work do you need?",
+  "subtitle": "Select the area that best describes your requirement",
+  "categories": [
+    {
+      "id": "full_installation",
+      "name": "Full Kitchen Installation",
+      "icon": "chefHat",
+      "description": "Complete kitchen fit-out",
+      "options": [
+        {
+          "id": "new_kitchen",
+          "name": "Install brand new kitchen",
+          "description": "Full supply and fit or fit-only",
+          "options": [
+            {"id": "supply_and_fit", "name": "Supply and fit"},
+            {"id": "fit_only", "name": "Fit only (I have units)"},
+            {"id": "ikea_kitchen", "name": "IKEA kitchen fitting"},
+            {"id": "howdens_kitchen", "name": "Howdens kitchen fitting"}
+          ]
+        },
+        {
+          "id": "kitchen_refit",
+          "name": "Kitchen refit / refurbishment",
+          "description": "Replace existing kitchen"
+        },
+        {
+          "id": "kitchen_extension",
+          "name": "Kitchen in extension",
+          "description": "Fit kitchen in new extension"
+        }
+      ]
+    },
+    {
+      "id": "worktop_fitting",
+      "name": "Worktop Fitting",
+      "icon": "layers",
+      "description": "Install or replace kitchen worktops",
+      "options": [
+        {
+          "id": "laminate_worktop",
+          "name": "Laminate worktop",
+          "description": "Fit laminate worktop"
+        },
+        {
+          "id": "solid_wood",
+          "name": "Solid wood worktop",
+          "description": "Fit wooden worktop"
+        },
+        {
+          "id": "quartz_granite",
+          "name": "Quartz / granite worktop",
+          "description": "Template and fit stone worktop"
+        },
+        {
+          "id": "worktop_join",
+          "name": "Worktop join / cut-out",
+          "description": "Sink or hob cut-out"
+        },
+        {
+          "id": "worktop_replace",
+          "name": "Replace existing worktop",
+          "description": "Remove old and fit new"
+        }
+      ]
+    },
+    {
+      "id": "unit_replacement",
+      "name": "Kitchen Unit Replacement",
+      "icon": "squareStack",
+      "description": "Replace individual units or doors",
+      "options": [
+        {
+          "id": "replace_doors",
+          "name": "Replace kitchen doors",
+          "description": "New doors on existing units"
+        },
+        {
+          "id": "replace_units",
+          "name": "Replace specific units",
+          "description": "Swap individual wall or base units"
+        },
+        {
+          "id": "add_units",
+          "name": "Add extra units",
+          "description": "Fit additional cupboards or drawers"
+        },
+        {
+          "id": "drawer_repair",
+          "name": "Drawer / hinge repair",
+          "description": "Fix broken drawers or soft-close"
+        }
+      ]
+    },
+    {
+      "id": "appliance_installation",
+      "name": "Appliance Installation",
+      "icon": "refrigerator",
+      "description": "Fit built-in kitchen appliances",
+      "options": [
+        {
+          "id": "oven",
+          "name": "Built-in oven",
+          "description": "Install integrated oven"
+        },
+        {
+          "id": "hob",
+          "name": "Hob installation",
+          "description": "Fit hob into worktop"
+        },
+        {
+          "id": "dishwasher",
+          "name": "Dishwasher",
+          "description": "Fit integrated dishwasher"
+        },
+        {
+          "id": "fridge_freezer",
+          "name": "Integrated fridge/freezer",
+          "description": "Fit built-in fridge or freezer"
+        },
+        {
+          "id": "extractor",
+          "name": "Extractor / cooker hood",
+          "description": "Fit and vent extractor hood"
+        },
+        {
+          "id": "washing_machine",
+          "name": "Washing machine",
+          "description": "Plumb in and install"
+        }
+      ]
+    },
+    {
+      "id": "design_consultation",
+      "name": "Kitchen Design Consultation",
+      "icon": "pencilRuler",
+      "description": "Kitchen planning and design advice",
+      "options": [
+        {
+          "id": "measure_up",
+          "name": "Measure up and quote",
+          "description": "Visit to measure and provide quote"
+        },
+        {
+          "id": "design_advice",
+          "name": "Design advice",
+          "description": "Help plan kitchen layout"
+        },
+        {
+          "id": "feasibility",
+          "name": "Feasibility check",
+          "description": "Check what's possible in your space"
+        }
+      ]
+    },
+    {
+      "id": "demolition",
+      "name": "Kitchen Demolition / Strip Out",
+      "icon": "hammer",
+      "description": "Remove existing kitchen",
+      "options": [
+        {
+          "id": "full_strip",
+          "name": "Full kitchen strip out",
+          "description": "Remove all units, worktops, appliances"
+        },
+        {
+          "id": "partial_strip",
+          "name": "Partial strip out",
+          "description": "Remove some units or worktops"
+        },
+        {
+          "id": "dispose_waste",
+          "name": "Waste disposal",
+          "description": "Remove and dispose of old kitchen"
+        },
+        {
+          "id": "wall_prep",
+          "name": "Wall preparation",
+          "description": "Prep walls after strip out"
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "name": "Other / I'm not sure",
+      "icon": "messageSquare",
+      "description": "Something else or need advice",
+      "requiresDescription": true,
+      "options": [
+        {"id": "general_advice", "name": "I need advice first"},
+        {"id": "multiple_jobs", "name": "I have multiple jobs"},
+        {"id": "not_listed", "name": "My requirement isn't listed"}
+      ]
+    }
+  ]
+}

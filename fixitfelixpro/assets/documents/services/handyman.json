@@ -1,0 +1,327 @@
+{
+  "service": "handyman",
+  "title": "What handyman help do you need?",
+  "subtitle": "Select the type of job you need done",
+  "categories": [
+    {
+      "id": "assembly",
+      "name": "Furniture Assembly",
+      "icon": "package",
+      "description": "Build and assemble furniture",
+      "options": [
+        {
+          "id": "flat_pack",
+          "name": "Flat-pack assembly",
+          "description": "Assemble flat-pack furniture",
+          "options": [
+            {"id": "wardrobe", "name": "Wardrobe"},
+            {"id": "bed", "name": "Bed frame"},
+            {"id": "desk", "name": "Desk"},
+            {"id": "shelving_unit", "name": "Shelving unit"},
+            {"id": "chest_drawers", "name": "Chest of drawers"},
+            {"id": "dining_table", "name": "Dining table/Chairs"},
+            {"id": "multiple_items", "name": "Multiple items"}
+          ]
+        },
+        {
+          "id": "disassembly",
+          "name": "Furniture disassembly",
+          "description": "Take apart for moving"
+        },
+        {
+          "id": "furniture_repair",
+          "name": "Furniture repair",
+          "description": "Fix broken furniture",
+          "options": [
+            {"id": "wobbly_furniture", "name": "Wobbly/Unstable"},
+            {"id": "broken_part", "name": "Broken part"},
+            {"id": "drawer_issue", "name": "Drawer problem"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mounting",
+      "name": "Wall Mounting",
+      "icon": "tv",
+      "description": "Mount items on walls",
+      "options": [
+        {
+          "id": "tv_mounting",
+          "name": "TV mounting",
+          "description": "Mount TV on wall",
+          "options": [
+            {"id": "tv_bracket", "name": "Supply and fit bracket"},
+            {"id": "tv_only", "name": "Fit bracket you supply"},
+            {"id": "tv_cable_hide", "name": "Include cable hiding"}
+          ]
+        },
+        {
+          "id": "mirror_hanging",
+          "name": "Mirror hanging",
+          "description": "Hang mirrors securely",
+          "options": [
+            {"id": "small_mirror", "name": "Small mirror"},
+            {"id": "large_mirror", "name": "Large/Heavy mirror"}
+          ]
+        },
+        {
+          "id": "picture_hanging",
+          "name": "Picture hanging",
+          "description": "Hang pictures and artwork",
+          "options": [
+            {"id": "few_pictures", "name": "Few pictures (1-3)"},
+            {"id": "several_pictures", "name": "Several pictures (4-10)"},
+            {"id": "gallery_wall", "name": "Gallery wall"}
+          ]
+        },
+        {
+          "id": "shelf_install",
+          "name": "Shelf installation",
+          "description": "Fit shelves",
+          "options": [
+            {"id": "floating_shelf", "name": "Floating shelf"},
+            {"id": "bracket_shelf", "name": "Bracket shelf"},
+            {"id": "multiple_shelves", "name": "Multiple shelves"}
+          ]
+        },
+        {
+          "id": "curtain_blinds",
+          "name": "Curtain poles / Blinds",
+          "description": "Fit curtain rails or blinds",
+          "options": [
+            {"id": "curtain_pole", "name": "Curtain pole"},
+            {"id": "curtain_track", "name": "Curtain track"},
+            {"id": "roller_blind", "name": "Roller blind"},
+            {"id": "venetian_blind", "name": "Venetian blind"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "repairs",
+      "name": "General Repairs",
+      "icon": "wrench",
+      "description": "Fix things around the home",
+      "options": [
+        {
+          "id": "door_repairs",
+          "name": "Door repairs",
+          "description": "Fix door problems",
+          "options": [
+            {"id": "door_sticking", "name": "Sticking door"},
+            {"id": "door_not_closing", "name": "Won't close properly"},
+            {"id": "door_hinge", "name": "Hinge problems"},
+            {"id": "door_handle", "name": "Handle problems"},
+            {"id": "door_lock", "name": "Lock problems"}
+          ]
+        },
+        {
+          "id": "window_repairs",
+          "name": "Window repairs",
+          "description": "Fix window issues",
+          "options": [
+            {"id": "window_stuck", "name": "Window stuck"},
+            {"id": "window_handle", "name": "Handle problems"},
+            {"id": "window_seal", "name": "Seal replacement"},
+            {"id": "window_draughty", "name": "Draughty window"}
+          ]
+        },
+        {
+          "id": "drawer_repairs",
+          "name": "Drawer repairs",
+          "description": "Fix drawers",
+          "options": [
+            {"id": "drawer_stuck", "name": "Drawer stuck"},
+            {"id": "drawer_off_track", "name": "Off track/runners"},
+            {"id": "drawer_bottom", "name": "Bottom fallen out"}
+          ]
+        },
+        {
+          "id": "cupboard_repairs",
+          "name": "Cupboard repairs",
+          "description": "Fix cupboard issues",
+          "options": [
+            {"id": "door_not_closing", "name": "Door won't close"},
+            {"id": "shelf_broken", "name": "Shelf broken"},
+            {"id": "hinge_broken", "name": "Hinge broken"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bathroom",
+      "name": "Bathroom Jobs",
+      "icon": "bath",
+      "description": "Small bathroom tasks",
+      "options": [
+        {
+          "id": "toilet_seat",
+          "name": "Replace toilet seat",
+          "description": "Fit new toilet seat"
+        },
+        {
+          "id": "towel_rail",
+          "name": "Towel rail fitting",
+          "description": "Fit towel rails or rings"
+        },
+        {
+          "id": "bathroom_cabinet",
+          "name": "Bathroom cabinet",
+          "description": "Fit wall cabinet or mirror"
+        },
+        {
+          "id": "shower_screen",
+          "name": "Shower screen",
+          "description": "Install shower screen or door"
+        },
+        {
+          "id": "bathroom_accessories",
+          "name": "Bathroom accessories",
+          "description": "Fit toilet roll holder, hooks etc."
+        },
+        {
+          "id": "reseal_bathroom",
+          "name": "Re-sealing",
+          "description": "Replace silicone sealant",
+          "options": [
+            {"id": "seal_bath", "name": "Around bath"},
+            {"id": "seal_shower", "name": "Around shower"},
+            {"id": "seal_sink", "name": "Around sink"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kitchen",
+      "name": "Kitchen Jobs",
+      "icon": "chefHat",
+      "description": "Small kitchen tasks",
+      "options": [
+        {
+          "id": "replace_handles",
+          "name": "Replace handles",
+          "description": "New cabinet handles",
+          "options": [
+            {"id": "few_handles", "name": "Few handles"},
+            {"id": "all_handles", "name": "All handles"}
+          ]
+        },
+        {
+          "id": "soft_close",
+          "name": "Soft close hinges",
+          "description": "Upgrade to soft close"
+        },
+        {
+          "id": "kitchen_shelving",
+          "name": "Kitchen shelving",
+          "description": "Fit shelves or rails"
+        },
+        {
+          "id": "appliance_install",
+          "name": "Appliance installation",
+          "description": "Basic appliance fitting",
+          "options": [
+            {"id": "dishwasher", "name": "Dishwasher"},
+            {"id": "washing_machine", "name": "Washing machine"},
+            {"id": "microwave", "name": "Microwave"},
+            {"id": "extractor", "name": "Extractor hood"}
+          ]
+        },
+        {
+          "id": "fix_kickboard",
+          "name": "Fix kickboard",
+          "description": "Reattach or replace kickboards"
+        }
+      ]
+    },
+    {
+      "id": "outdoor",
+      "name": "Outdoor Jobs",
+      "icon": "home",
+      "description": "External handyman tasks",
+      "options": [
+        {
+          "id": "fence_repair",
+          "name": "Fence repair",
+          "description": "Fix damaged fencing",
+          "options": [
+            {"id": "loose_panel", "name": "Loose panel"},
+            {"id": "broken_post", "name": "Broken post"},
+            {"id": "gate_repair", "name": "Gate repair"}
+          ]
+        },
+        {
+          "id": "shed_repair",
+          "name": "Shed repair",
+          "description": "Fix shed issues"
+        },
+        {
+          "id": "gutter_clean",
+          "name": "Gutter cleaning",
+          "description": "Clear gutters and downpipes"
+        },
+        {
+          "id": "pressure_wash",
+          "name": "Pressure washing",
+          "description": "Clean paths, patios, drives"
+        },
+        {
+          "id": "letterbox",
+          "name": "Letterbox fitting",
+          "description": "Fit or replace letterbox"
+        }
+      ]
+    },
+    {
+      "id": "odd_jobs",
+      "name": "Odd Jobs",
+      "icon": "list",
+      "description": "Various small tasks",
+      "options": [
+        {
+          "id": "sealant_work",
+          "name": "Sealant replacement",
+          "description": "Replace old sealant"
+        },
+        {
+          "id": "grouting",
+          "name": "Grouting",
+          "description": "Re-grout tiles"
+        },
+        {
+          "id": "fill_holes",
+          "name": "Filling holes & cracks",
+          "description": "Fill and make good"
+        },
+        {
+          "id": "paint_touchups",
+          "name": "Paint touch-ups",
+          "description": "Small areas of painting"
+        },
+        {
+          "id": "draught_proofing",
+          "name": "Draught proofing",
+          "description": "Seal gaps and draughts"
+        },
+        {
+          "id": "childproofing",
+          "name": "Childproofing",
+          "description": "Baby gates, socket covers, etc."
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "name": "Other / I'm not sure",
+      "icon": "messageSquare",
+      "description": "Something else or need advice",
+      "requiresDescription": true,
+      "options": [
+        {"id": "multiple_jobs", "name": "I have multiple small jobs"},
+        {"id": "list_of_jobs", "name": "I have a list of things"},
+        {"id": "not_listed", "name": "My job isn't listed"}
+      ]
+    }
+  ]
+}

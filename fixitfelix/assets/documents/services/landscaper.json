@@ -1,0 +1,334 @@
+{
+  "service": "landscaper",
+  "title": "What landscaping help do you need?",
+  "subtitle": "Select the type of landscaping project",
+  "categories": [
+    {
+      "id": "design",
+      "name": "Garden Design",
+      "icon": "pencil",
+      "description": "Professional garden design services",
+      "options": [
+        {
+          "id": "full_design",
+          "name": "Full garden design",
+          "description": "Complete garden transformation",
+          "options": [
+            {"id": "small_garden", "name": "Small garden"},
+            {"id": "medium_garden", "name": "Medium garden"},
+            {"id": "large_garden", "name": "Large garden"},
+            {"id": "front_garden", "name": "Front garden only"}
+          ]
+        },
+        {
+          "id": "consultation",
+          "name": "Design consultation",
+          "description": "Professional advice and ideas"
+        },
+        {
+          "id": "planting_plan",
+          "name": "Planting plan",
+          "description": "Plant selection and layout"
+        },
+        {
+          "id": "lighting_plan",
+          "name": "Lighting plan",
+          "description": "Garden lighting design"
+        },
+        {
+          "id": "3d_design",
+          "name": "3D garden design",
+          "description": "Visualise your new garden"
+        }
+      ]
+    },
+    {
+      "id": "paving",
+      "name": "Paving & Patios",
+      "icon": "grid3x3",
+      "description": "Patios, paths, and paved areas",
+      "options": [
+        {
+          "id": "new_patio",
+          "name": "New patio",
+          "description": "Build a new patio area",
+          "options": [
+            {"id": "small_patio", "name": "Small patio (up to 20m2)"},
+            {"id": "medium_patio", "name": "Medium patio (20-40m2)"},
+            {"id": "large_patio", "name": "Large patio (40m2+)"}
+          ]
+        },
+        {
+          "id": "block_paving",
+          "name": "Block paving",
+          "description": "Interlocking block paving",
+          "options": [
+            {"id": "patio_blocks", "name": "Patio area"},
+            {"id": "path_blocks", "name": "Pathway"},
+            {"id": "drive_blocks", "name": "Driveway"}
+          ]
+        },
+        {
+          "id": "natural_stone",
+          "name": "Natural stone",
+          "description": "Premium stone paving",
+          "options": [
+            {"id": "indian_stone", "name": "Indian sandstone"},
+            {"id": "limestone", "name": "Limestone"},
+            {"id": "slate_paving", "name": "Slate"},
+            {"id": "granite_paving", "name": "Granite"}
+          ]
+        },
+        {
+          "id": "porcelain_paving",
+          "name": "Porcelain paving",
+          "description": "Modern porcelain tiles"
+        },
+        {
+          "id": "pathway",
+          "name": "Garden pathway",
+          "description": "Create or extend paths"
+        },
+        {
+          "id": "patio_repair",
+          "name": "Patio repair",
+          "description": "Fix existing paving",
+          "options": [
+            {"id": "relevel", "name": "Relevel sunken slabs"},
+            {"id": "replace_broken", "name": "Replace broken slabs"},
+            {"id": "repoint", "name": "Repoint joints"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "decking",
+      "name": "Decking",
+      "icon": "layoutGrid",
+      "description": "Wooden and composite decking",
+      "options": [
+        {
+          "id": "new_decking",
+          "name": "Build new decking",
+          "description": "New deck installation",
+          "options": [
+            {"id": "small_deck", "name": "Small deck (up to 15m2)"},
+            {"id": "medium_deck", "name": "Medium deck (15-30m2)"},
+            {"id": "large_deck", "name": "Large deck (30m2+)"},
+            {"id": "multi_level", "name": "Multi-level deck"}
+          ]
+        },
+        {
+          "id": "composite",
+          "name": "Composite decking",
+          "description": "Low-maintenance composite",
+          "options": [
+            {"id": "composite_new", "name": "New composite deck"},
+            {"id": "composite_replace", "name": "Replace timber with composite"}
+          ]
+        },
+        {
+          "id": "deck_repair",
+          "name": "Repair decking",
+          "description": "Fix existing deck",
+          "options": [
+            {"id": "replace_boards", "name": "Replace damaged boards"},
+            {"id": "fix_structure", "name": "Repair structure"},
+            {"id": "fix_wobbly", "name": "Fix wobbly/unstable deck"}
+          ]
+        },
+        {
+          "id": "deck_treatment",
+          "name": "Treat / Stain decking",
+          "description": "Protect and refresh deck"
+        }
+      ]
+    },
+    {
+      "id": "structures",
+      "name": "Garden Structures",
+      "icon": "warehouse",
+      "description": "Pergolas, walls, and features",
+      "options": [
+        {
+          "id": "pergola",
+          "name": "Pergola",
+          "description": "Build a pergola",
+          "options": [
+            {"id": "wooden_pergola", "name": "Wooden pergola"},
+            {"id": "metal_pergola", "name": "Metal pergola"},
+            {"id": "pergola_attached", "name": "Attached to house"},
+            {"id": "pergola_freestanding", "name": "Freestanding"}
+          ]
+        },
+        {
+          "id": "gazebo",
+          "name": "Gazebo",
+          "description": "Build or install gazebo"
+        },
+        {
+          "id": "raised_beds",
+          "name": "Raised beds",
+          "description": "Build raised planting beds",
+          "options": [
+            {"id": "sleeper_beds", "name": "Railway sleeper beds"},
+            {"id": "brick_beds", "name": "Brick raised beds"},
+            {"id": "metal_beds", "name": "Metal planter beds"}
+          ]
+        },
+        {
+          "id": "retaining_wall",
+          "name": "Retaining walls",
+          "description": "Build retaining structures",
+          "options": [
+            {"id": "small_wall", "name": "Small wall (under 1m)"},
+            {"id": "large_wall", "name": "Large wall (over 1m)"},
+            {"id": "sleeper_wall", "name": "Sleeper retaining wall"}
+          ]
+        },
+        {
+          "id": "garden_steps",
+          "name": "Garden steps",
+          "description": "Build outdoor steps",
+          "options": [
+            {"id": "stone_steps", "name": "Stone steps"},
+            {"id": "brick_steps", "name": "Brick steps"},
+            {"id": "sleeper_steps", "name": "Sleeper steps"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "water_features",
+      "name": "Water Features",
+      "icon": "waves",
+      "description": "Ponds, fountains, and water features",
+      "options": [
+        {
+          "id": "pond",
+          "name": "Pond installation",
+          "description": "Build a garden pond",
+          "options": [
+            {"id": "wildlife_pond", "name": "Wildlife pond"},
+            {"id": "koi_pond", "name": "Koi/Fish pond"},
+            {"id": "formal_pond", "name": "Formal pond"}
+          ]
+        },
+        {
+          "id": "fountain",
+          "name": "Fountain",
+          "description": "Install a fountain"
+        },
+        {
+          "id": "water_feature",
+          "name": "Water feature",
+          "description": "Self-contained water feature"
+        },
+        {
+          "id": "irrigation",
+          "name": "Irrigation system",
+          "description": "Automatic watering system"
+        },
+        {
+          "id": "pond_repair",
+          "name": "Pond repair",
+          "description": "Fix existing pond"
+        }
+      ]
+    },
+    {
+      "id": "planting",
+      "name": "Soft Landscaping",
+      "icon": "flower2",
+      "description": "Plants, lawns, and borders",
+      "options": [
+        {
+          "id": "planting",
+          "name": "Planting",
+          "description": "Plant shrubs and perennials",
+          "options": [
+            {"id": "full_planting", "name": "Full garden planting"},
+            {"id": "border_planting", "name": "Border planting"},
+            {"id": "container_planting", "name": "Container planting"}
+          ]
+        },
+        {
+          "id": "new_lawn",
+          "name": "New lawn",
+          "description": "Lay new lawn",
+          "options": [
+            {"id": "turf", "name": "Turf laying"},
+            {"id": "seed", "name": "Seeding"},
+            {"id": "artificial", "name": "Artificial grass"}
+          ]
+        },
+        {
+          "id": "borders",
+          "name": "Borders & beds",
+          "description": "Create or redesign borders"
+        },
+        {
+          "id": "screening",
+          "name": "Screening plants",
+          "description": "Privacy planting"
+        },
+        {
+          "id": "tree_planting",
+          "name": "Tree planting",
+          "description": "Plant trees"
+        }
+      ]
+    },
+    {
+      "id": "lighting",
+      "name": "Garden Lighting",
+      "icon": "lightbulb",
+      "description": "Outdoor lighting installation",
+      "options": [
+        {
+          "id": "install_lighting",
+          "name": "Install lighting",
+          "description": "Full lighting installation",
+          "options": [
+            {"id": "mains_lighting", "name": "Mains powered"},
+            {"id": "solar_lighting", "name": "Solar powered"},
+            {"id": "low_voltage", "name": "Low voltage system"}
+          ]
+        },
+        {
+          "id": "pathway_lights",
+          "name": "Pathway lights",
+          "description": "Light garden paths"
+        },
+        {
+          "id": "feature_lighting",
+          "name": "Feature lighting",
+          "description": "Highlight plants and features"
+        },
+        {
+          "id": "deck_lighting",
+          "name": "Deck lighting",
+          "description": "Light your decking area"
+        },
+        {
+          "id": "security_lighting",
+          "name": "Security lighting",
+          "description": "Motion sensor lights"
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "name": "Other / I'm not sure",
+      "icon": "messageSquare",
+      "description": "Something else or need advice",
+      "requiresDescription": true,
+      "options": [
+        {"id": "site_visit", "name": "I need a site visit"},
+        {"id": "design_advice", "name": "I need design advice"},
+        {"id": "multiple_jobs", "name": "I have multiple projects"},
+        {"id": "not_listed", "name": "My project isn't listed"}
+      ]
+    }
+  ]
+}

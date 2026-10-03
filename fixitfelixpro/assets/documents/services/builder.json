@@ -1,0 +1,312 @@
+{
+  "service": "builder",
+  "title": "What building work do you need?",
+  "subtitle": "Select the type of project you're planning",
+  "categories": [
+    {
+      "id": "extensions",
+      "name": "Extensions",
+      "icon": "building",
+      "description": "Add extra space to your home",
+      "options": [
+        {
+          "id": "single_storey",
+          "name": "Single storey extension",
+          "description": "Ground floor extension",
+          "options": [
+            {"id": "rear_extension", "name": "Rear extension"},
+            {"id": "side_extension", "name": "Side extension"},
+            {"id": "wrap_around", "name": "Wrap-around extension"},
+            {"id": "kitchen_extension", "name": "Kitchen extension"}
+          ]
+        },
+        {
+          "id": "double_storey",
+          "name": "Double storey extension",
+          "description": "Two-storey extension"
+        },
+        {
+          "id": "conservatory",
+          "name": "Conservatory",
+          "description": "Glass room extension",
+          "options": [
+            {"id": "new_conservatory", "name": "Build new conservatory"},
+            {"id": "replace_conservatory", "name": "Replace existing"},
+            {"id": "convert_conservatory", "name": "Convert to solid roof"}
+          ]
+        },
+        {
+          "id": "orangery",
+          "name": "Orangery",
+          "description": "Brick-built with glass roof"
+        },
+        {
+          "id": "porch",
+          "name": "Porch",
+          "description": "Front or rear porch"
+        }
+      ]
+    },
+    {
+      "id": "loft",
+      "name": "Loft Conversions",
+      "icon": "home",
+      "description": "Convert loft into living space",
+      "options": [
+        {
+          "id": "dormer",
+          "name": "Dormer loft conversion",
+          "description": "Add dormer window for headroom",
+          "options": [
+            {"id": "rear_dormer", "name": "Rear dormer"},
+            {"id": "side_dormer", "name": "Side dormer"},
+            {"id": "l_shaped_dormer", "name": "L-shaped dormer"}
+          ]
+        },
+        {
+          "id": "velux",
+          "name": "Velux/Rooflight conversion",
+          "description": "Windows within existing roof"
+        },
+        {
+          "id": "hip_to_gable",
+          "name": "Hip to gable conversion",
+          "description": "Extend hip roof to gable end"
+        },
+        {
+          "id": "mansard",
+          "name": "Mansard conversion",
+          "description": "Raise and alter roof structure"
+        },
+        {
+          "id": "loft_bedroom",
+          "name": "Loft bedroom",
+          "description": "Convert to bedroom with ensuite"
+        }
+      ]
+    },
+    {
+      "id": "garage",
+      "name": "Garage Conversions",
+      "icon": "car",
+      "description": "Convert garage to living space",
+      "options": [
+        {
+          "id": "bedroom_conversion",
+          "name": "Convert to bedroom",
+          "description": "Garage to bedroom"
+        },
+        {
+          "id": "living_room_conversion",
+          "name": "Convert to living room",
+          "description": "Extra reception room"
+        },
+        {
+          "id": "office_conversion",
+          "name": "Convert to home office",
+          "description": "Work from home space"
+        },
+        {
+          "id": "gym_conversion",
+          "name": "Convert to gym",
+          "description": "Home gym or fitness room"
+        },
+        {
+          "id": "annex",
+          "name": "Self-contained annex",
+          "description": "Independent living space"
+        }
+      ]
+    },
+    {
+      "id": "structural",
+      "name": "Structural Work",
+      "icon": "layoutGrid",
+      "description": "Walls, beams, and foundations",
+      "options": [
+        {
+          "id": "wall_removal",
+          "name": "Remove internal wall",
+          "description": "Knock through walls",
+          "options": [
+            {"id": "load_bearing", "name": "Load-bearing wall"},
+            {"id": "non_load_bearing", "name": "Non-load-bearing wall"},
+            {"id": "not_sure_wall", "name": "Not sure - need survey"}
+          ]
+        },
+        {
+          "id": "steel_beam",
+          "name": "Install steel beam (RSJ)",
+          "description": "Support for wall removal"
+        },
+        {
+          "id": "underpinning",
+          "name": "Underpinning",
+          "description": "Strengthen foundations"
+        },
+        {
+          "id": "subsidence",
+          "name": "Subsidence repairs",
+          "description": "Fix foundation movement"
+        },
+        {
+          "id": "crack_repair",
+          "name": "Structural crack repair",
+          "description": "Fix cracks in walls"
+        }
+      ]
+    },
+    {
+      "id": "brickwork",
+      "name": "Brickwork & Masonry",
+      "icon": "grid3x3",
+      "description": "Brick, block, and stonework",
+      "options": [
+        {
+          "id": "new_wall",
+          "name": "Build new wall",
+          "description": "Internal or external wall",
+          "options": [
+            {"id": "garden_wall", "name": "Garden wall"},
+            {"id": "boundary_wall", "name": "Boundary wall"},
+            {"id": "internal_wall", "name": "Internal partition"},
+            {"id": "retaining_wall", "name": "Retaining wall"}
+          ]
+        },
+        {
+          "id": "repointing",
+          "name": "Repointing",
+          "description": "Renew mortar between bricks"
+        },
+        {
+          "id": "brick_repair",
+          "name": "Brick repairs",
+          "description": "Replace damaged bricks"
+        },
+        {
+          "id": "render",
+          "name": "Rendering",
+          "description": "Apply render to walls"
+        },
+        {
+          "id": "damp_proofing",
+          "name": "Damp proofing",
+          "description": "Install or repair DPC"
+        }
+      ]
+    },
+    {
+      "id": "renovations",
+      "name": "Renovations",
+      "icon": "paintbrush",
+      "description": "Major refurbishment projects",
+      "options": [
+        {
+          "id": "full_renovation",
+          "name": "Full house renovation",
+          "description": "Complete property refurb"
+        },
+        {
+          "id": "room_renovation",
+          "name": "Room renovation",
+          "description": "Single room makeover",
+          "options": [
+            {"id": "kitchen_reno", "name": "Kitchen renovation"},
+            {"id": "bathroom_reno", "name": "Bathroom renovation"},
+            {"id": "bedroom_reno", "name": "Bedroom renovation"},
+            {"id": "living_reno", "name": "Living room renovation"}
+          ]
+        },
+        {
+          "id": "period_restoration",
+          "name": "Period restoration",
+          "description": "Restore period features"
+        },
+        {
+          "id": "new_kitchen",
+          "name": "Kitchen installation",
+          "description": "Fit new kitchen"
+        }
+      ]
+    },
+    {
+      "id": "outbuildings",
+      "name": "Outbuildings",
+      "icon": "warehouse",
+      "description": "Sheds, garages, and annexes",
+      "options": [
+        {
+          "id": "build_garage",
+          "name": "Build garage",
+          "description": "New garage construction",
+          "options": [
+            {"id": "single_garage", "name": "Single garage"},
+            {"id": "double_garage", "name": "Double garage"},
+            {"id": "detached_garage", "name": "Detached garage"}
+          ]
+        },
+        {
+          "id": "garden_room",
+          "name": "Garden room / Office",
+          "description": "Separate garden building"
+        },
+        {
+          "id": "summerhouse",
+          "name": "Summerhouse",
+          "description": "Garden summerhouse"
+        },
+        {
+          "id": "workshop",
+          "name": "Workshop",
+          "description": "Garden workshop"
+        }
+      ]
+    },
+    {
+      "id": "groundwork",
+      "name": "Groundwork",
+      "icon": "shovel",
+      "description": "Foundations, drainage, and excavation",
+      "options": [
+        {
+          "id": "foundations",
+          "name": "Foundations",
+          "description": "Dig and pour foundations"
+        },
+        {
+          "id": "drainage",
+          "name": "Drainage",
+          "description": "Install drainage system",
+          "options": [
+            {"id": "surface_drainage", "name": "Surface water drainage"},
+            {"id": "foul_drainage", "name": "Foul water drainage"},
+            {"id": "soakaway", "name": "Soakaway installation"}
+          ]
+        },
+        {
+          "id": "excavation",
+          "name": "Excavation",
+          "description": "Dig out area"
+        },
+        {
+          "id": "concrete_slab",
+          "name": "Concrete slab",
+          "description": "Pour concrete base"
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "name": "Other / I'm not sure",
+      "icon": "messageSquare",
+      "description": "Something else or need advice",
+      "requiresDescription": true,
+      "options": [
+        {"id": "site_survey", "name": "I need a site survey"},
+        {"id": "planning_advice", "name": "I need planning advice"},
+        {"id": "quote_only", "name": "I just need a quote"},
+        {"id": "not_listed", "name": "My project isn't listed"}
+      ]
+    }
+  ]
+}

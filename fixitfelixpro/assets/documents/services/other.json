@@ -1,0 +1,99 @@
+{
+  "service": "other",
+  "title": "Tell us what you need help with",
+  "subtitle": "Describe your job or select an option below",
+  "categories": [
+    {
+      "id": "general",
+      "name": "Describe Your Job",
+      "icon": "messageSquare",
+      "description": "Tell us what you need",
+      "requiresDescription": true,
+      "options": [
+        {
+          "id": "general_help",
+          "name": "I need general help",
+          "description": "General handyman or trade work"
+        },
+        {
+          "id": "multiple",
+          "name": "I need multiple tradespeople",
+          "description": "Job requires different trades"
+        },
+        {
+          "id": "not_listed",
+          "name": "My job isn't listed",
+          "description": "Can't find my service type"
+        },
+        {
+          "id": "advice",
+          "name": "I need advice first",
+          "description": "Want to discuss before booking"
+        }
+      ]
+    },
+    {
+      "id": "not_sure",
+      "name": "I'm Not Sure",
+      "icon": "helpCircle",
+      "description": "Help me find the right tradesperson",
+      "requiresDescription": true,
+      "options": [
+        {
+          "id": "which_trade",
+          "name": "Not sure which tradesperson I need",
+          "description": "Unsure of the right trade"
+        },
+        {
+          "id": "what_problem",
+          "name": "Not sure what the problem is",
+          "description": "Can see an issue but unsure of cause"
+        },
+        {
+          "id": "inspect_first",
+          "name": "I need someone to inspect first",
+          "description": "Need diagnosis before work"
+        }
+      ]
+    },
+    {
+      "id": "quote_compare",
+      "name": "Get Quotes",
+      "icon": "calculator",
+      "description": "Compare quotes from tradespeople",
+      "requiresDescription": true,
+      "options": [
+        {
+          "id": "multiple_quotes",
+          "name": "I want multiple quotes",
+          "description": "Compare prices from different trades"
+        },
+        {
+          "id": "price_check",
+          "name": "I want to check a price",
+          "description": "Verify if a quote is fair"
+        }
+      ]
+    },
+    {
+      "id": "emergency",
+      "name": "Emergency Help",
+      "icon": "siren",
+      "urgent": true,
+      "description": "Urgent help needed",
+      "requiresDescription": true,
+      "options": [
+        {
+          "id": "urgent_repair",
+          "name": "I need urgent repairs",
+          "description": "Emergency repair needed"
+        },
+        {
+          "id": "safety_concern",
+          "name": "I have a safety concern",
+          "description": "Potentially dangerous situation"
+        }
+      ]
+    }
+  ]
+}

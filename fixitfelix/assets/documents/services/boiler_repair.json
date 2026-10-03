@@ -1,0 +1,372 @@
+{
+  "service": "boiler_repair",
+  "title": "What boiler help do you need?",
+  "subtitle": "Select the type of boiler service you need",
+  "categories": [
+    {
+      "id": "repair",
+      "name": "Boiler Repair",
+      "icon": "wrench",
+      "description": "Fix boiler problems",
+      "options": [
+        {
+          "id": "no_heating",
+          "name": "No heating",
+          "description": "Boiler not providing heat",
+          "options": [
+            {"id": "no_heat_at_all", "name": "No heat at all"},
+            {"id": "intermittent", "name": "Intermittent heating"},
+            {"id": "not_reaching_temp", "name": "Not reaching temperature"}
+          ]
+        },
+        {
+          "id": "no_hot_water",
+          "name": "No hot water",
+          "description": "Hot water not working",
+          "options": [
+            {"id": "no_hw_at_all", "name": "No hot water at all"},
+            {"id": "lukewarm", "name": "Only lukewarm water"},
+            {"id": "intermittent_hw", "name": "Intermittent hot water"}
+          ]
+        },
+        {
+          "id": "leaking",
+          "name": "Boiler leaking",
+          "description": "Water leaking from boiler",
+          "options": [
+            {"id": "drip", "name": "Dripping slowly"},
+            {"id": "leak_underneath", "name": "Leaking underneath"},
+            {"id": "pressure_valve", "name": "From pressure valve"}
+          ]
+        },
+        {
+          "id": "low_pressure",
+          "name": "Low pressure",
+          "description": "Boiler pressure keeps dropping"
+        },
+        {
+          "id": "high_pressure",
+          "name": "High pressure",
+          "description": "Boiler pressure too high"
+        },
+        {
+          "id": "noisy",
+          "name": "Noisy boiler",
+          "description": "Strange sounds from boiler",
+          "options": [
+            {"id": "banging", "name": "Banging/Kettling"},
+            {"id": "gurgling", "name": "Gurgling sounds"},
+            {"id": "humming", "name": "Humming/Vibrating"},
+            {"id": "clicking", "name": "Clicking sounds"}
+          ]
+        },
+        {
+          "id": "pilot_light",
+          "name": "Pilot light issue",
+          "description": "Pilot light won't stay on"
+        },
+        {
+          "id": "error_code",
+          "name": "Error code showing",
+          "description": "Fault code on display"
+        },
+        {
+          "id": "ignition",
+          "name": "Ignition problems",
+          "description": "Boiler won't ignite"
+        }
+      ]
+    },
+    {
+      "id": "service",
+      "name": "Boiler Service",
+      "icon": "clipboardCheck",
+      "description": "Routine boiler servicing",
+      "options": [
+        {
+          "id": "annual",
+          "name": "Annual service",
+          "description": "Yearly boiler check and service"
+        },
+        {
+          "id": "landlord",
+          "name": "Landlord gas safety (CP12)",
+          "description": "Gas safety certificate for rental",
+          "options": [
+            {"id": "single_boiler", "name": "Single boiler"},
+            {"id": "multiple_appliances", "name": "Multiple gas appliances"}
+          ]
+        },
+        {
+          "id": "one_off",
+          "name": "One-off service",
+          "description": "Service outside annual schedule"
+        },
+        {
+          "id": "warranty",
+          "name": "Warranty service",
+          "description": "Service to maintain warranty"
+        },
+        {
+          "id": "first_service",
+          "name": "First service",
+          "description": "First service after installation"
+        }
+      ]
+    },
+    {
+      "id": "install",
+      "name": "Boiler Installation",
+      "icon": "flame",
+      "description": "New boiler installation",
+      "options": [
+        {
+          "id": "combi",
+          "name": "Install combi boiler",
+          "description": "Combination boiler installation",
+          "options": [
+            {"id": "new_combi", "name": "New installation"},
+            {"id": "replace_combi", "name": "Replace existing combi"},
+            {"id": "convert_to_combi", "name": "Convert from system/regular"}
+          ]
+        },
+        {
+          "id": "system",
+          "name": "Install system boiler",
+          "description": "System boiler with cylinder",
+          "options": [
+            {"id": "new_system", "name": "New installation"},
+            {"id": "replace_system", "name": "Replace existing system"}
+          ]
+        },
+        {
+          "id": "regular",
+          "name": "Install regular boiler",
+          "description": "Traditional heat-only boiler"
+        },
+        {
+          "id": "replace",
+          "name": "Replace existing boiler",
+          "description": "Swap old boiler for new",
+          "options": [
+            {"id": "same_type", "name": "Same boiler type"},
+            {"id": "different_type", "name": "Change boiler type"}
+          ]
+        },
+        {
+          "id": "relocate",
+          "name": "Relocate boiler",
+          "description": "Move boiler to new location"
+        },
+        {
+          "id": "upgrade",
+          "name": "Upgrade boiler",
+          "description": "Higher output or efficiency"
+        }
+      ]
+    },
+    {
+      "id": "brands",
+      "name": "Boiler Brands",
+      "icon": "tag",
+      "description": "Select your boiler brand",
+      "options": [
+        {
+          "id": "worcester",
+          "name": "Worcester Bosch",
+          "description": "Worcester Bosch boilers"
+        },
+        {
+          "id": "vaillant",
+          "name": "Vaillant",
+          "description": "Vaillant boilers"
+        },
+        {
+          "id": "baxi",
+          "name": "Baxi",
+          "description": "Baxi boilers"
+        },
+        {
+          "id": "ideal",
+          "name": "Ideal",
+          "description": "Ideal boilers"
+        },
+        {
+          "id": "viessmann",
+          "name": "Viessmann",
+          "description": "Viessmann boilers"
+        },
+        {
+          "id": "potterton",
+          "name": "Potterton",
+          "description": "Potterton boilers"
+        },
+        {
+          "id": "glow_worm",
+          "name": "Glow-worm",
+          "description": "Glow-worm boilers"
+        },
+        {
+          "id": "alpha",
+          "name": "Alpha",
+          "description": "Alpha boilers"
+        },
+        {
+          "id": "other_brand",
+          "name": "Other brand",
+          "description": "Another boiler brand"
+        }
+      ]
+    },
+    {
+      "id": "controls",
+      "name": "Controls & Thermostats",
+      "icon": "settings",
+      "description": "Heating controls and smart thermostats",
+      "options": [
+        {
+          "id": "smart",
+          "name": "Smart thermostat",
+          "description": "WiFi connected thermostat",
+          "options": [
+            {"id": "nest", "name": "Google Nest"},
+            {"id": "hive", "name": "Hive"},
+            {"id": "tado", "name": "Tado"},
+            {"id": "drayton_wiser", "name": "Drayton Wiser"},
+            {"id": "other_smart", "name": "Other brand"}
+          ]
+        },
+        {
+          "id": "room",
+          "name": "Room thermostat",
+          "description": "Standard room thermostat",
+          "options": [
+            {"id": "wired", "name": "Wired thermostat"},
+            {"id": "wireless", "name": "Wireless thermostat"}
+          ]
+        },
+        {
+          "id": "programmer",
+          "name": "Programmer/Timer",
+          "description": "Heating timer and programmer"
+        },
+        {
+          "id": "wireless_controls",
+          "name": "Wireless controls",
+          "description": "Upgrade to wireless system"
+        },
+        {
+          "id": "outdoor_sensor",
+          "name": "Weather compensation",
+          "description": "Outdoor sensor installation"
+        }
+      ]
+    },
+    {
+      "id": "cylinder",
+      "name": "Hot Water Cylinder",
+      "icon": "droplet",
+      "description": "Hot water cylinder work",
+      "options": [
+        {
+          "id": "install",
+          "name": "Install cylinder",
+          "description": "Fit new hot water cylinder",
+          "options": [
+            {"id": "vented", "name": "Vented cylinder"},
+            {"id": "unvented", "name": "Unvented cylinder"}
+          ]
+        },
+        {
+          "id": "replace",
+          "name": "Replace cylinder",
+          "description": "Swap existing cylinder"
+        },
+        {
+          "id": "repair",
+          "name": "Repair cylinder",
+          "description": "Fix cylinder issues",
+          "options": [
+            {"id": "immersion", "name": "Immersion heater"},
+            {"id": "thermostat", "name": "Thermostat issue"},
+            {"id": "valve", "name": "Valve problem"}
+          ]
+        },
+        {
+          "id": "upgrade",
+          "name": "Upgrade cylinder",
+          "description": "Larger or more efficient cylinder"
+        }
+      ]
+    },
+    {
+      "id": "maintenance",
+      "name": "System Maintenance",
+      "icon": "sparkles",
+      "description": "Heating system maintenance",
+      "options": [
+        {
+          "id": "powerflush",
+          "name": "Powerflush",
+          "description": "Clean heating system"
+        },
+        {
+          "id": "magnaclean",
+          "name": "MagnaClean filter",
+          "description": "Install magnetic filter"
+        },
+        {
+          "id": "repressurise",
+          "name": "Repressurise system",
+          "description": "Top up system pressure"
+        },
+        {
+          "id": "bleed_radiators",
+          "name": "Bleed radiators",
+          "description": "Release trapped air"
+        }
+      ]
+    },
+    {
+      "id": "emergency",
+      "name": "Emergency",
+      "icon": "siren",
+      "urgent": true,
+      "description": "Urgent boiler issues",
+      "options": [
+        {
+          "id": "gas_smell",
+          "name": "Gas smell",
+          "description": "Suspected gas leak - call 0800 111 999 first"
+        },
+        {
+          "id": "breakdown",
+          "name": "Boiler breakdown",
+          "description": "Complete boiler failure"
+        },
+        {
+          "id": "co_alarm",
+          "name": "CO alarm triggered",
+          "description": "Carbon monoxide alarm sounding"
+        },
+        {
+          "id": "major_leak",
+          "name": "Major water leak",
+          "description": "Significant boiler leak"
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "name": "Other / I'm not sure",
+      "icon": "messageSquare",
+      "description": "Something else or need advice",
+      "requiresDescription": true,
+      "options": [
+        {"id": "quote", "name": "I'd like a quote"},
+        {"id": "advice", "name": "I need advice on my boiler"},
+        {"id": "not_listed", "name": "My problem isn't listed"}
+      ]
+    }
+  ]
+}

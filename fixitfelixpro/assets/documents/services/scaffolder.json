@@ -1,0 +1,187 @@
+{
+  "service": "scaffolder",
+  "title": "What scaffolding do you need?",
+  "subtitle": "Select the area that best describes your requirement",
+  "categories": [
+    {
+      "id": "domestic",
+      "name": "Domestic Scaffolding",
+      "icon": "house",
+      "description": "Scaffolding for residential properties",
+      "options": [
+        {
+          "id": "house_front",
+          "name": "Front of house",
+          "description": "Scaffolding across front elevation",
+          "options": [
+            {"id": "single_storey", "name": "Single storey"},
+            {"id": "two_storey", "name": "Two storey"},
+            {"id": "three_storey", "name": "Three storey"}
+          ]
+        },
+        {
+          "id": "house_rear",
+          "name": "Rear of house",
+          "description": "Scaffolding across rear elevation"
+        },
+        {
+          "id": "chimney_access",
+          "name": "Chimney access scaffold",
+          "description": "Access to chimney for repairs"
+        },
+        {
+          "id": "roof_access",
+          "name": "Roof access scaffold",
+          "description": "Full roof access platform"
+        },
+        {
+          "id": "gutter_access",
+          "name": "Gutter/fascia access",
+          "description": "Access for guttering work"
+        }
+      ]
+    },
+    {
+      "id": "commercial",
+      "name": "Commercial Scaffolding",
+      "icon": "building2",
+      "description": "Scaffolding for commercial and industrial buildings",
+      "options": [
+        {
+          "id": "commercial_building",
+          "name": "Commercial building",
+          "description": "Office, shop, or industrial unit"
+        },
+        {
+          "id": "church_heritage",
+          "name": "Church / heritage building",
+          "description": "Sensitive or listed building access"
+        },
+        {
+          "id": "pavement_scaffold",
+          "name": "Pavement scaffold",
+          "description": "Scaffold over public footpath"
+        },
+        {
+          "id": "loading_bay",
+          "name": "Loading bay scaffold",
+          "description": "Materials loading platform"
+        }
+      ]
+    },
+    {
+      "id": "tower_scaffold",
+      "name": "Tower Scaffold Hire",
+      "icon": "layoutGrid",
+      "description": "Mobile tower scaffold rental",
+      "options": [
+        {
+          "id": "hire_tower",
+          "name": "Hire tower scaffold",
+          "description": "Rent mobile tower",
+          "options": [
+            {"id": "up_to_4m", "name": "Up to 4m"},
+            {"id": "4m_to_8m", "name": "4m to 8m"},
+            {"id": "over_8m", "name": "Over 8m"}
+          ]
+        },
+        {
+          "id": "tower_erection",
+          "name": "Erect tower scaffold",
+          "description": "Set up and make safe"
+        },
+        {
+          "id": "tower_move",
+          "name": "Move tower scaffold",
+          "description": "Relocate to different position"
+        }
+      ]
+    },
+    {
+      "id": "inspection",
+      "name": "Scaffold Inspection",
+      "icon": "clipboardCheck",
+      "description": "Safety inspections and compliance checks",
+      "options": [
+        {
+          "id": "initial_inspection",
+          "name": "Initial inspection",
+          "description": "Inspect newly erected scaffold"
+        },
+        {
+          "id": "weekly_inspection",
+          "name": "Weekly inspection",
+          "description": "Regular 7-day safety check"
+        },
+        {
+          "id": "post_weather",
+          "name": "Post-weather inspection",
+          "description": "Check after high winds or storms"
+        },
+        {
+          "id": "scaffold_report",
+          "name": "Written inspection report",
+          "description": "Formal compliance documentation"
+        }
+      ]
+    },
+    {
+      "id": "temporary_roof",
+      "name": "Temporary Roof",
+      "icon": "umbrella",
+      "description": "Temporary weather protection",
+      "options": [
+        {
+          "id": "temp_roof_install",
+          "name": "Install temporary roof",
+          "description": "Weatherproof during roof works"
+        },
+        {
+          "id": "temp_roof_extend",
+          "name": "Extend temporary roof",
+          "description": "Enlarge existing temporary roof"
+        },
+        {
+          "id": "temp_roof_remove",
+          "name": "Remove temporary roof",
+          "description": "Dismantle after works complete"
+        }
+      ]
+    },
+    {
+      "id": "dismantling",
+      "name": "Scaffold Dismantling",
+      "icon": "arrowDown",
+      "description": "Take down existing scaffolding",
+      "options": [
+        {
+          "id": "full_dismantle",
+          "name": "Full scaffold dismantle",
+          "description": "Remove all scaffolding"
+        },
+        {
+          "id": "partial_dismantle",
+          "name": "Partial dismantle",
+          "description": "Reduce or partially remove"
+        },
+        {
+          "id": "emergency_dismantle",
+          "name": "Emergency removal",
+          "description": "Urgent scaffold removal"
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "name": "Other / I'm not sure",
+      "icon": "messageSquare",
+      "description": "Something else or need advice",
+      "requiresDescription": true,
+      "options": [
+        {"id": "general_advice", "name": "I need advice first"},
+        {"id": "multiple_jobs", "name": "I have multiple jobs"},
+        {"id": "not_listed", "name": "My requirement isn't listed"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,383 @@
+{
+  "service": "electrician",
+  "title": "What electrical help do you need?",
+  "subtitle": "Select the area that best describes your issue",
+  "categories": [
+    {
+      "id": "lighting",
+      "name": "Lighting",
+      "icon": "lightbulb",
+      "description": "Light fittings, switches, and installations",
+      "options": [
+        {
+          "id": "install_light",
+          "name": "Install new light",
+          "description": "Fit a new light fixture",
+          "options": [
+            {"id": "ceiling_light", "name": "Ceiling light"},
+            {"id": "wall_light", "name": "Wall light"},
+            {"id": "pendant_light", "name": "Pendant light"},
+            {"id": "spotlight", "name": "Spotlights"},
+            {"id": "downlight", "name": "Downlights"},
+            {"id": "chandelier", "name": "Chandelier"},
+            {"id": "led_strip", "name": "LED strip lighting"}
+          ]
+        },
+        {
+          "id": "replace_light",
+          "name": "Replace existing light",
+          "description": "Swap out an old light fixture"
+        },
+        {
+          "id": "light_not_working",
+          "name": "Light not working",
+          "description": "Light won't turn on or flickers",
+          "options": [
+            {"id": "not_turning_on", "name": "Won't turn on"},
+            {"id": "flickering", "name": "Flickering"},
+            {"id": "buzzing", "name": "Buzzing noise"},
+            {"id": "intermittent", "name": "Works sometimes"}
+          ]
+        },
+        {
+          "id": "dimmer_switch",
+          "name": "Dimmer switch",
+          "description": "Install or repair dimmer",
+          "options": [
+            {"id": "install_dimmer", "name": "Install new dimmer"},
+            {"id": "replace_dimmer", "name": "Replace faulty dimmer"},
+            {"id": "dimmer_not_working", "name": "Dimmer not working"}
+          ]
+        },
+        {
+          "id": "outdoor_lighting",
+          "name": "Outdoor lighting",
+          "description": "Garden, security, and external lights",
+          "options": [
+            {"id": "security_light", "name": "Security light"},
+            {"id": "garden_light", "name": "Garden lights"},
+            {"id": "porch_light", "name": "Porch light"},
+            {"id": "motion_sensor", "name": "Motion sensor light"},
+            {"id": "driveway_light", "name": "Driveway lights"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sockets",
+      "name": "Sockets & Switches",
+      "icon": "plug",
+      "description": "Power sockets, switches, and outlets",
+      "options": [
+        {
+          "id": "add_socket",
+          "name": "Add new socket",
+          "description": "Install additional power socket",
+          "options": [
+            {"id": "single_socket", "name": "Single socket"},
+            {"id": "double_socket", "name": "Double socket"},
+            {"id": "usb_socket", "name": "Socket with USB"},
+            {"id": "outdoor_socket", "name": "Outdoor socket"}
+          ]
+        },
+        {
+          "id": "move_socket",
+          "name": "Move socket",
+          "description": "Relocate existing socket"
+        },
+        {
+          "id": "socket_not_working",
+          "name": "Socket not working",
+          "description": "Power socket has stopped working"
+        },
+        {
+          "id": "replace_socket",
+          "name": "Replace socket",
+          "description": "Swap old or damaged socket",
+          "options": [
+            {"id": "damaged_socket", "name": "Socket is damaged"},
+            {"id": "upgrade_socket", "name": "Upgrade to modern socket"},
+            {"id": "change_style", "name": "Change style/colour"}
+          ]
+        },
+        {
+          "id": "light_switch",
+          "name": "Light switch",
+          "description": "Install or repair light switch",
+          "options": [
+            {"id": "install_switch", "name": "Install new switch"},
+            {"id": "replace_switch", "name": "Replace existing switch"},
+            {"id": "switch_not_working", "name": "Switch not working"},
+            {"id": "two_way_switch", "name": "Two-way switching"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "consumer_unit",
+      "name": "Consumer Unit / Fuse Box",
+      "icon": "layoutGrid",
+      "description": "Fuse box, circuit breakers, and RCDs",
+      "options": [
+        {
+          "id": "upgrade_fusebox",
+          "name": "Upgrade fuse box",
+          "description": "Replace old fuse box with modern unit"
+        },
+        {
+          "id": "tripping",
+          "name": "Circuit keeps tripping",
+          "description": "RCD or circuit breaker keeps tripping",
+          "options": [
+            {"id": "trips_randomly", "name": "Trips randomly"},
+            {"id": "trips_specific", "name": "Trips with specific appliance"},
+            {"id": "trips_immediately", "name": "Trips immediately when reset"}
+          ]
+        },
+        {
+          "id": "add_circuit",
+          "name": "Add new circuit",
+          "description": "Install additional circuit"
+        },
+        {
+          "id": "rcd_install",
+          "name": "Install RCD protection",
+          "description": "Add safety trip switches"
+        },
+        {
+          "id": "no_power",
+          "name": "No power to circuit",
+          "description": "Part of house has no electricity"
+        }
+      ]
+    },
+    {
+      "id": "rewiring",
+      "name": "Rewiring",
+      "icon": "cable",
+      "description": "Full or partial house rewiring",
+      "options": [
+        {
+          "id": "full_rewire",
+          "name": "Full house rewire",
+          "description": "Complete electrical rewiring"
+        },
+        {
+          "id": "partial_rewire",
+          "name": "Partial rewire",
+          "description": "Rewire specific rooms or areas",
+          "options": [
+            {"id": "kitchen_rewire", "name": "Kitchen"},
+            {"id": "bathroom_rewire", "name": "Bathroom"},
+            {"id": "extension_rewire", "name": "Extension"},
+            {"id": "loft_rewire", "name": "Loft conversion"},
+            {"id": "garage_rewire", "name": "Garage/Outbuilding"}
+          ]
+        },
+        {
+          "id": "old_wiring",
+          "name": "Replace old wiring",
+          "description": "Update dangerous old cables"
+        },
+        {
+          "id": "additional_circuits",
+          "name": "Add circuits",
+          "description": "Install new circuits for high-power items"
+        }
+      ]
+    },
+    {
+      "id": "testing",
+      "name": "Testing & Certification",
+      "icon": "clipboardCheck",
+      "description": "Electrical inspections and certificates",
+      "options": [
+        {
+          "id": "eicr",
+          "name": "EICR (Electrical Certificate)",
+          "description": "Electrical Installation Condition Report"
+        },
+        {
+          "id": "pat_testing",
+          "name": "PAT Testing",
+          "description": "Portable Appliance Testing"
+        },
+        {
+          "id": "landlord_cert",
+          "name": "Landlord certificate",
+          "description": "Required safety certificate for rentals"
+        },
+        {
+          "id": "new_install_cert",
+          "name": "New installation certificate",
+          "description": "Certificate for new electrical work"
+        },
+        {
+          "id": "fault_finding",
+          "name": "Fault finding",
+          "description": "Diagnose electrical problems"
+        }
+      ]
+    },
+    {
+      "id": "appliances",
+      "name": "Appliance Installation",
+      "icon": "refrigerator",
+      "description": "Connect or install electrical appliances",
+      "options": [
+        {
+          "id": "cooker",
+          "name": "Cooker / Oven",
+          "description": "Install or connect cooker",
+          "options": [
+            {"id": "connect_cooker", "name": "Connect new cooker"},
+            {"id": "cooker_circuit", "name": "Install cooker circuit"},
+            {"id": "replace_cooker", "name": "Replace existing cooker"}
+          ]
+        },
+        {
+          "id": "hob",
+          "name": "Electric hob",
+          "description": "Install or connect hob"
+        },
+        {
+          "id": "extractor",
+          "name": "Extractor fan",
+          "description": "Install or repair extractor",
+          "options": [
+            {"id": "kitchen_extractor", "name": "Kitchen extractor"},
+            {"id": "bathroom_extractor", "name": "Bathroom extractor"},
+            {"id": "extractor_not_working", "name": "Extractor not working"}
+          ]
+        },
+        {
+          "id": "shower_unit",
+          "name": "Electric shower",
+          "description": "Install or replace electric shower"
+        },
+        {
+          "id": "towel_rail",
+          "name": "Heated towel rail",
+          "description": "Install electric towel rail"
+        },
+        {
+          "id": "water_heater",
+          "name": "Immersion heater",
+          "description": "Install or repair immersion"
+        }
+      ]
+    },
+    {
+      "id": "ev_charger",
+      "name": "EV Charger",
+      "icon": "car",
+      "description": "Electric vehicle charging point",
+      "options": [
+        {
+          "id": "install_ev",
+          "name": "Install EV charger",
+          "description": "Fit new charging point",
+          "options": [
+            {"id": "home_charger", "name": "Home charger"},
+            {"id": "workplace_charger", "name": "Workplace charger"},
+            {"id": "fast_charger", "name": "Fast charger"}
+          ]
+        },
+        {
+          "id": "ev_not_working",
+          "name": "EV charger not working",
+          "description": "Repair faulty charger"
+        },
+        {
+          "id": "ev_upgrade",
+          "name": "Upgrade charger",
+          "description": "Replace with faster/newer model"
+        },
+        {
+          "id": "ev_survey",
+          "name": "Installation survey",
+          "description": "Check if installation is possible"
+        }
+      ]
+    },
+    {
+      "id": "smart_home",
+      "name": "Smart Home",
+      "icon": "smartphone",
+      "description": "Smart switches, thermostats, and automation",
+      "options": [
+        {
+          "id": "smart_lighting",
+          "name": "Smart lighting",
+          "description": "Install smart lights or switches"
+        },
+        {
+          "id": "smart_thermostat",
+          "name": "Smart thermostat",
+          "description": "Install Nest, Hive, etc."
+        },
+        {
+          "id": "smart_doorbell",
+          "name": "Video doorbell",
+          "description": "Install Ring, Nest doorbell, etc."
+        },
+        {
+          "id": "home_automation",
+          "name": "Home automation",
+          "description": "Smart plugs, sensors, and hubs"
+        },
+        {
+          "id": "cctv",
+          "name": "CCTV installation",
+          "description": "Install security cameras"
+        }
+      ]
+    },
+    {
+      "id": "emergency",
+      "name": "Emergency",
+      "icon": "siren",
+      "urgent": true,
+      "description": "Urgent electrical issues",
+      "options": [
+        {
+          "id": "no_power",
+          "name": "Complete power loss",
+          "description": "Whole house has no electricity"
+        },
+        {
+          "id": "burning_smell",
+          "name": "Burning smell",
+          "description": "Smell of burning from electrics"
+        },
+        {
+          "id": "sparking",
+          "name": "Sparking socket/switch",
+          "description": "Visible sparks from electrical fitting"
+        },
+        {
+          "id": "electric_shock",
+          "name": "Received electric shock",
+          "description": "Shock from appliance or fitting"
+        },
+        {
+          "id": "exposed_wires",
+          "name": "Exposed wires",
+          "description": "Dangerous exposed cables"
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "name": "Other / I'm not sure",
+      "icon": "messageSquare",
+      "description": "Something else or need advice",
+      "requiresDescription": true,
+      "options": [
+        {"id": "general_advice", "name": "I need advice first"},
+        {"id": "multiple_jobs", "name": "I have multiple jobs"},
+        {"id": "not_listed", "name": "My issue isn't listed"}
+      ]
+    }
+  ]
+}

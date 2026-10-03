@@ -1,0 +1,299 @@
+{
+  "service": "plasterer",
+  "title": "What plastering help do you need?",
+  "subtitle": "Select the type of plastering work",
+  "categories": [
+    {
+      "id": "skimming",
+      "name": "Skimming",
+      "icon": "paintRoller",
+      "description": "Skim coat over existing surfaces",
+      "options": [
+        {
+          "id": "skim_room",
+          "name": "Skim a room",
+          "description": "Walls and ceiling",
+          "options": [
+            {"id": "small_room", "name": "Small room (box room/bathroom)"},
+            {"id": "medium_room", "name": "Medium room (bedroom)"},
+            {"id": "large_room", "name": "Large room (living room)"}
+          ]
+        },
+        {
+          "id": "skim_ceiling",
+          "name": "Skim ceiling only",
+          "description": "Ceiling resurfacing",
+          "options": [
+            {"id": "single_ceiling", "name": "Single ceiling"},
+            {"id": "multiple_ceilings", "name": "Multiple ceilings"}
+          ]
+        },
+        {
+          "id": "skim_walls",
+          "name": "Skim walls only",
+          "description": "Wall resurfacing"
+        },
+        {
+          "id": "multiple_rooms",
+          "name": "Multiple rooms",
+          "description": "Skim several rooms",
+          "options": [
+            {"id": "two_three_rooms", "name": "2-3 rooms"},
+            {"id": "four_plus_rooms", "name": "4+ rooms"}
+          ]
+        },
+        {
+          "id": "whole_house",
+          "name": "Whole house",
+          "description": "Complete house re-skim"
+        }
+      ]
+    },
+    {
+      "id": "repairs",
+      "name": "Plaster Repairs",
+      "icon": "wrench",
+      "description": "Fix damaged plaster",
+      "options": [
+        {
+          "id": "patch_repair",
+          "name": "Patch repairs",
+          "description": "Small area repairs",
+          "options": [
+            {"id": "small_patch", "name": "Small patch (under 1m2)"},
+            {"id": "medium_patch", "name": "Medium patch (1-2m2)"},
+            {"id": "large_patch", "name": "Large patch (over 2m2)"}
+          ]
+        },
+        {
+          "id": "crack_repair",
+          "name": "Crack repairs",
+          "description": "Fill and repair cracks",
+          "options": [
+            {"id": "hairline_cracks", "name": "Hairline cracks"},
+            {"id": "structural_cracks", "name": "Larger/Structural cracks"}
+          ]
+        },
+        {
+          "id": "hole_repair",
+          "name": "Hole repairs",
+          "description": "Fill holes in walls/ceiling",
+          "options": [
+            {"id": "small_holes", "name": "Small holes"},
+            {"id": "large_holes", "name": "Large holes"}
+          ]
+        },
+        {
+          "id": "damp_damage",
+          "name": "Damp damaged plaster",
+          "description": "Repair after water damage"
+        },
+        {
+          "id": "blown_plaster",
+          "name": "Blown plaster repair",
+          "description": "Fix plaster coming away from wall"
+        }
+      ]
+    },
+    {
+      "id": "new",
+      "name": "New Plastering",
+      "icon": "sparkles",
+      "description": "Fresh plaster on new surfaces",
+      "options": [
+        {
+          "id": "plaster_room",
+          "name": "Plaster a room",
+          "description": "New plaster throughout room"
+        },
+        {
+          "id": "extension_plastering",
+          "name": "Extension plastering",
+          "description": "Plaster new extension",
+          "options": [
+            {"id": "small_extension", "name": "Small extension"},
+            {"id": "large_extension", "name": "Large extension"}
+          ]
+        },
+        {
+          "id": "new_walls",
+          "name": "New walls / Partitions",
+          "description": "Plaster newly built walls"
+        },
+        {
+          "id": "loft_conversion",
+          "name": "Loft conversion plastering",
+          "description": "Plaster converted loft"
+        },
+        {
+          "id": "replaster",
+          "name": "Complete re-plaster",
+          "description": "Strip and re-plaster"
+        }
+      ]
+    },
+    {
+      "id": "artex",
+      "name": "Artex & Textured",
+      "icon": "layers",
+      "description": "Remove or cover textured finishes",
+      "options": [
+        {
+          "id": "remove_artex",
+          "name": "Remove Artex",
+          "description": "Strip textured finish",
+          "options": [
+            {"id": "ceiling_artex", "name": "Ceiling"},
+            {"id": "walls_artex", "name": "Walls"},
+            {"id": "both_artex", "name": "Ceiling and walls"}
+          ]
+        },
+        {
+          "id": "skim_over_artex",
+          "name": "Skim over Artex",
+          "description": "Cover textured surface",
+          "options": [
+            {"id": "skim_ceiling_artex", "name": "Ceiling"},
+            {"id": "skim_walls_artex", "name": "Walls"},
+            {"id": "skim_both_artex", "name": "Ceiling and walls"}
+          ]
+        },
+        {
+          "id": "popcorn_ceiling",
+          "name": "Popcorn ceiling removal",
+          "description": "Remove textured ceiling"
+        }
+      ]
+    },
+    {
+      "id": "rendering",
+      "name": "Rendering",
+      "icon": "home",
+      "description": "External wall rendering",
+      "options": [
+        {
+          "id": "render_house",
+          "name": "Render house exterior",
+          "description": "Full house rendering",
+          "options": [
+            {"id": "front_only", "name": "Front of house"},
+            {"id": "full_house", "name": "Full house"},
+            {"id": "one_wall", "name": "Single wall"}
+          ]
+        },
+        {
+          "id": "render_repairs",
+          "name": "Render repairs",
+          "description": "Fix damaged render",
+          "options": [
+            {"id": "patch_render", "name": "Patch repair"},
+            {"id": "crack_render", "name": "Crack repair"}
+          ]
+        },
+        {
+          "id": "monocouche",
+          "name": "Monocouche / Self-coloured",
+          "description": "Through-coloured render"
+        },
+        {
+          "id": "krend",
+          "name": "K-rend",
+          "description": "K-rend system"
+        },
+        {
+          "id": "silicone_render",
+          "name": "Silicone render",
+          "description": "Modern silicone render"
+        },
+        {
+          "id": "pebble_dash",
+          "name": "Pebble dash",
+          "description": "Pebble dash finish",
+          "options": [
+            {"id": "new_pebble_dash", "name": "New pebble dash"},
+            {"id": "repair_pebble_dash", "name": "Repair pebble dash"},
+            {"id": "remove_pebble_dash", "name": "Remove pebble dash"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coving",
+      "name": "Coving & Cornices",
+      "icon": "crown",
+      "description": "Decorative ceiling edges",
+      "options": [
+        {
+          "id": "install_coving",
+          "name": "Install coving",
+          "description": "Fit new coving",
+          "options": [
+            {"id": "single_room_coving", "name": "Single room"},
+            {"id": "multiple_rooms_coving", "name": "Multiple rooms"},
+            {"id": "whole_house_coving", "name": "Whole house"}
+          ]
+        },
+        {
+          "id": "repair_coving",
+          "name": "Repair coving",
+          "description": "Fix damaged coving"
+        },
+        {
+          "id": "cornice",
+          "name": "Install cornice",
+          "description": "Fit decorative cornice"
+        },
+        {
+          "id": "ceiling_rose",
+          "name": "Ceiling rose",
+          "description": "Fit ceiling rose"
+        }
+      ]
+    },
+    {
+      "id": "plasterboard",
+      "name": "Plasterboard",
+      "icon": "square",
+      "description": "Plasterboard installation",
+      "options": [
+        {
+          "id": "board_walls",
+          "name": "Plasterboard walls",
+          "description": "Board and skim walls"
+        },
+        {
+          "id": "board_ceiling",
+          "name": "Plasterboard ceiling",
+          "description": "Board and skim ceiling"
+        },
+        {
+          "id": "board_repair",
+          "name": "Plasterboard repair",
+          "description": "Fix damaged boards"
+        },
+        {
+          "id": "dot_and_dab",
+          "name": "Dot and dab",
+          "description": "Dry lining walls"
+        },
+        {
+          "id": "stud_wall",
+          "name": "Stud wall partition",
+          "description": "Build and plaster partition"
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "name": "Other / I'm not sure",
+      "icon": "messageSquare",
+      "description": "Something else or need advice",
+      "requiresDescription": true,
+      "options": [
+        {"id": "general_advice", "name": "I need advice first"},
+        {"id": "multiple_jobs", "name": "I have multiple jobs"},
+        {"id": "not_listed", "name": "My job isn't listed"}
+      ]
+    }
+  ]
+}

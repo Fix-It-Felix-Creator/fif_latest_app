@@ -1,0 +1,108 @@
+name: fixitfelix
+description: "Fix It Felix Customer Application"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+# Mirrors fixitfelixpro's dependency set, minus everything only the
+# tradesman side needed: in-app purchase, PDF export, media capture,
+# scanning, video, local notifications and contacts. What is left is what
+# the shared auth journey actually imports.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # UI
+  shadcn_ui: ^0.40.2
+  google_fonts: ^6.3.3
+  cached_network_image: ^3.4.1
+
+  # Tools — notes, photos, videos and files, the same feature the pro app has.
+  # These are the only native pickers this app needs; they bring the camera and
+  # photo-library permissions declared in ios/Runner/Info.plist.
+  image_picker: ^1.1.2
+  file_picker: ^10.3.8
+  video_player: ^2.10.0
+  video_thumbnail: ^0.5.6
+  shimmer: ^3.0.0
+
+  # Supabase — the same two projects the pro app points at, so both apps
+  # share one auth.users table and one profiles table.
+  supabase_flutter: ^2.8.0
+
+  # Auth
+  google_sign_in: 6.2.2
+  sign_in_with_apple: ^7.0.1
+  crypto: ^3.0.5
+
+  # HTTP (used by backend repositories)
+  http: ^1.5.0
+  intl: ^0.20.2
+
+  # State / DI
+  flutter_bloc: ^9.1.1
+  bloc: any
+  equatable: ^2.0.7
+  provider: ^6.1.5+1
+
+  # Storage / config
+  shared_preferences: ^2.5.3
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  flutter_dotenv: ^6.0.0
+
+  # Connectivity
+  connectivity_plus: ^7.0.0
+
+  # Misc
+  url_launcher: ^6.3.2
+  # Used by the delete-account screens to let someone save a copy of the
+  # deletion receipt before the account goes.
+  share_plus: ^12.0.2
+  webview_flutter: ^4.13.0
+  path_provider: ^2.1.5
+  device_info_plus: ^11.2.0
+  package_info_plus: ^8.1.2
+  # Google logo on the sign-in/up screens. Pinned directly rather than
+  # relied on transitively through shadcn_ui.
+  flutter_svg: ^2.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/documents/
+    # The service catalogue and its question flows, bundled rather than
+    # fetched. The admin panel now owns these in Supabase; this app reads the
+    # local copy until that wiring lands, so the screens can be built and
+    # judged without a network round trip.
+    - assets/documents/services/
+    - assets/images/services/
+    - assets/documents/privacy_policies.json
+    - assets/documents/terms_condition.json
+    - config/staging/.env
+    - config/production/.env
+    - assets/fonts/
+    - assets/fonts/Roboto-Regular.ttf
+    - assets/fonts/Roboto-Bold.ttf
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/fixitfelix_logo.jpeg"
+  adaptive_icon_background: "#FF6600"
+  adaptive_icon_foreground: "assets/fixitfelix_logo.jpeg"
+  remove_alpha_ios: true

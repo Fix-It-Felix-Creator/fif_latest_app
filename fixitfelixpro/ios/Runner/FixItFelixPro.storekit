@@ -1,0 +1,85 @@
+{
+  "identifier" : "9C951E6B-A78B-4AF9-8A0C-1906005208D8",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+
+  ],
+  "settings" : {
+    "_applicationInternalID" : "",
+    "_developerTeamID" : "8GNJVAT9L7",
+    "_failTransactionsEnabled" : false,
+    "_lastSynchronizedDate" : 0,
+    "_locale" : "en_GB",
+    "_storefront" : "GBR",
+    "_storeKitErrors" : [
+
+    ]
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "833B6D17-812B-420C-A28C-3A2379231A88",
+      "localizations" : [
+
+      ],
+      "name" : "Fix It Felix Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "9.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "F6CC0EC6-6AB2-481A-BE2D-62436153B233",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Standard plan, billed monthly. Unlimited invoices, quotes and customer tracking.",
+              "displayName" : "Standard (Monthly)",
+              "locale" : "en_GB"
+            }
+          ],
+          "productID" : "com.techkushx.fixitfelixpro.standard.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Standard Monthly",
+          "subscriptionGroupID" : "833B6D17-812B-420C-A28C-3A2379231A88",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "99.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "18D580FD-37A0-4DB0-92E4-34E392F409E1",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Standard plan, billed yearly. Save vs monthly.",
+              "displayName" : "Standard (Annual)",
+              "locale" : "en_GB"
+            }
+          ],
+          "productID" : "com.techkushx.fixitfelixpro.standard.yearly",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Standard Yearly",
+          "subscriptionGroupID" : "833B6D17-812B-420C-A28C-3A2379231A88",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}

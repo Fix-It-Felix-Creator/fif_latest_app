@@ -1,0 +1,25 @@
+# Root safety net. Each sub-project keeps its own .gitignore; these rules
+# apply repo-wide so a new directory cannot leak a secret by default.
+
+# Secrets / credentials
+**/.env
+**/.env.*
+!**/.env.example
+.secrets/
+**/*.jks
+**/*.keystore
+**/*.p8
+**/*.p12
+**/key.properties
+**/google-services.json
+**/GoogleService-Info.plist
+**/service-account*.json
+
+# Tooling state
+**/.vercel/
+supabase/.temp/
+.migration-data/
+
+# OS / editor
+.DS_Store
+Thumbs.db

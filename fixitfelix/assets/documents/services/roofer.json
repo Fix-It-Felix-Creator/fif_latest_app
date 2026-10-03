@@ -1,0 +1,315 @@
+{
+  "service": "roofer",
+  "title": "What roofing help do you need?",
+  "subtitle": "Select the area that best describes your issue",
+  "categories": [
+    {
+      "id": "repairs",
+      "name": "Roof Repairs",
+      "icon": "wrench",
+      "description": "Fix leaks, tiles, and damage",
+      "options": [
+        {
+          "id": "roof_leak",
+          "name": "Roof is leaking",
+          "description": "Water coming through roof",
+          "options": [
+            {"id": "leak_visible", "name": "I can see where it's leaking"},
+            {"id": "leak_unknown", "name": "Can't find the source"},
+            {"id": "leak_ceiling", "name": "Water stains on ceiling"},
+            {"id": "leak_loft", "name": "Water in loft/attic"}
+          ]
+        },
+        {
+          "id": "tiles_slates",
+          "name": "Missing or damaged tiles/slates",
+          "description": "Replace broken or missing tiles",
+          "options": [
+            {"id": "tile_missing", "name": "Tiles missing"},
+            {"id": "tile_cracked", "name": "Tiles cracked"},
+            {"id": "tile_slipped", "name": "Tiles slipped out of place"},
+            {"id": "slate_damaged", "name": "Slates damaged"}
+          ]
+        },
+        {
+          "id": "ridge_tiles",
+          "name": "Ridge tiles",
+          "description": "Repair or repoint ridge tiles",
+          "options": [
+            {"id": "ridge_loose", "name": "Ridge tiles loose"},
+            {"id": "ridge_missing", "name": "Ridge tiles missing"},
+            {"id": "repoint_ridge", "name": "Repointing needed"}
+          ]
+        },
+        {
+          "id": "flashing",
+          "name": "Flashing repairs",
+          "description": "Fix lead or metal flashing",
+          "options": [
+            {"id": "chimney_flashing", "name": "Around chimney"},
+            {"id": "wall_flashing", "name": "Against wall"},
+            {"id": "skylight_flashing", "name": "Around skylight"},
+            {"id": "valley_flashing", "name": "In valley"}
+          ]
+        },
+        {
+          "id": "storm_damage",
+          "name": "Storm damage",
+          "description": "Repairs after severe weather"
+        }
+      ]
+    },
+    {
+      "id": "new_roof",
+      "name": "New Roof",
+      "icon": "home",
+      "description": "Complete roof replacement",
+      "options": [
+        {
+          "id": "full_reroof",
+          "name": "Full re-roof",
+          "description": "Replace entire roof covering",
+          "options": [
+            {"id": "tiles", "name": "Clay or concrete tiles"},
+            {"id": "slates", "name": "Natural or artificial slates"},
+            {"id": "metal", "name": "Metal roofing"},
+            {"id": "not_sure_material", "name": "Not sure - need advice"}
+          ]
+        },
+        {
+          "id": "extension_roof",
+          "name": "Extension roof",
+          "description": "Roof for new extension"
+        },
+        {
+          "id": "garage_roof",
+          "name": "Garage / Outbuilding roof",
+          "description": "New roof for outbuilding"
+        },
+        {
+          "id": "porch_roof",
+          "name": "Porch roof",
+          "description": "New porch or canopy roof"
+        }
+      ]
+    },
+    {
+      "id": "flat_roof",
+      "name": "Flat Roofs",
+      "icon": "square",
+      "description": "Flat roof repairs and installation",
+      "options": [
+        {
+          "id": "flat_leak",
+          "name": "Flat roof leaking",
+          "description": "Water coming through flat roof"
+        },
+        {
+          "id": "flat_replace",
+          "name": "Replace flat roof",
+          "description": "New flat roof covering",
+          "options": [
+            {"id": "felt", "name": "Roofing felt"},
+            {"id": "epdm_rubber", "name": "EPDM rubber"},
+            {"id": "fibreglass_grp", "name": "Fibreglass (GRP)"},
+            {"id": "asphalt", "name": "Asphalt"},
+            {"id": "not_sure_flat", "name": "Not sure - need advice"}
+          ]
+        },
+        {
+          "id": "flat_repair",
+          "name": "Repair flat roof",
+          "description": "Patch or fix existing roof"
+        },
+        {
+          "id": "ponding",
+          "name": "Water pooling",
+          "description": "Water not draining from flat roof"
+        }
+      ]
+    },
+    {
+      "id": "guttering",
+      "name": "Guttering & Drainage",
+      "icon": "droplet",
+      "description": "Gutters, downpipes, and roof drainage",
+      "options": [
+        {
+          "id": "gutter_clean",
+          "name": "Clean gutters",
+          "description": "Remove debris and blockages"
+        },
+        {
+          "id": "gutter_repair",
+          "name": "Repair gutters",
+          "description": "Fix leaks and damage",
+          "options": [
+            {"id": "gutter_leaking", "name": "Gutters leaking"},
+            {"id": "gutter_sagging", "name": "Gutters sagging"},
+            {"id": "gutter_joint", "name": "Joint leaking"},
+            {"id": "gutter_overflow", "name": "Gutters overflowing"}
+          ]
+        },
+        {
+          "id": "gutter_replace",
+          "name": "Replace gutters",
+          "description": "New gutter installation",
+          "options": [
+            {"id": "upvc_gutter", "name": "uPVC gutters"},
+            {"id": "cast_iron", "name": "Cast iron gutters"},
+            {"id": "aluminium_gutter", "name": "Aluminium gutters"}
+          ]
+        },
+        {
+          "id": "downpipe",
+          "name": "Downpipe issues",
+          "description": "Repair or replace downpipes",
+          "options": [
+            {"id": "downpipe_blocked", "name": "Blocked downpipe"},
+            {"id": "downpipe_leaking", "name": "Leaking downpipe"},
+            {"id": "downpipe_replace", "name": "Replace downpipe"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fascias",
+      "name": "Fascias & Soffits",
+      "icon": "layoutList",
+      "description": "Replace or repair fascia boards and soffits",
+      "options": [
+        {
+          "id": "fascia_replace",
+          "name": "Replace fascias",
+          "description": "New fascia boards",
+          "options": [
+            {"id": "upvc_fascia", "name": "uPVC fascias"},
+            {"id": "wood_fascia", "name": "Wooden fascias"}
+          ]
+        },
+        {
+          "id": "soffit_replace",
+          "name": "Replace soffits",
+          "description": "New soffit boards"
+        },
+        {
+          "id": "fascia_repair",
+          "name": "Repair fascias/soffits",
+          "description": "Fix rot or damage"
+        },
+        {
+          "id": "cladding",
+          "name": "Cladding over existing",
+          "description": "Cover old boards with uPVC"
+        }
+      ]
+    },
+    {
+      "id": "chimney",
+      "name": "Chimneys",
+      "icon": "home",
+      "description": "Chimney repairs and work",
+      "options": [
+        {
+          "id": "chimney_repair",
+          "name": "Chimney repairs",
+          "description": "Fix damaged chimney",
+          "options": [
+            {"id": "repoint_chimney", "name": "Repointing needed"},
+            {"id": "chimney_crack", "name": "Chimney cracked"},
+            {"id": "chimney_lean", "name": "Chimney leaning"}
+          ]
+        },
+        {
+          "id": "chimney_cap",
+          "name": "Chimney cap/cowl",
+          "description": "Install or replace cap"
+        },
+        {
+          "id": "chimney_remove",
+          "name": "Remove chimney",
+          "description": "Take down unused chimney"
+        },
+        {
+          "id": "chimney_rebuild",
+          "name": "Rebuild chimney",
+          "description": "Complete chimney rebuild"
+        }
+      ]
+    },
+    {
+      "id": "skylights",
+      "name": "Skylights & Roof Windows",
+      "icon": "sun",
+      "description": "Install or repair roof windows",
+      "options": [
+        {
+          "id": "install_skylight",
+          "name": "Install skylight",
+          "description": "Fit new roof window",
+          "options": [
+            {"id": "velux_window", "name": "Velux window"},
+            {"id": "sun_tunnel", "name": "Sun tunnel"},
+            {"id": "flat_skylight", "name": "Flat roof skylight"}
+          ]
+        },
+        {
+          "id": "skylight_leak",
+          "name": "Skylight leaking",
+          "description": "Water coming in around window"
+        },
+        {
+          "id": "replace_skylight",
+          "name": "Replace skylight",
+          "description": "Swap old roof window"
+        },
+        {
+          "id": "skylight_repair",
+          "name": "Repair skylight",
+          "description": "Fix mechanism or seal"
+        }
+      ]
+    },
+    {
+      "id": "emergency",
+      "name": "Emergency",
+      "icon": "siren",
+      "urgent": true,
+      "description": "Urgent roofing issues",
+      "options": [
+        {
+          "id": "major_leak",
+          "name": "Major leak",
+          "description": "Significant water coming in"
+        },
+        {
+          "id": "storm_emergency",
+          "name": "Storm damage",
+          "description": "Roof damaged by storm"
+        },
+        {
+          "id": "tiles_blown_off",
+          "name": "Tiles blown off",
+          "description": "Roof exposed to elements"
+        },
+        {
+          "id": "temporary_repair",
+          "name": "Need temporary fix",
+          "description": "Emergency tarping/cover"
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "name": "Other / I'm not sure",
+      "icon": "messageSquare",
+      "description": "Something else or need advice",
+      "requiresDescription": true,
+      "options": [
+        {"id": "roof_inspection", "name": "I need a roof inspection"},
+        {"id": "general_advice", "name": "I need advice first"},
+        {"id": "not_listed", "name": "My issue isn't listed"}
+      ]
+    }
+  ]
+}

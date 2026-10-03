@@ -1,0 +1,178 @@
+{
+  "service": "furniture_assembly",
+  "title": "What furniture assembly do you need?",
+  "subtitle": "Select the type of furniture work you need",
+  "categories": [
+    {
+      "id": "flat_pack",
+      "name": "Flat-Pack Assembly",
+      "icon": "package",
+      "description": "Build flat-pack furniture",
+      "options": [
+        {
+          "id": "wardrobe",
+          "name": "Wardrobe",
+          "description": "Assemble a wardrobe"
+        },
+        {
+          "id": "bed_frame",
+          "name": "Bed frame",
+          "description": "Assemble a bed frame"
+        },
+        {
+          "id": "desk",
+          "name": "Desk",
+          "description": "Assemble a desk"
+        },
+        {
+          "id": "shelving_unit",
+          "name": "Shelving unit / Bookcase",
+          "description": "Assemble shelving or bookcase"
+        },
+        {
+          "id": "chest_drawers",
+          "name": "Chest of drawers",
+          "description": "Assemble chest of drawers"
+        },
+        {
+          "id": "dining_table",
+          "name": "Dining table / Chairs",
+          "description": "Assemble dining furniture"
+        },
+        {
+          "id": "tv_unit",
+          "name": "TV unit / Media unit",
+          "description": "Assemble a TV or media stand"
+        },
+        {
+          "id": "multiple_items",
+          "name": "Multiple items",
+          "description": "Assemble several pieces"
+        }
+      ]
+    },
+    {
+      "id": "disassembly",
+      "name": "Furniture Disassembly",
+      "icon": "unplug",
+      "description": "Take apart furniture for moving",
+      "options": [
+        {
+          "id": "disassemble_wardrobe",
+          "name": "Wardrobe",
+          "description": "Take apart a wardrobe"
+        },
+        {
+          "id": "disassemble_bed",
+          "name": "Bed frame",
+          "description": "Take apart a bed frame"
+        },
+        {
+          "id": "disassemble_desk",
+          "name": "Desk / Table",
+          "description": "Take apart a desk or table"
+        },
+        {
+          "id": "disassemble_multiple",
+          "name": "Multiple items",
+          "description": "Take apart several pieces"
+        }
+      ]
+    },
+    {
+      "id": "furniture_repair",
+      "name": "Furniture Repair",
+      "icon": "wrench",
+      "description": "Fix broken or damaged furniture",
+      "options": [
+        {
+          "id": "wobbly_furniture",
+          "name": "Wobbly / Unstable",
+          "description": "Tighten and stabilise furniture"
+        },
+        {
+          "id": "broken_part",
+          "name": "Broken part",
+          "description": "Replace or fix a broken piece"
+        },
+        {
+          "id": "drawer_issue",
+          "name": "Drawer problem",
+          "description": "Fix a stuck or broken drawer"
+        },
+        {
+          "id": "hinge_issue",
+          "name": "Hinge / Door problem",
+          "description": "Fix loose or broken hinge"
+        }
+      ]
+    },
+    {
+      "id": "office_furniture",
+      "name": "Office Furniture",
+      "icon": "briefcase",
+      "description": "Assemble office furniture",
+      "options": [
+        {
+          "id": "office_desk",
+          "name": "Office desk",
+          "description": "Assemble an office desk"
+        },
+        {
+          "id": "office_chair",
+          "name": "Office chair",
+          "description": "Assemble an office chair"
+        },
+        {
+          "id": "filing_cabinet",
+          "name": "Filing cabinet",
+          "description": "Assemble a filing cabinet"
+        },
+        {
+          "id": "standing_desk",
+          "name": "Standing desk",
+          "description": "Assemble a sit-stand desk"
+        }
+      ]
+    },
+    {
+      "id": "outdoor_furniture",
+      "name": "Outdoor / Garden Furniture",
+      "icon": "flower2",
+      "description": "Assemble outdoor furniture",
+      "options": [
+        {
+          "id": "garden_table_chairs",
+          "name": "Garden table & chairs",
+          "description": "Assemble garden dining set"
+        },
+        {
+          "id": "bbq",
+          "name": "BBQ / Grill",
+          "description": "Assemble a barbecue"
+        },
+        {
+          "id": "shed",
+          "name": "Shed / Storage box",
+          "description": "Assemble a garden shed or storage"
+        },
+        {
+          "id": "trampoline",
+          "name": "Trampoline / Play equipment",
+          "description": "Assemble play equipment"
+        }
+      ]
+    },
+    {
+      "id": "other_assembly",
+      "name": "Other / I'm not sure",
+      "icon": "messageSquare",
+      "description": "Something else or need advice",
+      "requiresDescription": true,
+      "options": [
+        {"id": "multiple_jobs", "name": "I have multiple items to assemble"},
+        {"id": "not_listed", "name": "My item isn't listed"}
+      ]
+    }
+  ]
+}

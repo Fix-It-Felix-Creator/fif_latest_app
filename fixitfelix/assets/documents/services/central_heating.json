@@ -1,0 +1,358 @@
+{
+  "service": "central_heating",
+  "title": "What central heating help do you need?",
+  "subtitle": "Select the type of heating work you need",
+  "categories": [
+    {
+      "id": "install",
+      "name": "New Installation",
+      "icon": "thermometer",
+      "description": "Install new heating systems",
+      "options": [
+        {
+          "id": "full_system",
+          "name": "Full central heating system",
+          "description": "Complete new heating installation",
+          "options": [
+            {"id": "gas_system", "name": "Gas central heating"},
+            {"id": "oil_system", "name": "Oil central heating"},
+            {"id": "lpg_system", "name": "LPG central heating"},
+            {"id": "electric_system", "name": "Electric heating system"}
+          ]
+        },
+        {
+          "id": "new_radiators",
+          "name": "Install new radiators",
+          "description": "Add radiators to existing system",
+          "options": [
+            {"id": "one_radiator", "name": "One radiator"},
+            {"id": "few_radiators", "name": "Few radiators (2-4)"},
+            {"id": "multiple_radiators", "name": "Multiple radiators (5+)"}
+          ]
+        },
+        {
+          "id": "underfloor",
+          "name": "Underfloor heating",
+          "description": "UFH installation",
+          "options": [
+            {"id": "water_ufh", "name": "Water/Wet underfloor heating"},
+            {"id": "electric_ufh", "name": "Electric underfloor heating"},
+            {"id": "single_room_ufh", "name": "Single room"},
+            {"id": "whole_floor_ufh", "name": "Whole floor"}
+          ]
+        },
+        {
+          "id": "upgrade",
+          "name": "Upgrade heating system",
+          "description": "Improve existing system",
+          "options": [
+            {"id": "add_zones", "name": "Add heating zones"},
+            {"id": "convert_system", "name": "Convert system type"},
+            {"id": "expand_system", "name": "Expand to new rooms"}
+          ]
+        },
+        {
+          "id": "extension",
+          "name": "Heating for extension",
+          "description": "Heat new extension"
+        }
+      ]
+    },
+    {
+      "id": "radiators",
+      "name": "Radiator Work",
+      "icon": "heater",
+      "description": "Radiator services",
+      "options": [
+        {
+          "id": "install",
+          "name": "Install radiator",
+          "description": "Fit additional radiator",
+          "options": [
+            {"id": "standard_rad", "name": "Standard radiator"},
+            {"id": "designer_rad", "name": "Designer radiator"},
+            {"id": "column_rad", "name": "Column radiator"},
+            {"id": "vertical_rad", "name": "Vertical radiator"}
+          ]
+        },
+        {
+          "id": "move",
+          "name": "Move radiator",
+          "description": "Relocate existing radiator"
+        },
+        {
+          "id": "replace",
+          "name": "Replace radiator",
+          "description": "Swap for new radiator",
+          "options": [
+            {"id": "same_size", "name": "Same size/type"},
+            {"id": "different_size", "name": "Different size/type"}
+          ]
+        },
+        {
+          "id": "repair",
+          "name": "Repair radiator",
+          "description": "Fix radiator problems",
+          "options": [
+            {"id": "leaking_rad", "name": "Leaking radiator"},
+            {"id": "cold_spots", "name": "Cold spots"},
+            {"id": "noisy_rad", "name": "Noisy radiator"}
+          ]
+        },
+        {
+          "id": "bleed",
+          "name": "Bleed radiators",
+          "description": "Release trapped air"
+        },
+        {
+          "id": "trv",
+          "name": "Install TRV valves",
+          "description": "Thermostatic radiator valves",
+          "options": [
+            {"id": "standard_trv", "name": "Standard TRVs"},
+            {"id": "smart_trv", "name": "Smart TRVs"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "powerflush",
+      "name": "System Cleaning",
+      "icon": "sparkles",
+      "description": "Clean heating system",
+      "options": [
+        {
+          "id": "powerflush",
+          "name": "Powerflush",
+          "description": "Full system powerflush",
+          "options": [
+            {"id": "small_system", "name": "Small system (up to 8 rads)"},
+            {"id": "medium_system", "name": "Medium system (9-12 rads)"},
+            {"id": "large_system", "name": "Large system (13+ rads)"}
+          ]
+        },
+        {
+          "id": "chemical_flush",
+          "name": "Chemical flush",
+          "description": "Chemical system clean"
+        },
+        {
+          "id": "magnaclean",
+          "name": "MagnaClean filter",
+          "description": "Install magnetic filter",
+          "options": [
+            {"id": "install_filter", "name": "Install new filter"},
+            {"id": "service_filter", "name": "Service existing filter"}
+          ]
+        },
+        {
+          "id": "inhibitor",
+          "name": "Add inhibitor",
+          "description": "Add corrosion inhibitor"
+        }
+      ]
+    },
+    {
+      "id": "controls",
+      "name": "Controls & Thermostats",
+      "icon": "settings",
+      "description": "Heating controls and thermostats",
+      "options": [
+        {
+          "id": "smart",
+          "name": "Smart thermostat",
+          "description": "WiFi connected thermostat",
+          "options": [
+            {"id": "nest", "name": "Nest thermostat"},
+            {"id": "hive", "name": "Hive thermostat"},
+            {"id": "tado", "name": "Tado thermostat"},
+            {"id": "other_smart", "name": "Other brand"}
+          ]
+        },
+        {
+          "id": "room",
+          "name": "Room thermostat",
+          "description": "Standard room thermostat",
+          "options": [
+            {"id": "wired", "name": "Wired thermostat"},
+            {"id": "wireless_stat", "name": "Wireless thermostat"}
+          ]
+        },
+        {
+          "id": "programmer",
+          "name": "Programmer/Timer",
+          "description": "Heating timer controls"
+        },
+        {
+          "id": "wireless",
+          "name": "Wireless controls",
+          "description": "Upgrade to wireless system"
+        },
+        {
+          "id": "zoning",
+          "name": "Zone controls",
+          "description": "Multi-zone control system"
+        }
+      ]
+    },
+    {
+      "id": "repairs",
+      "name": "Repairs",
+      "icon": "wrench",
+      "description": "Fix heating problems",
+      "options": [
+        {
+          "id": "no_heating",
+          "name": "No heating",
+          "description": "Heating not working at all"
+        },
+        {
+          "id": "cold_radiator",
+          "name": "Cold radiator",
+          "description": "Radiator not heating up",
+          "options": [
+            {"id": "one_cold", "name": "One radiator cold"},
+            {"id": "multiple_cold", "name": "Multiple cold radiators"},
+            {"id": "cold_downstairs", "name": "Downstairs cold"},
+            {"id": "cold_upstairs", "name": "Upstairs cold"}
+          ]
+        },
+        {
+          "id": "leak",
+          "name": "System leak",
+          "description": "Water leaking from heating system",
+          "options": [
+            {"id": "radiator_leak", "name": "Radiator leak"},
+            {"id": "pipe_leak", "name": "Pipe leak"},
+            {"id": "valve_leak", "name": "Valve leak"}
+          ]
+        },
+        {
+          "id": "noise",
+          "name": "Noisy system",
+          "description": "Banging, gurgling or humming",
+          "options": [
+            {"id": "banging", "name": "Banging pipes"},
+            {"id": "gurgling", "name": "Gurgling sounds"},
+            {"id": "humming", "name": "Humming pump"}
+          ]
+        },
+        {
+          "id": "low_pressure",
+          "name": "Low pressure",
+          "description": "System losing pressure"
+        },
+        {
+          "id": "pump",
+          "name": "Pump issues",
+          "description": "Central heating pump problems"
+        }
+      ]
+    },
+    {
+      "id": "service",
+      "name": "Service & Maintenance",
+      "icon": "clipboardCheck",
+      "description": "Routine servicing",
+      "options": [
+        {
+          "id": "annual_service",
+          "name": "Annual service",
+          "description": "Yearly boiler service"
+        },
+        {
+          "id": "health_check",
+          "name": "System health check",
+          "description": "Full heating system inspection"
+        },
+        {
+          "id": "gas_safety",
+          "name": "Gas safety check",
+          "description": "Landlord gas safety certificate",
+          "options": [
+            {"id": "single_appliance", "name": "Single appliance"},
+            {"id": "multiple_appliances", "name": "Multiple appliances"}
+          ]
+        },
+        {
+          "id": "efficiency_check",
+          "name": "Efficiency check",
+          "description": "Check system efficiency"
+        }
+      ]
+    },
+    {
+      "id": "renewable",
+      "name": "Renewable Heating",
+      "icon": "leaf",
+      "description": "Eco-friendly heating options",
+      "options": [
+        {
+          "id": "heat_pump",
+          "name": "Heat pump",
+          "description": "Air or ground source heat pump",
+          "options": [
+            {"id": "air_source", "name": "Air source heat pump"},
+            {"id": "ground_source", "name": "Ground source heat pump"}
+          ]
+        },
+        {
+          "id": "solar_thermal",
+          "name": "Solar thermal",
+          "description": "Solar water heating"
+        },
+        {
+          "id": "biomass",
+          "name": "Biomass heating",
+          "description": "Wood pellet or log boiler"
+        },
+        {
+          "id": "hybrid",
+          "name": "Hybrid system",
+          "description": "Combined heat pump and boiler"
+        }
+      ]
+    },
+    {
+      "id": "emergency",
+      "name": "Emergency",
+      "icon": "siren",
+      "urgent": true,
+      "description": "Urgent heating issues",
+      "options": [
+        {
+          "id": "no_heat",
+          "name": "No heating",
+          "description": "Complete heating failure"
+        },
+        {
+          "id": "gas_smell",
+          "name": "Gas smell",
+          "description": "Suspected gas leak - call 0800 111 999 first"
+        },
+        {
+          "id": "major_leak",
+          "name": "Major leak",
+          "description": "Significant water leak from heating"
+        },
+        {
+          "id": "carbon_monoxide",
+          "name": "CO alarm activated",
+          "description": "Carbon monoxide detector triggered"
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "name": "Other / I'm not sure",
+      "icon": "messageSquare",
+      "description": "Something else or need advice",
+      "requiresDescription": true,
+      "options": [
+        {"id": "quote", "name": "I'd like a quote"},
+        {"id": "advice", "name": "I need heating advice"},
+        {"id": "not_listed", "name": "My problem isn't listed"}
+      ]
+    }
+  ]
+}

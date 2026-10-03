@@ -1,0 +1,279 @@
+{
+  "service": "gardener",
+  "title": "What gardening help do you need?",
+  "subtitle": "Select the type of garden work you need",
+  "categories": [
+    {
+      "id": "lawn",
+      "name": "Lawn Care",
+      "icon": "trees",
+      "description": "Lawn maintenance and repair",
+      "options": [
+        {
+          "id": "lawn_mowing",
+          "name": "Lawn mowing",
+          "description": "Regular grass cutting",
+          "options": [
+            {"id": "one_off_mow", "name": "One-off cut"},
+            {"id": "regular_mowing", "name": "Regular service"},
+            {"id": "overgrown_lawn", "name": "Overgrown lawn"}
+          ]
+        },
+        {
+          "id": "lawn_treatment",
+          "name": "Lawn treatment",
+          "description": "Feed, weed, and care",
+          "options": [
+            {"id": "feed_lawn", "name": "Lawn feeding"},
+            {"id": "weed_treatment", "name": "Weed treatment"},
+            {"id": "moss_treatment", "name": "Moss treatment"},
+            {"id": "scarifying", "name": "Scarifying"},
+            {"id": "aerating", "name": "Aerating"}
+          ]
+        },
+        {
+          "id": "new_lawn",
+          "name": "New lawn",
+          "description": "Lay new lawn",
+          "options": [
+            {"id": "turf_laying", "name": "Turf laying"},
+            {"id": "seed_lawn", "name": "Seeding"},
+            {"id": "artificial_grass", "name": "Artificial grass"}
+          ]
+        },
+        {
+          "id": "lawn_repair",
+          "name": "Lawn repair",
+          "description": "Fix damaged areas",
+          "options": [
+            {"id": "patch_repair", "name": "Patch bare areas"},
+            {"id": "level_lawn", "name": "Level uneven lawn"},
+            {"id": "edge_repair", "name": "Repair lawn edges"}
+          ]
+        },
+        {
+          "id": "lawn_edges",
+          "name": "Lawn edging",
+          "description": "Trim and define edges"
+        }
+      ]
+    },
+    {
+      "id": "planting",
+      "name": "Planting",
+      "icon": "flower2",
+      "description": "Plants, flowers, and beds",
+      "options": [
+        {
+          "id": "flower_beds",
+          "name": "Flower beds",
+          "description": "Plant or maintain beds",
+          "options": [
+            {"id": "create_beds", "name": "Create new beds"},
+            {"id": "plant_flowers", "name": "Plant flowers"},
+            {"id": "maintain_beds", "name": "Maintain existing beds"}
+          ]
+        },
+        {
+          "id": "shrubs",
+          "name": "Shrubs",
+          "description": "Plant or prune shrubs",
+          "options": [
+            {"id": "plant_shrubs", "name": "Plant new shrubs"},
+            {"id": "prune_shrubs", "name": "Prune existing shrubs"},
+            {"id": "remove_shrubs", "name": "Remove shrubs"}
+          ]
+        },
+        {
+          "id": "trees_small",
+          "name": "Small trees",
+          "description": "Plant ornamental trees"
+        },
+        {
+          "id": "containers",
+          "name": "Pots & containers",
+          "description": "Plant up containers"
+        },
+        {
+          "id": "bulbs",
+          "name": "Bulb planting",
+          "description": "Plant seasonal bulbs"
+        }
+      ]
+    },
+    {
+      "id": "hedges",
+      "name": "Hedges & Trees",
+      "icon": "trees",
+      "description": "Hedge cutting and tree care",
+      "options": [
+        {
+          "id": "hedge_cutting",
+          "name": "Hedge cutting",
+          "description": "Trim and shape hedges",
+          "options": [
+            {"id": "single_hedge", "name": "Single hedge"},
+            {"id": "multiple_hedges", "name": "Multiple hedges"},
+            {"id": "overgrown_hedge", "name": "Overgrown hedge"},
+            {"id": "formal_hedge", "name": "Formal hedge shaping"}
+          ]
+        },
+        {
+          "id": "hedge_planting",
+          "name": "Plant new hedge",
+          "description": "Create new hedgerow"
+        },
+        {
+          "id": "hedge_removal",
+          "name": "Remove hedge",
+          "description": "Take out old hedge"
+        },
+        {
+          "id": "small_tree_pruning",
+          "name": "Small tree pruning",
+          "description": "Prune small garden trees"
+        }
+      ]
+    },
+    {
+      "id": "clearance",
+      "name": "Garden Clearance",
+      "icon": "trash2",
+      "description": "Clear overgrown or neglected gardens",
+      "options": [
+        {
+          "id": "full_clearance",
+          "name": "Full garden clearance",
+          "description": "Clear entire garden"
+        },
+        {
+          "id": "overgrown_garden",
+          "name": "Overgrown garden",
+          "description": "Tackle neglected garden"
+        },
+        {
+          "id": "weed_clearance",
+          "name": "Weed clearance",
+          "description": "Remove extensive weeds"
+        },
+        {
+          "id": "rubbish_removal",
+          "name": "Garden waste removal",
+          "description": "Clear and dispose of waste"
+        },
+        {
+          "id": "bramble_clearing",
+          "name": "Bramble clearing",
+          "description": "Remove brambles and thorns"
+        }
+      ]
+    },
+    {
+      "id": "landscaping_light",
+      "name": "Light Landscaping",
+      "icon": "mountain",
+      "description": "Paths, borders, and features",
+      "options": [
+        {
+          "id": "borders",
+          "name": "Garden borders",
+          "description": "Create or tidy borders",
+          "options": [
+            {"id": "new_borders", "name": "Create new borders"},
+            {"id": "edge_borders", "name": "Edge existing borders"},
+            {"id": "mulch_borders", "name": "Mulch borders"}
+          ]
+        },
+        {
+          "id": "gravel_areas",
+          "name": "Gravel areas",
+          "description": "Lay gravel or stones"
+        },
+        {
+          "id": "bark_mulch",
+          "name": "Bark / Mulch",
+          "description": "Apply bark or mulch"
+        },
+        {
+          "id": "raised_beds",
+          "name": "Raised beds",
+          "description": "Build raised planting beds"
+        }
+      ]
+    },
+    {
+      "id": "fencing_garden",
+      "name": "Fencing & Boundaries",
+      "icon": "fence",
+      "description": "Fences, walls, and boundaries",
+      "options": [
+        {
+          "id": "fence_repair",
+          "name": "Fence repairs",
+          "description": "Fix damaged fencing"
+        },
+        {
+          "id": "fence_panels",
+          "name": "Replace fence panels",
+          "description": "Swap damaged panels"
+        },
+        {
+          "id": "trellis",
+          "name": "Trellis installation",
+          "description": "Put up garden trellis"
+        },
+        {
+          "id": "gate_repair",
+          "name": "Gate repair",
+          "description": "Fix garden gate"
+        }
+      ]
+    },
+    {
+      "id": "maintenance",
+      "name": "Regular Maintenance",
+      "icon": "calendar",
+      "description": "Ongoing garden care",
+      "options": [
+        {
+          "id": "weekly",
+          "name": "Weekly maintenance",
+          "description": "Regular weekly visits"
+        },
+        {
+          "id": "fortnightly",
+          "name": "Fortnightly maintenance",
+          "description": "Every two weeks"
+        },
+        {
+          "id": "monthly",
+          "name": "Monthly maintenance",
+          "description": "Monthly garden care"
+        },
+        {
+          "id": "seasonal",
+          "name": "Seasonal tidy-up",
+          "description": "Spring, summer, autumn clean-up"
+        },
+        {
+          "id": "holiday_cover",
+          "name": "Holiday garden care",
+          "description": "Care while you're away"
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "name": "Other / I'm not sure",
+      "icon": "messageSquare",
+      "description": "Something else or need advice",
+      "requiresDescription": true,
+      "options": [
+        {"id": "garden_advice", "name": "I need garden advice"},
+        {"id": "garden_design", "name": "I need design ideas"},
+        {"id": "multiple_jobs", "name": "I have multiple jobs"},
+        {"id": "not_listed", "name": "My job isn't listed"}
+      ]
+    }
+  ]
+}

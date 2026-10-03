@@ -1,0 +1,148 @@
+{
+  "service": "general_mounting",
+  "title": "What do you need mounted?",
+  "subtitle": "Select what you need mounted",
+  "categories": [
+    {
+      "id": "shelves",
+      "name": "Shelves",
+      "icon": "layoutDashboard",
+      "description": "Install shelves on walls",
+      "options": [
+        {
+          "id": "floating_shelf",
+          "name": "Floating shelf",
+          "description": "Invisible bracket shelf"
+        },
+        {
+          "id": "bracket_shelf",
+          "name": "Bracket shelf",
+          "description": "Shelf with visible brackets"
+        },
+        {
+          "id": "multiple_shelves",
+          "name": "Multiple shelves",
+          "description": "Install several shelves"
+        },
+        {
+          "id": "kitchen_shelves",
+          "name": "Kitchen shelves",
+          "description": "Shelves for kitchen use"
+        }
+      ]
+    },
+    {
+      "id": "mirrors",
+      "name": "Mirrors",
+      "icon": "squareDashedBottom",
+      "description": "Hang mirrors securely",
+      "options": [
+        {
+          "id": "small_mirror",
+          "name": "Small mirror",
+          "description": "Lightweight small mirror"
+        },
+        {
+          "id": "large_mirror",
+          "name": "Large / Heavy mirror",
+          "description": "Large or heavy mirror"
+        },
+        {
+          "id": "bathroom_mirror",
+          "name": "Bathroom mirror / Cabinet",
+          "description": "Mirror or mirrored cabinet for bathroom"
+        }
+      ]
+    },
+    {
+      "id": "pictures_artwork",
+      "name": "Pictures & Artwork",
+      "icon": "image",
+      "description": "Hang pictures and artwork",
+      "options": [
+        {
+          "id": "few_pictures",
+          "name": "Few pictures (1-3)",
+          "description": "Hang a few pictures"
+        },
+        {
+          "id": "several_pictures",
+          "name": "Several pictures (4-10)",
+          "description": "Hang several pictures"
+        },
+        {
+          "id": "gallery_wall",
+          "name": "Gallery wall",
+          "description": "Create a gallery arrangement"
+        }
+      ]
+    },
+    {
+      "id": "curtains_blinds",
+      "name": "Curtain Poles & Blinds",
+      "icon": "blinds",
+      "description": "Fit curtain rails or blinds",
+      "options": [
+        {
+          "id": "curtain_pole",
+          "name": "Curtain pole",
+          "description": "Fit a curtain pole"
+        },
+        {
+          "id": "curtain_track",
+          "name": "Curtain track",
+          "description": "Fit a curtain track"
+        },
+        {
+          "id": "roller_blind",
+          "name": "Roller blind",
+          "description": "Fit a roller blind"
+        },
+        {
+          "id": "venetian_blind",
+          "name": "Venetian blind",
+          "description": "Fit a venetian blind"
+        }
+      ]
+    },
+    {
+      "id": "wall_brackets",
+      "name": "Wall Brackets & Fixtures",
+      "icon": "wrench",
+      "description": "Mount brackets and fixtures",
+      "options": [
+        {
+          "id": "towel_rail",
+          "name": "Towel rail / Ring",
+          "description": "Fit towel rail or ring"
+        },
+        {
+          "id": "coat_hooks",
+          "name": "Coat hooks / Rack",
+          "description": "Fit coat hooks or rack"
+        },
+        {
+          "id": "bathroom_accessories",
+          "name": "Bathroom accessories",
+          "description": "Toilet roll holder, soap dish, etc."
+        },
+        {
+          "id": "wall_clock",
+          "name": "Wall clock / Decoration",
+          "description": "Mount clock or decoration"
+        }
+      ]
+    },
+    {
+      "id": "other_mounting",
+      "name": "Other / I'm not sure",
+      "icon": "messageSquare",
+      "description": "Something else or need advice",
+      "requiresDescription": true,
+      "options": [
+        {"id": "multiple_jobs", "name": "I have multiple mounting jobs"},
+        {"id": "not_listed", "name": "My item isn't listed"}
+      ]
+    }
+  ]
+}

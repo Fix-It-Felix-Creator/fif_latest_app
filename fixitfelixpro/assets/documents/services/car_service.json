@@ -1,0 +1,118 @@
+{
+  "service": "car_service",
+  "title": "What car service do you need?",
+  "subtitle": "Select the type of vehicle service",
+  "categories": [
+    {
+      "id": "full_service",
+      "name": "Full Service",
+      "icon": "car",
+      "description": "Comprehensive vehicle service",
+      "options": [
+        {
+          "id": "car_full",
+          "name": "Car",
+          "description": "Full car service"
+        },
+        {
+          "id": "van_full",
+          "name": "Van",
+          "description": "Full van service"
+        },
+        {
+          "id": "motorcycle_full",
+          "name": "Motorcycle",
+          "description": "Full motorcycle service"
+        }
+      ]
+    },
+    {
+      "id": "interim_service",
+      "name": "Interim Service",
+      "icon": "clock",
+      "description": "Basic 6-month service",
+      "options": [
+        {
+          "id": "interim_car",
+          "name": "Car",
+          "description": "Basic car service"
+        },
+        {
+          "id": "interim_van",
+          "name": "Van",
+          "description": "Basic van service"
+        }
+      ]
+    },
+    {
+      "id": "major_service",
+      "name": "Major Service",
+      "icon": "settings",
+      "description": "Extended service with extras",
+      "options": [
+        {
+          "id": "major_car",
+          "name": "Car",
+          "description": "Major car service"
+        },
+        {
+          "id": "major_van",
+          "name": "Van",
+          "description": "Major van service"
+        }
+      ]
+    },
+    {
+      "id": "oil_change",
+      "name": "Oil & Filter Change",
+      "icon": "droplets",
+      "description": "Oil and filter change only",
+      "options": [
+        {
+          "id": "oil_car",
+          "name": "Car",
+          "description": "Car oil and filter change"
+        },
+        {
+          "id": "oil_van",
+          "name": "Van",
+          "description": "Van oil and filter change"
+        }
+      ]
+    },
+    {
+      "id": "diagnostic",
+      "name": "Diagnostic Check",
+      "icon": "search",
+      "description": "Computer diagnostic scan",
+      "options": [
+        {
+          "id": "warning_light",
+          "name": "Warning light on",
+          "description": "Dashboard warning light investigation"
+        },
+        {
+          "id": "running_issue",
+          "name": "Running problem",
+          "description": "Engine not running properly"
+        },
+        {
+          "id": "general_diagnostic",
+          "name": "General check",
+          "description": "Full diagnostic scan"
+        }
+      ]
+    },
+    {
+      "id": "other_service",
+      "name": "Other / I'm not sure",
+      "icon": "messageSquare",
+      "description": "Something else or need advice",
+      "requiresDescription": true,
+      "options": [
+        {"id": "need_advice", "name": "I need advice on what service I need"},
+        {"id": "not_listed", "name": "My service isn't listed"}
+      ]
+    }
+  ]
+}

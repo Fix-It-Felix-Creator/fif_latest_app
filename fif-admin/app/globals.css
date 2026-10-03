@@ -1,0 +1,160 @@
+@import 'tailwindcss';
+
+/* shadcn/ui tokens, in three states rather than two.
+
+   A viewer has three settings, not two: an explicit choice stamps data-theme
+   on <html>, and the default — "follow the system" — stamps NOTHING, which is
+   the state most people are in. So bare :root has to be a complete palette on
+   its own, the media query handles the unstamped dark case, and the attribute
+   selector lets an explicit choice beat the OS in both directions. Miss any
+   one of the three and some real user gets one theme's text on the other
+   theme's background. */
+@layer base {
+  :root {
+    color-scheme: light;
+
+    /* The ground is a shade off white so cards can LIFT off it, and so the
+       tiles nested inside a card (JSON blocks, plan limits) read as recessed.
+       In dark, card (6.5%) sits above background (4%); pure white for both
+       collapses that relationship and every nested tile becomes an outline. */
+    --background: 0 0% 97%;
+    --foreground: 0 0% 9%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 9%;
+    /* Deeper than the dark theme's orange. Fix It Felix's brand is #F64C13 —
+       hsl(15 93% 52%) — and at that lightness white text on it gives about
+       3.5:1, under the floor. Dropping to 42% buys 5:1 and still reads as the
+       same orange. */
+    --primary: 15 93% 42%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 0 0% 96%;
+    --secondary-foreground: 0 0% 15%;
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 40%;
+    --accent: 0 0% 94%;
+    --accent-foreground: 0 0% 9%;
+    /* The four status colours are darkened much further than the neutrals. A
+       badge is `text-success` on a 10% tint of itself, so the TEXT has to
+       clear contrast on near-white — the bright greens and yellows that carry
+       a dark table are invisible on a light one. */
+    --destructive: 356 72% 45%;
+    --destructive-foreground: 0 0% 100%;
+    --success: 145 68% 28%;
+    --warning: 32 90% 34%;
+    --info: 187 92% 26%;
+    --border: 0 0% 89%;
+    --input: 0 0% 85%;
+    --ring: 15 93% 42%;
+    --radius: 0.5rem;
+  }
+
+  /* System dark, with no explicit choice made. Guarded so picking light still
+     wins on a dark OS. */
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme='light']) {
+      color-scheme: dark;
+
+      --background: 0 0% 4%;
+      --foreground: 0 0% 94%;
+      --card: 0 0% 6.5%;
+      --card-foreground: 0 0% 94%;
+      --popover: 0 0% 6.5%;
+      --popover-foreground: 0 0% 94%;
+      --primary: 15 93% 52%;
+      --primary-foreground: 0 0% 8%;
+      --secondary: 0 0% 12%;
+      --secondary-foreground: 0 0% 90%;
+      --muted: 0 0% 11%;
+      --muted-foreground: 0 0% 58%;
+      --accent: 0 0% 14%;
+      --accent-foreground: 0 0% 94%;
+      --destructive: 356 95% 62%;
+      --destructive-foreground: 0 0% 98%;
+      --success: 145 80% 62%;
+      --warning: 45 95% 58%;
+      --info: 187 100% 45%;
+      --border: 0 0% 15%;
+      --input: 0 0% 15%;
+      --ring: 15 93% 52%;
+    }
+  }
+
+  /* Explicit dark, which must also beat a light OS. Same values as above —
+     duplicated rather than shared, because a selector list mixing a media
+     query and an attribute cannot express "either of these". */
+  :root[data-theme='dark'] {
+    color-scheme: dark;
+
+    --background: 0 0% 4%;
+    --foreground: 0 0% 94%;
+    --card: 0 0% 6.5%;
+    --card-foreground: 0 0% 94%;
+    --popover: 0 0% 6.5%;
+    --popover-foreground: 0 0% 94%;
+    --primary: 15 93% 52%;
+    --primary-foreground: 0 0% 8%;
+    --secondary: 0 0% 12%;
+    --secondary-foreground: 0 0% 90%;
+    --muted: 0 0% 11%;
+    --muted-foreground: 0 0% 58%;
+    --accent: 0 0% 14%;
+    --accent-foreground: 0 0% 94%;
+    --destructive: 356 95% 62%;
+    --destructive-foreground: 0 0% 98%;
+    --success: 145 80% 62%;
+    --warning: 45 95% 58%;
+    --info: 187 100% 45%;
+    --border: 0 0% 15%;
+    --input: 0 0% 15%;
+    --ring: 15 93% 52%;
+  }
+}
+
+@theme inline {
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+  --color-popover: hsl(var(--popover));
+  --color-popover-foreground: hsl(var(--popover-foreground));
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+  --color-destructive: hsl(var(--destructive));
+  --color-destructive-foreground: hsl(var(--destructive-foreground));
+  --color-success: hsl(var(--success));
+  --color-warning: hsl(var(--warning));
+  --color-info: hsl(var(--info));
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+  --radius-lg: var(--radius);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-sm: calc(var(--radius) - 4px);
+}
+
+@layer base {
+  * { border-color: hsl(var(--border)); }
+  body {
+    background: hsl(var(--background));
+    color: hsl(var(--foreground));
+    -webkit-font-smoothing: antialiased;
+  }
+  /* Every column of numbers in this panel lines up. */
+  .tabular { font-variant-numeric: tabular-nums; }
+}
+
+/* Thin scrollbars — the dense tables scroll a lot and a fat bar eats a column. */
+@layer utilities {
+  .scroll-thin { scrollbar-width: thin; scrollbar-color: hsl(var(--border)) transparent; }
+  .scroll-thin::-webkit-scrollbar { width: 8px; height: 8px; }
+  .scroll-thin::-webkit-scrollbar-thumb { background: hsl(var(--border)); border-radius: 4px; }
+  .scroll-thin::-webkit-scrollbar-track { background: transparent; }
+}

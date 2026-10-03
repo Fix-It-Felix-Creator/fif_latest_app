@@ -1,0 +1,113 @@
+{
+  "service": "tv_mounting",
+  "title": "What TV mounting do you need?",
+  "subtitle": "Tell us about your TV mounting needs",
+  "categories": [
+    {
+      "id": "tv_size",
+      "name": "Small TV (up to 32\")",
+      "icon": "tv",
+      "description": "Mount a small TV up to 32 inches",
+      "options": [
+        {
+          "id": "supply_bracket_small",
+          "name": "Supply and fit bracket",
+          "description": "We provide and fit the bracket"
+        },
+        {
+          "id": "fit_bracket_small",
+          "name": "Fit bracket I supply",
+          "description": "Fit a bracket you already have"
+        }
+      ]
+    },
+    {
+      "id": "tv_medium",
+      "name": "Medium TV (33-50\")",
+      "icon": "tv",
+      "description": "Mount a medium TV 33-50 inches",
+      "options": [
+        {
+          "id": "supply_bracket_medium",
+          "name": "Supply and fit bracket",
+          "description": "We provide and fit the bracket"
+        },
+        {
+          "id": "fit_bracket_medium",
+          "name": "Fit bracket I supply",
+          "description": "Fit a bracket you already have"
+        }
+      ]
+    },
+    {
+      "id": "tv_large",
+      "name": "Large TV (51-65\")",
+      "icon": "tv",
+      "description": "Mount a large TV 51-65 inches",
+      "options": [
+        {
+          "id": "supply_bracket_large",
+          "name": "Supply and fit bracket",
+          "description": "We provide and fit the bracket"
+        },
+        {
+          "id": "fit_bracket_large",
+          "name": "Fit bracket I supply",
+          "description": "Fit a bracket you already have"
+        }
+      ]
+    },
+    {
+      "id": "tv_xlarge",
+      "name": "Extra Large TV (65\"+)",
+      "icon": "tv",
+      "description": "Mount an extra large TV over 65 inches",
+      "options": [
+        {
+          "id": "supply_bracket_xlarge",
+          "name": "Supply and fit bracket",
+          "description": "We provide and fit the bracket"
+        },
+        {
+          "id": "fit_bracket_xlarge",
+          "name": "Fit bracket I supply",
+          "description": "Fit a bracket you already have"
+        }
+      ]
+    },
+    {
+      "id": "cable_management",
+      "name": "Cable Management",
+      "icon": "cable",
+      "description": "Hide or manage TV cables",
+      "options": [
+        {
+          "id": "cable_in_wall",
+          "name": "Hide cables in wall",
+          "description": "Route cables through the wall"
+        },
+        {
+          "id": "cable_trunking",
+          "name": "Cable trunking",
+          "description": "Cover cables with trunking"
+        },
+        {
+          "id": "no_cable_work",
+          "name": "No cable work needed",
+          "description": "Just mount the TV"
+        }
+      ]
+    },
+    {
+      "id": "other_tv",
+      "name": "Other / I'm not sure",
+      "icon": "messageSquare",
+      "description": "Something else or need advice",
+      "requiresDescription": true,
+      "options": [
+        {"id": "not_sure_size", "name": "I'm not sure what I need"},
+        {"id": "multiple_tvs", "name": "I have multiple TVs to mount"}
+      ]
+    }
+  ]
+}
